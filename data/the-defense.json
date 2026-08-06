@@ -1,0 +1,33 @@
+{
+  "version": "0806 V1",
+  "changeNote": "File created. First three approved entries loaded.",
+  "entries": [
+    {
+      "id": "DEF-083",
+      "key": "elisha-double-portion-inheritance",
+      "trigger": "Elisha got a double portion of the anointing.",
+      "answer": "That's inheritance language. He asked to be the heir, not to be twice as strong.",
+      "refs": ["Deuteronomy 21:17", "2 Kings 2:9"],
+      "status": "posted",
+      "postedDate": "2026-08-06"
+    },
+    {
+      "id": "DEF-084",
+      "key": "disciples-already-had-the-spirit",
+      "trigger": "The disciples already had the Holy Spirit.",
+      "answer": "Yahushua said the Spirit was with them and would be in them. Two different things.",
+      "refs": ["John 14:17"],
+      "status": "posted",
+      "postedDate": "2026-08-06"
+    },
+    {
+      "id": "DEF-085",
+      "key": "believers-always-indwelt",
+      "trigger": "Believers have always been indwelt.",
+      "answer": "Yahushua said it hadn't been given yet. He said that after John was dead.",
+      "refs": ["John 7:39"],
+      "status": "posted",
+      "postedDate": "2026-08-06"
+    }
+  ]
+}
