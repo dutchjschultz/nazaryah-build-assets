@@ -1,6 +1,6 @@
 {
-  "version": "0805 V1",
-  "changeNote": "File created. First two insights loaded.",
+  "version": "0806 V2",
+  "changeNote": "SI-002 withdrawn, not approved. Id retired.",
   "insights": [
     {
       "id": "SI-001",
@@ -17,8 +17,8 @@
       "text": "Filling and indwelling are not the same. The company filled in Acts 2:4 is filled again in Acts 4:31. Filling is for a moment and a task. Indwelling is for keeps.",
       "blip": "",
       "refs": ["Acts 2:4", "Acts 4:31"],
-      "status": "posted",
-      "postedDate": "2026-08-05"
+      "status": "withdrawn",
+      "postedDate": ""
     }
   ]
 }
