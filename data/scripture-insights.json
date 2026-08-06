@@ -1,6 +1,6 @@
 {
   "version": "0805 V1",
-  "changeNote": "File created. First two insights loaded.",
+  "changeNote": "File created. First two insights loaded. · mirror CI test 0806",
   "insights": [
     {
       "id": "SI-001",
