@@ -1,0 +1,24 @@
+{
+  "version": "0805 V1",
+  "changeNote": "File created. First two insights loaded.",
+  "insights": [
+    {
+      "id": "SI-001",
+      "key": "body-temple-law-innermost-room",
+      "text": "Your body is the temple. What was kept in the innermost room was the law. So when Jeremiah says the law is written on the inward parts, the tablets are back where they belong. The deepest place in a man holds a standard, not a feeling.",
+      "blip": "The manna and the rod sat there too — provision and priesthood. Fed, led, and governed, all behind the veil.",
+      "refs": ["1 Corinthians 6:19", "Jeremiah 31:33", "Hebrews 9:4"],
+      "status": "posted",
+      "postedDate": "2026-08-05"
+    },
+    {
+      "id": "SI-002",
+      "key": "filling-vs-indwelling",
+      "text": "Filling and indwelling are not the same. The company filled in Acts 2:4 is filled again in Acts 4:31. Filling is for a moment and a task. Indwelling is for keeps.",
+      "blip": "",
+      "refs": ["Acts 2:4", "Acts 4:31"],
+      "status": "posted",
+      "postedDate": "2026-08-05"
+    }
+  ]
+}

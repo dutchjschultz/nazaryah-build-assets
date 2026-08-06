@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "title": "Legal Lexicon — Candidate Queue (Monthly Review)",
+    "role": "Growing list of terms surfaced in chats, awaiting promotion. Promoted terms are removed here and added to the MASTER.",
+    "version": "0801 V2",
+    "updated": "2026-08-01",
+    "openCount": 2,
+    "deployAs": "/data/legal-lexicon-queue.json"
+  },
+  "candidates": [
+    {
+      "term": "Ed / Al-pi Shnayim Edim",
+      "strongs": "H5707 + H6310",
+      "proposedMovement": 6,
+      "gloss": "a matter established at the mouths of two or three witnesses",
+      "legalSense": "The rule requires independent sources of knowledge, not one testimony repeated. Al-pi is literally 'at the mouth of' — the count is of mouths, not of hearings. Deuteronomy 19:15; 17:6; Numbers 35:30.",
+      "caution": "Jezebel satisfied the numeric count with two hired mouths (1 Kings 21:10-13), which proves the number alone never satisfies the rule. The corroboration must be genuine.",
+      "duplicateCheck": "Master 7 'Witness' already carries the gloss 'sworn testimony, corroborated.' This may be a refinement of 7 rather than a new entry. Resolve before promotion.",
+      "surfaced": "2026-07-31"
+    },
+    {
+      "term": "Darash",
+      "strongs": "H1875",
+      "proposedMovement": 6,
+      "gloss": "the mandatory judicial examination of witnesses",
+      "legalSense": "To seek out, inquire, investigate. Deuteronomy 19:18 charges the judges to make diligent inquisition — counting witnesses is not enough; they must be examined separately.",
+      "duplicateCheck": "No existing master entry covers the examination itself. Nearest neighbors are 7 Witness and 103 Visit; neither carries the inquiry sense.",
+      "surfaced": "2026-07-31"
+    }
+  ],
+  "promotionLog": [
+    {
+      "date": "2026-07-31",
+      "intoMaster": "0731 V1",
+      "promoted": [
+        { "n": 121, "term": "Seat vs Throne" },
+        { "n": 122, "term": "Nasa Avon" },
+        { "n": 123, "term": "Eretz Gezerah" },
+        { "n": 124, "term": "Outside the Camp" },
+        { "n": 125, "term": "Kategoros" },
+        { "n": 126, "term": "Qerev / Haqrev" },
+        { "n": 127, "term": "Din" },
+        { "n": 128, "term": "Sepharim Pethichu" },
+        { "n": 129, "term": "Heedayah Sholtan" },
+        { "n": 130, "term": "Zeman + Dath" },
+        { "n": 131, "term": "Attiq Yomin" },
+        { "n": 132, "term": "Karath" },
+        { "n": 133, "term": "Synagoge" },
+        { "n": 134, "term": "Diabolos" },
+        { "n": 135, "term": "Badal vs Balal" },
+        { "n": 136, "term": "Parad" },
+        { "n": 137, "term": "Cheirographon" },
+        { "n": 138, "term": "Dogma" },
+        { "n": 139, "term": "Hupo Nomon" },
+        { "n": 140, "term": "Katargeo" },
+        { "n": 141, "term": "Orthotomeo" },
+        { "n": 142, "term": "Didaskalos + Kathegetes" }
+      ],
+      "discardedAsDuplicate": [
+        { "term": "Goral (H1486)", "dupOf": 55 },
+        { "term": "Mishpat (H4941)", "dupOf": 2 }
+      ]
+    }
+  ],
+  "changelog": [
+    "0801 V2: audited the standing pending list against master 0731 V2. All 22 prior terms confirmed present as 121-142; Goral and Mishpat confirmed discarded as duplicates. Two terms surfaced 0731 were never queued and are entered here as open candidates: Ed / Al-pi Shnayim Edim, and Darash."
+  ]
+}
