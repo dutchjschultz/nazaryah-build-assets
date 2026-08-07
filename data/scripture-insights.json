@@ -1,6 +1,6 @@
 {
-  "version": "0806 V2",
-  "changeNote": "SI-002 withdrawn, not approved. Id retired.",
+  "version": "0806 V3",
+  "changeNote": "SI-002 reclaimed for the Joel/Shavuot insight and SI-003 added (both posted). The prior SI-002 (filling-vs-indwelling) was a withdrawn, never-posted stub and is removed. refs stored as arrays to match the renderer.",
   "insights": [
     {
       "id": "SI-001",
@@ -13,12 +13,21 @@
     },
     {
       "id": "SI-002",
-      "key": "filling-vs-indwelling",
-      "text": "Filling and indwelling are not the same. The company filled in Acts 2:4 is filled again in Acts 4:31. Filling is for a moment and a task. Indwelling is for keeps.",
+      "key": "joel-shavuot-new-temple",
+      "text": "Yahuah's presence sat in one room, behind one veil, and one man went in once a year. Joel wasn't promising a revival. He was promising a new temple — the Spirit poured out on all flesh, so the innermost room is now a person. Shavuot was the day it started.",
       "blip": "",
-      "refs": ["Acts 2:4", "Acts 4:31"],
-      "status": "withdrawn",
-      "postedDate": ""
+      "refs": ["Joel 2:28", "Acts 2:16-17", "1 Corinthians 6:19"],
+      "status": "posted",
+      "postedDate": "2026-08-06"
+    },
+    {
+      "id": "SI-003",
+      "key": "royal-priesthood-offered-narrowed-returned",
+      "text": "Peter calls ordinary believers a royal priesthood, and most people read it as a compliment. It's a quote. Yahuah made that exact offer to the whole nation at Sinai — a kingdom of priests, every household — before altar service narrowed down to one family line. What was offered, then narrowed, has been handed back.",
+      "blip": "",
+      "refs": ["Exodus 19:6", "Numbers 3:12-13", "1 Peter 2:9"],
+      "status": "posted",
+      "postedDate": "2026-08-06"
     }
   ]
 }

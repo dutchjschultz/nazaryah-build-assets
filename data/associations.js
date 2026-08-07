@@ -1,5 +1,8 @@
-// associations 0717 V11.js
-// delegated-authority relabeled "The Right Hand and the Heirs" so the cluster label
+// associations 0806 V12.js
+// Still Waiting for Shavuot added to three clusters (the-mishkan, the-moedim,
+// how-yahuah-speaks); expected bumped +1 on each. Membership itself is
+// frontmatter-derived (membersOf), so only the counts change here.
+// V11: delegated-authority relabeled "The Right Hand and the Heirs" so the cluster label
 // no longer collides with the anchor study's own title (which read as a grayed-out
 // phantom study on that study's page). Anchor unchanged. 17 clusters.
 
@@ -25,7 +28,7 @@ export const CLUSTERS = {
     blurb:
       "The sky, the letters, the words, and at last His own Son. He has already spoken — the question is whether we will hear what was given.",
     anchor: "heavens-letters-words-son",
-    expected: 5,
+    expected: 6,
   },
 
   "the-second-adam": {
@@ -81,7 +84,7 @@ export const CLUSTERS = {
     blurb:
       "The structure Yahuah designed: ark, cover, veil, garments — and who may pass through what.",
     anchor: "ark-of-covering",
-    expected: 11,
+    expected: 12,
   },
 
   "yom-kippur": {
@@ -105,7 +108,7 @@ export const CLUSTERS = {
     blurb:
       "Yahuah's moedim as He set them — the days, the timing, and what was kept on each.",
     anchor: "seven-feasts-in-exodus",
-    expected: 12,
+    expected: 13,
   },
 
   "restored-creation": {
