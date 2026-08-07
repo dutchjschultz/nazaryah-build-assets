@@ -1,10 +1,7 @@
-// associations 0806 V12.js
-// Still Waiting for Shavuot added to three clusters (the-mishkan, the-moedim,
+// associations 0806 V13.js
+// Filled, but Not Indwelt added to two clusters (pulpit-vocabulary,
 // how-yahuah-speaks); expected bumped +1 on each. Membership itself is
 // frontmatter-derived (membersOf), so only the counts change here.
-// V11: delegated-authority relabeled "The Right Hand and the Heirs" so the cluster label
-// no longer collides with the anchor study's own title (which read as a grayed-out
-// phantom study on that study's page). Anchor unchanged. 17 clusters.
 
 export const CLUSTERS = {
   "two-stage-salvation": {
@@ -28,7 +25,7 @@ export const CLUSTERS = {
     blurb:
       "The sky, the letters, the words, and at last His own Son. He has already spoken — the question is whether we will hear what was given.",
     anchor: "heavens-letters-words-son",
-    expected: 6,
+    expected: 7,
   },
 
   "the-second-adam": {
@@ -68,7 +65,7 @@ export const CLUSTERS = {
     blurb:
       "Words the pulpit softened, sweetened, or reinvented outright — and what the Hebrew and Greek actually say.",
     anchor: "the-whole-counsel",
-    expected: 13,
+    expected: 14,
   },
 
   "goel-kopher": {
