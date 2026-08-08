@@ -1,6 +1,6 @@
 {
-  "version": "0806 V3",
-  "changeNote": "SI-002 reclaimed for the Joel/Shavuot insight and SI-003 added (both posted). The prior SI-002 (filling-vs-indwelling) was a withdrawn, never-posted stub and is removed. refs stored as arrays to match the renderer.",
+  "version": "0808 V4",
+  "changeNote": "SI-002 postedDate moved to 2026-08-08. SI-003 replaced with the two-princes / Two Kingdoms insight (postedDate 2026-08-09), which carries the new optional studyLink/studyLabel pair. SI-001 untouched. refs stored as arrays to match the renderer.",
   "insights": [
     {
       "id": "SI-001",
@@ -18,16 +18,18 @@
       "blip": "",
       "refs": ["Joel 2:28", "Acts 2:16-17", "1 Corinthians 6:19"],
       "status": "posted",
-      "postedDate": "2026-08-06"
+      "postedDate": "2026-08-08"
     },
     {
       "id": "SI-003",
-      "key": "royal-priesthood-offered-narrowed-returned",
-      "text": "Peter calls ordinary believers a royal priesthood, and most people read it as a compliment. It's a quote. Yahuah made that exact offer to the whole nation at Sinai — a kingdom of priests, every household — before altar service narrowed down to one family line. What was offered, then narrowed, has been handed back.",
+      "key": "two-princes-whose-statutes",
+      "text": "Prince of this world. Prince of Peace. Two princes named in the Book, and neither one holds a deed — the earth is Yahuah's, and the fulness thereof. Allegiance shows up in the statutes a man keeps. Whose are you keeping?",
       "blip": "",
-      "refs": ["Exodus 19:6", "Numbers 3:12-13", "1 Peter 2:9"],
+      "refs": ["Psalm 24:1", "John 12:31", "Isaiah 9:6"],
       "status": "posted",
-      "postedDate": "2026-08-06"
+      "postedDate": "2026-08-09",
+      "studyLink": "https://nazaryah.com/blog/two-kingdoms/",
+      "studyLabel": "Two Kingdoms"
     }
   ]
 }

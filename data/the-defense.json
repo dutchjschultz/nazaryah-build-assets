@@ -1,6 +1,6 @@
 {
-  "version": "0806 V1",
-  "changeNote": "File created. First three approved entries loaded.",
+  "version": "0808 V2",
+  "changeNote": "Added DEF-089 (royal priesthood is a Sinai quote) as APPROVED, not posted — the Defense lane stays unpublished, so it renders nothing new. Master numbering is unbroken; unloaded ids (086-088) are simply not present here (no placeholders).",
   "entries": [
     {
       "id": "DEF-083",
@@ -28,6 +28,15 @@
       "refs": ["John 7:39"],
       "status": "posted",
       "postedDate": "2026-08-06"
+    },
+    {
+      "id": "DEF-089",
+      "key": "royal-priesthood-quote-from-sinai",
+      "trigger": "Peter calls believers a royal priesthood. That's a New Testament thing.",
+      "answer": "It's a quote from Sinai. He offered it to every household before He narrowed it to one.",
+      "refs": ["Exodus 19:6", "Numbers 3:12-13", "1 Peter 2:9"],
+      "status": "approved",
+      "postedDate": ""
     }
   ]
 }
