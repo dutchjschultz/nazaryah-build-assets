@@ -1,6 +1,6 @@
 {
-  "version": "0808 V4",
-  "changeNote": "SI-002 postedDate moved to 2026-08-08. SI-003 replaced with the two-princes / Two Kingdoms insight (postedDate 2026-08-09), which carries the new optional studyLink/studyLabel pair. SI-001 untouched. refs stored as arrays to match the renderer.",
+  "version": "0808 V5",
+  "changeNote": "SI-003 studyLink switched to the relative path /blog/two-kingdoms/ (works in local preview, survives a domain change). V4: SI-002 postedDate -> 2026-08-08; SI-003 replaced with the two-princes / Two Kingdoms insight (postedDate 2026-08-09) carrying the new optional studyLink/studyLabel pair. SI-001 untouched. refs stored as arrays.",
   "insights": [
     {
       "id": "SI-001",
@@ -28,7 +28,7 @@
       "refs": ["Psalm 24:1", "John 12:31", "Isaiah 9:6"],
       "status": "posted",
       "postedDate": "2026-08-09",
-      "studyLink": "https://nazaryah.com/blog/two-kingdoms/",
+      "studyLink": "/blog/two-kingdoms/",
       "studyLabel": "Two Kingdoms"
     }
   ]
