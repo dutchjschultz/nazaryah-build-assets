@@ -1,7 +1,5 @@
-// associations 0806 V13.js
-// Filled, but Not Indwelt added to two clusters (pulpit-vocabulary,
-// how-yahuah-speaks); expected bumped +1 on each. Membership itself is
-// frontmatter-derived (membersOf), so only the counts change here.
+// associations 0809 V14.js
+// Two Kingdoms, One Walk added to delegated-authority; expected bumped +1.
 
 export const CLUSTERS = {
   "two-stage-salvation": {
@@ -57,7 +55,7 @@ export const CLUSTERS = {
     blurb:
       "Authority given, never seized. The Son at the right hand, the heirs in His throne, and the kingdom handed back to the Father.",
     anchor: "the-throne-and-the-right-hand",
-    expected: 8,
+    expected: 9,
   },
 
   "pulpit-vocabulary": {
