@@ -1,4 +1,14 @@
-// associations 0825 V15.js
+// associations 0826 V16.js
+// V16: Volume V lands — the eight chapters of One God, One Name, One Throne.
+// Six expected counts bump (see the Book 05 handoff, Part Five):
+//   pulpit-vocabulary 14 -> 21, trinity-examined 4 -> 6, two-stage-salvation
+//   22 -> 24, lost-in-translation 18 -> 19, goel-kopher 12 -> 13, the-mishkan
+//   12 -> 13. The pulpit-vocabulary jump is the big one: this book becomes a
+//   third of that cluster in one batch. Defensible — the cluster is named for
+//   exactly what the book does — but it moves the panel's centre of gravity.
+// NOTE the counts land only when the chapters lift out of draft; they are
+// carried here now so the registry and the posts ship together.
+// V15: The four Living Temple studies join lost-in-translation; expected 14 -> 18.
 // The four Living Temple studies join lost-in-translation; expected 14 -> 18.
 // NOTE: they were specced for a "the-law-stands" cluster too. No such cluster
 // exists in this registry and one was not invented, so all four carry
@@ -12,7 +22,7 @@ export const CLUSTERS = {
     blurb:
       "Entry by the blood, walk by the bread. The framework the pulpit collapsed into a single step.",
     anchor: "bread-and-wine",
-    expected: 22,
+    expected: 24,
   },
 
   "lost-in-translation": {
@@ -20,7 +30,7 @@ export const CLUSTERS = {
     blurb:
       "Helel became Lucifer. Kappōret became a mercy seat. Qesheth became a rainbow. Har Mo'ed became Megiddo. What the English buried, and what it cost.",
     anchor: "the-lucifer-deception",
-    expected: 18,
+    expected: 19,
   },
 
   "how-yahuah-speaks": {
@@ -68,7 +78,7 @@ export const CLUSTERS = {
     blurb:
       "Words the pulpit softened, sweetened, or reinvented outright — and what the Hebrew and Greek actually say.",
     anchor: "the-whole-counsel",
-    expected: 14,
+    expected: 21,
   },
 
   "goel-kopher": {
@@ -76,7 +86,7 @@ export const CLUSTERS = {
     blurb:
       "Yahuah as sole Redeemer, the Son as the price paid. The legal spine under the whole atonement question.",
     anchor: "the-redeemer-who-never-needed-redeeming",
-    expected: 12,
+    expected: 13,
   },
 
   "the-mishkan": {
@@ -84,7 +94,7 @@ export const CLUSTERS = {
     blurb:
       "The structure Yahuah designed: ark, cover, veil, garments — and who may pass through what.",
     anchor: "ark-of-covering",
-    expected: 12,
+    expected: 13,
   },
 
   "yom-kippur": {
@@ -140,7 +150,7 @@ export const CLUSTERS = {
     blurb:
       "The Godhead the text actually shows. Every throne vision names two, not three; worship and service sort the same way — the pattern the doctrine has to explain away.",
     anchor: "the-throne-and-the-right-hand",
-    expected: 4,
+    expected: 6,
   },
 };
 
