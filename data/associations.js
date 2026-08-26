@@ -1,5 +1,10 @@
-// associations 0809 V14.js
-// Two Kingdoms, One Walk added to delegated-authority; expected bumped +1.
+// associations 0825 V15.js
+// The four Living Temple studies join lost-in-translation; expected 14 -> 18.
+// NOTE: they were specced for a "the-law-stands" cluster too. No such cluster
+// exists in this registry and one was not invented, so all four carry
+// lost-in-translation only — which is why this is +4 and not the +3 specced.
+// Restore the-law-stands and re-tag when that cluster is written.
+// V14: Two Kingdoms, One Walk added to delegated-authority; expected bumped +1.
 
 export const CLUSTERS = {
   "two-stage-salvation": {
@@ -15,7 +20,7 @@ export const CLUSTERS = {
     blurb:
       "Helel became Lucifer. Kappōret became a mercy seat. Qesheth became a rainbow. Har Mo'ed became Megiddo. What the English buried, and what it cost.",
     anchor: "the-lucifer-deception",
-    expected: 14,
+    expected: 18,
   },
 
   "how-yahuah-speaks": {
