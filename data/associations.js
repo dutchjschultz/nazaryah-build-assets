@@ -1,4 +1,8 @@
-// associations 0826 V16.js
+// associations 0827 V17.js
+// V17: The Parables section opens. Kingdom of Lights joins the-mishkan and
+// pulpit-vocabulary; Dark Sayings of Old joins how-yahuah-speaks. Three expected
+// counts bump: the-mishkan 13 -> 14, pulpit-vocabulary 21 -> 22,
+// how-yahuah-speaks 7 -> 8. Neither study anchors a cluster.
 // V16: Volume V lands — the eight chapters of One God, One Name, One Throne.
 // Six expected counts bump (see the Book 05 handoff, Part Five):
 //   pulpit-vocabulary 14 -> 21, trinity-examined 4 -> 6, two-stage-salvation
@@ -38,7 +42,7 @@ export const CLUSTERS = {
     blurb:
       "The sky, the letters, the words, and at last His own Son. He has already spoken — the question is whether we will hear what was given.",
     anchor: "heavens-letters-words-son",
-    expected: 7,
+    expected: 8,
   },
 
   "the-second-adam": {
@@ -78,7 +82,7 @@ export const CLUSTERS = {
     blurb:
       "Words the pulpit softened, sweetened, or reinvented outright — and what the Hebrew and Greek actually say.",
     anchor: "the-whole-counsel",
-    expected: 21,
+    expected: 22,
   },
 
   "goel-kopher": {
@@ -94,7 +98,7 @@ export const CLUSTERS = {
     blurb:
       "The structure Yahuah designed: ark, cover, veil, garments — and who may pass through what.",
     anchor: "ark-of-covering",
-    expected: 13,
+    expected: 14,
   },
 
   "yom-kippur": {
