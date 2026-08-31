@@ -2,107 +2,147 @@
   "meta": {
     "title": "Legal Lexicon — Candidate Queue (Monthly Review)",
     "role": "Growing list of terms surfaced in chats, awaiting promotion. Promoted terms are removed here and added to the MASTER.",
-    "version": "0808 V3",
-    "updated": "2026-08-08",
-    "openCount": 5,
+    "version": "0831 V4",
+    "updated": "2026-08-31",
+    "openCount": 0,
     "deployAs": "/data/legal-lexicon-queue.json"
   },
-  "candidates": [
-    {
-      "term": "Ed / Al-pi Shnayim Edim",
-      "strongs": "H5707 + H6310",
-      "proposedMovement": 6,
-      "gloss": "a matter established at the mouths of two or three witnesses",
-      "legalSense": "The rule requires independent sources of knowledge, not one testimony repeated. Al-pi is literally 'at the mouth of' — the count is of mouths, not of hearings. Deuteronomy 19:15; 17:6; Numbers 35:30.",
-      "caution": "Jezebel satisfied the numeric count with two hired mouths (1 Kings 21:10-13), which proves the number alone never satisfies the rule. The corroboration must be genuine.",
-      "duplicateCheck": "Master 7 'Witness' already carries the gloss 'sworn testimony, corroborated.' This may be a refinement of 7 rather than a new entry. Resolve before promotion.",
-      "surfaced": "2026-07-31"
-    },
-    {
-      "term": "Darash",
-      "strongs": "H1875",
-      "proposedMovement": 6,
-      "gloss": "the mandatory judicial examination of witnesses",
-      "legalSense": "To seek out, inquire, investigate. Deuteronomy 19:18 charges the judges to make diligent inquisition — counting witnesses is not enough; they must be examined separately.",
-      "duplicateCheck": "No existing master entry covers the examination itself. Nearest neighbors are 7 Witness and 103 Visit; neither carries the inquiry sense.",
-      "surfaced": "2026-07-31"
-    },
-    {
-      "term": "Rakil",
-      "strongs": "H7400",
-      "proposedMovement": 6,
-      "gloss": "the offense of carrying a report through the community",
-      "legalSense": "From rakal, to trade or peddle. The rakil is the one who moves a report from house to house the way a merchant moves goods. Leviticus 19:16 forbids it in the same breath as standing against a neighbour's blood, placing the talebearer beside the false witness — one corrupts the testimony, the other spreads it.",
-      "duplicateCheck": "No master entry covers the carrying of a report. Nearest neighbors are 88 Tongue (evidence that acquits or condemns) and 87 Mouth (where testimony issues); neither carries the peddling sense. Master 134 Diabolos is close in effect but is Greek, and is the party who lodges the false charge rather than the one who circulates it.",
-      "openQuestion": "Break flag pending Dutch's ruling. The offense is the working mechanism of the counterfeit court, but it is defined as a prohibition inside Yahuah's own code rather than a usurped office.",
-      "surfaced": "2026-08-08"
-    },
-    {
-      "term": "Nasa Shema Shav",
-      "strongs": "H5375 + H8088 + H7723",
-      "proposedMovement": 6,
-      "gloss": "the pre-trial offense of lifting and circulating an unverified report",
-      "legalSense": "Exodus 23:1, 'Thou shalt not raise a false report.' Nasa is to lift and carry; shema is the thing heard; shav is empty, worthless, without substance. The offense is complete before any trial opens — a man picks up something he heard and carries it without establishing it. The verse then joins it to putting the hand with the wicked to be an unrighteous witness, showing the raised report as the first step toward false testimony.",
-      "duplicateCheck": "No master entry covers the pre-trial handling of a report. Joins the existing nasa root family as a fourth legal motion of the same verb: to lift a charge away (16 Forgive), to bear the liability of a charge (122 Nasa Avon), to lift a face in partiality (84 Lift the face), and now to lift an empty report and carry it.",
-      "sharesRootProposal": {
-        "rootId": "nasa-H5375",
-        "siblings": [
-          { "n": 16, "term": "Forgive" },
-          { "n": 122, "term": "Nasa Avon" },
-          { "n": 84, "term": "Lift the face" }
-        ],
-        "note": "One verb, four legal motions: lifting a charge away, bearing a charge, lifting a face, and lifting an empty report."
-      },
-      "openQuestion": "Break flag pending Dutch's ruling, same question as Rakil.",
-      "surfaced": "2026-08-08"
-    },
-    {
-      "term": "Pi Shenayim",
-      "strongs": "H6310 + H8147",
-      "proposedMovement": 3,
-      "gloss": "the firstborn's double share of the estate",
-      "legalSense": "Deuteronomy 21:17, 'a double portion of all that he hath.' Literally 'the mouth of two' — the measured share, two parts where every other son takes one. It is a fixed inheritance mechanism, not a blessing: the father is forbidden to reassign it to a favored son.",
-      "duplicateCheck": "Master 60 'Birthright' already carries 'the firstborn's legal privilege,' and 54 'Portion' carries 'the assigned legal share.' Pi Shenayim is the measurement itself rather than the status or the share in general. May be a refinement of 60 rather than a new number. Resolve before promotion, same as Ed / Al-pi Shnayim Edim.",
-      "note": "If promoted, it makes 2 Kings 2:9 an inheritance claim rather than a request for more power — Elisha asking for the firstborn's share of what Elijah carried.",
-      "surfaced": "2026-08-08"
-    }
-  ],
+  "candidates": [],
   "promotionLog": [
     {
       "date": "2026-07-31",
       "intoMaster": "0731 V1",
       "promoted": [
-        { "n": 121, "term": "Seat vs Throne" },
-        { "n": 122, "term": "Nasa Avon" },
-        { "n": 123, "term": "Eretz Gezerah" },
-        { "n": 124, "term": "Outside the Camp" },
-        { "n": 125, "term": "Kategoros" },
-        { "n": 126, "term": "Qerev / Haqrev" },
-        { "n": 127, "term": "Din" },
-        { "n": 128, "term": "Sepharim Pethichu" },
-        { "n": 129, "term": "Heedayah Sholtan" },
-        { "n": 130, "term": "Zeman + Dath" },
-        { "n": 131, "term": "Attiq Yomin" },
-        { "n": 132, "term": "Karath" },
-        { "n": 133, "term": "Synagoge" },
-        { "n": 134, "term": "Diabolos" },
-        { "n": 135, "term": "Badal vs Balal" },
-        { "n": 136, "term": "Parad" },
-        { "n": 137, "term": "Cheirographon" },
-        { "n": 138, "term": "Dogma" },
-        { "n": 139, "term": "Hupo Nomon" },
-        { "n": 140, "term": "Katargeo" },
-        { "n": 141, "term": "Orthotomeo" },
-        { "n": 142, "term": "Didaskalos + Kathegetes" }
+        {
+          "n": 121,
+          "term": "Seat vs Throne"
+        },
+        {
+          "n": 122,
+          "term": "Nasa Avon"
+        },
+        {
+          "n": 123,
+          "term": "Eretz Gezerah"
+        },
+        {
+          "n": 124,
+          "term": "Outside the Camp"
+        },
+        {
+          "n": 125,
+          "term": "Kategoros"
+        },
+        {
+          "n": 126,
+          "term": "Qerev / Haqrev"
+        },
+        {
+          "n": 127,
+          "term": "Din"
+        },
+        {
+          "n": 128,
+          "term": "Sepharim Pethichu"
+        },
+        {
+          "n": 129,
+          "term": "Heedayah Sholtan"
+        },
+        {
+          "n": 130,
+          "term": "Zeman + Dath"
+        },
+        {
+          "n": 131,
+          "term": "Attiq Yomin"
+        },
+        {
+          "n": 132,
+          "term": "Karath"
+        },
+        {
+          "n": 133,
+          "term": "Synagoge"
+        },
+        {
+          "n": 134,
+          "term": "Diabolos"
+        },
+        {
+          "n": 135,
+          "term": "Badal vs Balal"
+        },
+        {
+          "n": 136,
+          "term": "Parad"
+        },
+        {
+          "n": 137,
+          "term": "Cheirographon"
+        },
+        {
+          "n": 138,
+          "term": "Dogma"
+        },
+        {
+          "n": 139,
+          "term": "Hupo Nomon"
+        },
+        {
+          "n": 140,
+          "term": "Katargeo"
+        },
+        {
+          "n": 141,
+          "term": "Orthotomeo"
+        },
+        {
+          "n": 142,
+          "term": "Didaskalos + Kathegetes"
+        }
       ],
       "discardedAsDuplicate": [
-        { "term": "Goral (H1486)", "dupOf": 55 },
-        { "term": "Mishpat (H4941)", "dupOf": 2 }
+        {
+          "term": "Goral (H1486)",
+          "dupOf": 55
+        },
+        {
+          "term": "Mishpat (H4941)",
+          "dupOf": 2
+        }
+      ]
+    },
+    {
+      "date": "2026-08-31",
+      "intoMaster": "0831 V16",
+      "promoted": [
+        {
+          "n": 143,
+          "term": "Two Witnesses"
+        },
+        {
+          "n": 144,
+          "term": "Examine"
+        },
+        {
+          "n": 145,
+          "term": "Talebearer"
+        },
+        {
+          "n": 146,
+          "term": "False Report"
+        },
+        {
+          "n": 147,
+          "term": "Double Portion"
+        }
       ]
     }
   ],
   "changelog": [
     "0801 V2: audited the standing pending list against master 0731 V2. All 22 prior terms confirmed present as 121-142; Goral and Mishpat confirmed discarded as duplicates. Two terms surfaced 0731 were never queued and are entered here as open candidates: Ed / Al-pi Shnayim Edim, and Darash.",
-    "0808 V3: added three candidates surfaced in chat — Rakil (H7400), Nasa Shema Shav (H5375+H8088+H7723), and Pi Shenayim (H6310+H8147). Open count 2 to 5. Two of the five (Ed / Al-pi Shnayim Edim, Pi Shenayim) are flagged as possible refinements of existing master entries rather than new numbers; both must be resolved before promotion. Master untouched at 0801 V15, 142 terms."
+    "0808 V3: added three candidates surfaced in chat — Rakil (H7400), Nasa Shema Shav (H5375+H8088+H7723), and Pi Shenayim (H6310+H8147). Open count 2 to 5. Two of the five (Ed / Al-pi Shnayim Edim, Pi Shenayim) are flagged as possible refinements of existing master entries rather than new numbers; both must be resolved before promotion. Master untouched at 0801 V15, 142 terms.",
+    "0831 V4: promoted all 5 open candidates as 143–147 under English headwords per the restored headword rule. Queue empty."
   ]
 }

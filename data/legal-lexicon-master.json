@@ -2,9 +2,9 @@
   "meta": {
     "title": "The Legal Lexicon of Scripture",
     "role": "MASTER LIST — single source of truth. Check new terms against this before proposing any.",
-    "version": "0801 V15",
-    "updated": "2026-08-01",
-    "totalTerms": 142,
+    "version": "0831 V17",
+    "updated": "2026-08-31",
+    "totalTerms": 147,
     "movementsAreForward": true,
     "tokens": {
       "font": "Georgia, 'Times New Roman', serif",
@@ -33,7 +33,9 @@
       "0801 V12: merged 12 word pages (Restore–Servant: 30,108,82,6,21,69,105,75,34,121,128,63) into words; those terms set page draft-v1.",
       "0801 V13: merged 13 word pages (Katargeo correction + Shalom–Tongue: 140,26,35,86,65,62,80,109,120,42,8,74,88) into words; those terms set page draft-v1. 140 Katargeo was skipped earlier (sorts between Karath and Kategoros); added here.",
       "0801 V14 FINAL: merged 13 word pages (Transgression–Write: 19,110,40,68,112,103,43,107,47,66,7,111,32) into words; those terms set page draft-v1. 32 Write fills the slot cleared in V8. Completes all 142 of 142 word pages.",
-      "0801 V15: GO-LIVE — flipped 141 word pages from draft-v1 to live. Recompense (28) held at draft-v4 (its own advanced draft, pending confirmation). All 142 word records present; page status is metadata only (rendering runs off hasWord, not page)."
+      "0801 V15: GO-LIVE — flipped 141 word pages from draft-v1 to live. Recompense (28) held at draft-v4 (its own advanced draft, pending confirmation). All 142 word records present; page status is metadata only (rendering runs off hasWord, not page).",
+      "0831 V16: headword rule restored — 20 transliterated headwords (122–142, less 124 which already complied) converted to English; transliterations retained in rootLine. Promoted 5 queue candidates as 143–147, records only, word pages pending. 146 False Report joins the nasa root family, now four motions.",
+      "0831 V17: rulings pass on V16. Repaired the V8 mis-key leftover — words[33] Engrave carried a self-reference {n:33, term:'Write'}; repointed to {n:32, term:'Write'}, which is where it belonged before the record moved 32→33. Swept the whole file for self-references (relatedInMovement or sharesRoot sibling whose n equals its parent's): that was the only one. The 20 word-page URLs the V16 rename changed are now covered by 301s in netlify.toml, and the 20 renamed pages carry social cards at their new slugs."
     ]
   },
   "movements": [
@@ -932,7 +934,7 @@
     },
     {
       "n": 122,
-      "term": "Nasa Avon",
+      "term": "Bear Iniquity",
       "movement": 4,
       "gloss": "to carry the liability of an offense",
       "strongs": "H5375+H5771",
@@ -940,7 +942,7 @@
     },
     {
       "n": 123,
-      "term": "Eretz Gezerah",
+      "term": "Land of Separation",
       "movement": 7,
       "gloss": "the decreed land of cutting-off (Lev 16:22)",
       "strongs": "H776+H1509",
@@ -956,7 +958,7 @@
     },
     {
       "n": 125,
-      "term": "Kategoros",
+      "term": "Prosecutor",
       "movement": 7,
       "gloss": "the prosecuting party before the bench",
       "strongs": "G2725",
@@ -964,7 +966,7 @@
     },
     {
       "n": 126,
-      "term": "Qerev / Haqrev",
+      "term": "Brought Near",
       "movement": 1,
       "gloss": "escorted presentation before the bench (Dan 7:13)",
       "strongs": "H7127",
@@ -972,7 +974,7 @@
     },
     {
       "n": 127,
-      "term": "Din",
+      "term": "The Session",
       "movement": 7,
       "gloss": "the court session and its verdict",
       "strongs": "H1780",
@@ -980,7 +982,7 @@
     },
     {
       "n": 128,
-      "term": "Sepharim Pethichu",
+      "term": "The Books Opened",
       "movement": 6,
       "gloss": "the books opened, the record entered",
       "strongs": "Dan 7:10",
@@ -988,7 +990,7 @@
     },
     {
       "n": 129,
-      "term": "Heedayah Sholtan",
+      "term": "Dominion Taken Away",
       "movement": 1,
       "gloss": "the judicial stripping of jurisdiction",
       "strongs": "H5709+H7985",
@@ -999,7 +1001,7 @@
     },
     {
       "n": 130,
-      "term": "Zeman + Dath",
+      "term": "Times and Law",
       "movement": 2,
       "gloss": "forged tampering with appointed times and statute",
       "strongs": "H2166+H1882",
@@ -1010,7 +1012,7 @@
     },
     {
       "n": 131,
-      "term": "Attiq Yomin",
+      "term": "Ancient of Days",
       "movement": 1,
       "gloss": "the presiding Judge; seniority as standing",
       "strongs": "H6268+H3118",
@@ -1018,7 +1020,7 @@
     },
     {
       "n": 132,
-      "term": "Karath",
+      "term": "Cut Off",
       "movement": 7,
       "gloss": "the covenant death-sentence of severance",
       "strongs": "H3772",
@@ -1026,7 +1028,7 @@
     },
     {
       "n": 133,
-      "term": "Synagoge",
+      "term": "The Assembly",
       "movement": 1,
       "gloss": "a body claiming standing to teach and judge",
       "strongs": "G4864",
@@ -1037,7 +1039,7 @@
     },
     {
       "n": 134,
-      "term": "Diabolos",
+      "term": "Slanderer",
       "movement": 7,
       "gloss": "the party who lodges the slanderous charge",
       "strongs": "G1228",
@@ -1048,7 +1050,7 @@
     },
     {
       "n": 135,
-      "term": "Badal vs Balal",
+      "term": "Separate vs Mingle",
       "movement": 2,
       "gloss": "lawful distinction vs unlawful confusion",
       "strongs": "H914 vs H1101",
@@ -1060,7 +1062,7 @@
     },
     {
       "n": 136,
-      "term": "Parad",
+      "term": "Set Apart by Report",
       "movement": 7,
       "gloss": "severance produced by testimony thrown between",
       "strongs": "H6504",
@@ -1071,7 +1073,7 @@
     },
     {
       "n": 137,
-      "term": "Cheirographon",
+      "term": "Handwriting of Ordinances",
       "movement": 4,
       "gloss": "the handwritten certificate of debt (Col 2:14)",
       "strongs": "G5498",
@@ -1079,7 +1081,7 @@
     },
     {
       "n": 138,
-      "term": "Dogma",
+      "term": "Decree",
       "movement": 2,
       "gloss": "an enacted decree with legal force",
       "strongs": "G1378",
@@ -1087,7 +1089,7 @@
     },
     {
       "n": 139,
-      "term": "Hupo Nomon",
+      "term": "Under the Law",
       "movement": 7,
       "gloss": "under the sentence, not under obligation to obey",
       "strongs": "hupo nomon",
@@ -1095,7 +1097,7 @@
     },
     {
       "n": 140,
-      "term": "Katargeo",
+      "term": "Made Inoperative",
       "movement": 4,
       "gloss": "to render an instrument inoperative, not erased",
       "strongs": "G2673",
@@ -1103,7 +1105,7 @@
     },
     {
       "n": 141,
-      "term": "Orthotomeo",
+      "term": "Rightly Dividing",
       "movement": 6,
       "gloss": "accurate handling of the record",
       "strongs": "G3718",
@@ -1111,7 +1113,7 @@
     },
     {
       "n": 142,
-      "term": "Didaskalos + Kathegetes",
+      "term": "Teacher and Master",
       "movement": 1,
       "gloss": "titles of standing forbidden to men (Matt 23:8,10)",
       "strongs": "G1320+G2519",
@@ -1119,6 +1121,64 @@
         "note": "Titles of standing taken by men that Yahushua forbade them to bear (Matt 23:8,10)."
       },
       "page": "live"
+    },
+    {
+      "n": 143,
+      "term": "Two Witnesses",
+      "movement": 6,
+      "gloss": "a matter established at two or three mouths",
+      "strongs": "H5707+H6310",
+      "page": "pending"
+    },
+    {
+      "n": 144,
+      "term": "Examine",
+      "movement": 6,
+      "gloss": "the required judicial inquiry into witnesses",
+      "strongs": "H1875",
+      "page": "pending"
+    },
+    {
+      "n": 145,
+      "term": "Talebearer",
+      "movement": 6,
+      "gloss": "one who peddles a report house to house",
+      "strongs": "H7400",
+      "page": "pending"
+    },
+    {
+      "n": 146,
+      "term": "False Report",
+      "movement": 6,
+      "gloss": "an unverified word lifted and carried",
+      "strongs": "H5375+H8088+H7723",
+      "sharesRoot": {
+        "rootId": "nasa-H5375",
+        "siblings": [
+          {
+            "n": 16,
+            "term": "Forgive"
+          },
+          {
+            "n": 84,
+            "term": "Lift the face"
+          },
+          {
+            "n": 122,
+            "term": "Bear Iniquity"
+          }
+        ],
+        "note": "One verb, four legal motions: to lift a charge away (Forgive), to bear the liability of a charge (Bear Iniquity), to lift a face in partiality (Lift the face), and here to lift an empty report and carry it."
+      },
+      "page": "pending"
+    },
+    {
+      "n": 147,
+      "term": "Double Portion",
+      "movement": 3,
+      "gloss": "the firstborn's two shares of the estate",
+      "strongs": "H6310+H8147",
+      "page": "pending"
     }
   ],
   "words": {
@@ -1350,11 +1410,11 @@
         },
         {
           "n": 125,
-          "term": "Kategoros"
+          "term": "Prosecutor"
         },
         {
           "n": 134,
-          "term": "Diabolos"
+          "term": "Slanderer"
         },
         {
           "n": 9,
@@ -1381,14 +1441,18 @@
         "siblings": [
           {
             "n": 122,
-            "term": "Nasa Avon"
+            "term": "Bear Iniquity"
           },
           {
             "n": 84,
             "term": "Lift the face"
+          },
+          {
+            "n": 146,
+            "term": "False Report"
           }
         ],
-        "note": "One verb, three legal motions: to lift a charge away (forgive), to bear the liability of a charge (nasa avon), and to lift a face in partiality (nasa panim)."
+        "note": "One verb, four legal motions: to lift a charge away (Forgive), to bear the liability of a charge (Bear Iniquity), to lift a face in partiality (Lift the face), and to lift an empty report and carry it (False Report)."
       },
       "courtroomWord": "A removal term — the lifting of a charge off the record.",
       "itsRole": "Forgiveness is not the softening of a feeling but the lifting of a liability — the charge carried off the account so the ledger clears. Because nasa means to bear, the charge lifted from the guilty must be borne by another; the same verb runs through the Servant who bare the sin of many. To forgive is to remove the entry — which presupposes an entry the law had made.",
@@ -2001,7 +2065,7 @@
         "siblings": [
           {
             "n": 132,
-            "term": "Karath"
+            "term": "Cut Off"
           },
           {
             "n": 95,
@@ -3924,7 +3988,7 @@
           },
           {
             "n": 132,
-            "term": "Karath"
+            "term": "Cut Off"
           }
         ],
         "note": "Kriythuth is a ‘cutting,’ from the same root H3772: the covenant cut (Cut), the sinner cut off (Karath), and here the marriage bond cut."
@@ -4397,7 +4461,7 @@
         },
         {
           "n": 132,
-          "term": "Karath"
+          "term": "Cut Off"
         },
         {
           "n": 119,
@@ -4514,7 +4578,7 @@
         "siblings": [
           {
             "n": 125,
-            "term": "Kategoros"
+            "term": "Prosecutor"
           }
         ],
         "note": "The verb and the party who does it share the kateg- root: to accuse (kategoreo) and the accuser (kategoros) who files the charge."
@@ -4573,11 +4637,11 @@
         },
         {
           "n": 125,
-          "term": "Kategoros"
+          "term": "Prosecutor"
         },
         {
           "n": 134,
-          "term": "Diabolos"
+          "term": "Slanderer"
         },
         {
           "n": 115,
@@ -4667,7 +4731,7 @@
     },
     "123": {
       "n": 123,
-      "term": "Eretz Gezerah",
+      "term": "Land of Separation",
       "movement": 7,
       "rootLine": "eretz / gezerah — Hebrew",
       "caseStrongs": "H776 · H1509",
@@ -4738,11 +4802,11 @@
         },
         {
           "n": 132,
-          "term": "Karath"
+          "term": "Cut Off"
         },
         {
           "n": 122,
-          "term": "Nasa Avon"
+          "term": "Bear Iniquity"
         },
         {
           "n": 114,
@@ -4752,7 +4816,7 @@
     },
     "127": {
       "n": 127,
-      "term": "Din",
+      "term": "The Session",
       "movement": 7,
       "rootLine": "din — Aramaic",
       "caseStrongs": "H1780",
@@ -4814,7 +4878,7 @@
       "relatedInMovement": [
         {
           "n": 132,
-          "term": "Karath"
+          "term": "Cut Off"
         },
         {
           "n": 111,
@@ -4832,7 +4896,7 @@
     },
     "129": {
       "n": 129,
-      "term": "Heedayah Sholtan",
+      "term": "Dominion Taken Away",
       "movement": 1,
       "rootLine": "heedayah / sholtan — Aramaic",
       "caseStrongs": "H5709 · H7985",
@@ -4899,7 +4963,7 @@
       "relatedInMovement": [
         {
           "n": 131,
-          "term": "Attiq Yomin"
+          "term": "Ancient of Days"
         },
         {
           "n": 74,
@@ -4917,7 +4981,7 @@
     },
     "130": {
       "n": 130,
-      "term": "Zeman + Dath",
+      "term": "Times and Law",
       "movement": 2,
       "rootLine": "zeman / dath — Aramaic",
       "caseStrongs": "H2166 · H1882",
@@ -4985,7 +5049,7 @@
       "relatedInMovement": [
         {
           "n": 138,
-          "term": "Dogma"
+          "term": "Decree"
         },
         {
           "n": 18,
@@ -5003,7 +5067,7 @@
     },
     "131": {
       "n": 131,
-      "term": "Attiq Yomin",
+      "term": "Ancient of Days",
       "movement": 1,
       "rootLine": "attiq / yomin — Aramaic",
       "caseStrongs": "H6268 · H3118",
@@ -5070,7 +5134,7 @@
       "relatedInMovement": [
         {
           "n": 129,
-          "term": "Heedayah Sholtan"
+          "term": "Dominion Taken Away"
         },
         {
           "n": 74,
@@ -5088,7 +5152,7 @@
     },
     "133": {
       "n": 133,
-      "term": "Synagoge",
+      "term": "The Assembly",
       "movement": 1,
       "rootLine": "synagoge — Greek",
       "caseStrongs": "G4864",
@@ -5151,7 +5215,7 @@
       "relatedInMovement": [
         {
           "n": 142,
-          "term": "Didaskalos + Kathegetes"
+          "term": "Teacher and Master"
         },
         {
           "n": 78,
@@ -5169,7 +5233,7 @@
     },
     "134": {
       "n": 134,
-      "term": "Diabolos",
+      "term": "Slanderer",
       "movement": 7,
       "rootLine": "diabolos — Greek",
       "caseStrongs": "G1228",
@@ -5245,17 +5309,17 @@
         },
         {
           "n": 125,
-          "term": "Kategoros"
+          "term": "Prosecutor"
         },
         {
           "n": 136,
-          "term": "Parad"
+          "term": "Set Apart by Report"
         }
       ]
     },
     "135": {
       "n": 135,
-      "term": "Badal vs Balal",
+      "term": "Separate vs Mingle",
       "movement": 2,
       "rootLine": "badal vs balal — Hebrew",
       "caseStrongs": "H914 · H1101",
@@ -5341,7 +5405,7 @@
     },
     "136": {
       "n": 136,
-      "term": "Parad",
+      "term": "Set Apart by Report",
       "movement": 7,
       "rootLine": "parad — Hebrew",
       "caseStrongs": "H6504",
@@ -5404,7 +5468,7 @@
       "relatedInMovement": [
         {
           "n": 134,
-          "term": "Diabolos"
+          "term": "Slanderer"
         },
         {
           "n": 10,
@@ -5418,7 +5482,7 @@
     },
     "137": {
       "n": 137,
-      "term": "Cheirographon",
+      "term": "Handwriting of Ordinances",
       "movement": 4,
       "rootLine": "cheirographon — Greek",
       "caseStrongs": "G5498",
@@ -5494,7 +5558,7 @@
         },
         {
           "n": 140,
-          "term": "Katargeo"
+          "term": "Made Inoperative"
         },
         {
           "n": 29,
@@ -5504,7 +5568,7 @@
     },
     "138": {
       "n": 138,
-      "term": "Dogma",
+      "term": "Decree",
       "movement": 2,
       "rootLine": "dogma — Greek",
       "caseStrongs": "G1378",
@@ -5574,7 +5638,7 @@
         },
         {
           "n": 130,
-          "term": "Zeman + Dath"
+          "term": "Times and Law"
         },
         {
           "n": 8,
@@ -5584,7 +5648,7 @@
     },
     "139": {
       "n": 139,
-      "term": "Hupo Nomon",
+      "term": "Under the Law",
       "movement": 7,
       "rootLine": "hupo nomon — Greek",
       "caseStrongs": "G5259 + G3551",
@@ -5675,7 +5739,7 @@
     },
     "142": {
       "n": 142,
-      "term": "Didaskalos + Kathegetes",
+      "term": "Teacher and Master",
       "movement": 1,
       "rootLine": "didaskalos / kathegetes — Greek",
       "caseStrongs": "G1320 · G2519",
@@ -5748,7 +5812,7 @@
       "relatedInMovement": [
         {
           "n": 133,
-          "term": "Synagoge"
+          "term": "The Assembly"
         },
         {
           "n": 78,
@@ -6729,7 +6793,7 @@
     },
     "132": {
       "n": 132,
-      "term": "Karath",
+      "term": "Cut Off",
       "movement": 7,
       "rootLine": "karat — Hebrew",
       "caseStrongs": "H3772",
@@ -6805,15 +6869,15 @@
       "relatedInMovement": [
         {
           "n": 123,
-          "term": "Eretz Gezerah"
+          "term": "Land of Separation"
         },
         {
           "n": 122,
-          "term": "Nasa Avon"
+          "term": "Bear Iniquity"
         },
         {
           "n": 127,
-          "term": "Din"
+          "term": "The Session"
         },
         {
           "n": 119,
@@ -6889,7 +6953,7 @@
       ],
       "relatedInMovement": [
         {
-          "n": 33,
+          "n": 32,
           "term": "Write"
         },
         {
@@ -7249,14 +7313,18 @@
           },
           {
             "n": 122,
-            "term": "Nasa Avon"
+            "term": "Bear Iniquity"
           },
           {
             "n": 83,
             "term": "Face"
+          },
+          {
+            "n": 146,
+            "term": "False Report"
           }
         ],
-        "note": "Nasa lifts a charge away (Forgive) or bears one (Nasa Avon); panim is the face one appears before (Face) or lifts in partiality here."
+        "note": "Nasa lifts a charge away (Forgive), bears one as liability (Bear Iniquity), or lifts an empty report and carries it (False Report); panim is the face one appears before (Face) or lifts in partiality here."
       },
       "courtroomWord": "A partiality idiom — to be swayed by the person rather than the case.",
       "itsRole": "A just verdict weighs the matter, not the man; to lift the face is to weigh the man. Torah forbids it in the judge and praises Yahuah for never doing it. The lifted face is judgment corrupted at the root — ruling by who stands there, by gift or status or fear, instead of by the evidence. The blind bench, lifting no one’s face, is the standard the law demands and Yahuah keeps.",
@@ -7991,7 +8059,7 @@
     },
     "122": {
       "n": 122,
-      "term": "Nasa Avon",
+      "term": "Bear Iniquity",
       "movement": 4,
       "rootLine": "nasa / avon — Hebrew",
       "caseStrongs": "H5375 · H5771",
@@ -8018,9 +8086,13 @@
           {
             "n": 84,
             "term": "Lift the face"
+          },
+          {
+            "n": 146,
+            "term": "False Report"
           }
         ],
-        "note": "Nasa lifts a charge off the record (Forgive), lifts a face in partiality (Lift the face), and here bears the charge as liability."
+        "note": "Nasa lifts a charge off the record (Forgive), lifts a face in partiality (Lift the face), lifts an empty report and carries it (False Report), and here bears the charge as liability."
       },
       "courtroomWord": "A liability-bearing term — to carry the charge and penalty of an offense.",
       "itsRole": "A charge, once entered, must be borne by someone. Nasa avon is the bearing — the guilty carrying their own liability, or a substitute carrying it for them. The same verb that lifts a charge in forgiveness (nasa) here shoulders it as a burden. The Servant bears the iniquity of many: the liability lifted from the guilty and carried by another. It is substitution in the law’s own vocabulary — the charge borne, not waved away.",
@@ -8175,7 +8247,7 @@
     },
     "141": {
       "n": 141,
-      "term": "Orthotomeo",
+      "term": "Rightly Dividing",
       "movement": 6,
       "rootLine": "orthotomeo — Greek",
       "caseStrongs": "G3718",
@@ -8317,15 +8389,15 @@
       "relatedInMovement": [
         {
           "n": 123,
-          "term": "Eretz Gezerah"
+          "term": "Land of Separation"
         },
         {
           "n": 132,
-          "term": "Karath"
+          "term": "Cut Off"
         },
         {
           "n": 127,
-          "term": "Din"
+          "term": "The Session"
         },
         {
           "n": 119,
@@ -8499,7 +8571,7 @@
         },
         {
           "n": 127,
-          "term": "Din"
+          "term": "The Session"
         }
       ]
     },
@@ -8905,7 +8977,7 @@
     },
     "125": {
       "n": 125,
-      "term": "Kategoros",
+      "term": "Prosecutor",
       "movement": 7,
       "rootLine": "kategoros — Greek",
       "caseStrongs": "G2725",
@@ -8985,7 +9057,7 @@
         },
         {
           "n": 134,
-          "term": "Diabolos"
+          "term": "Slanderer"
         },
         {
           "n": 115,
@@ -8995,7 +9067,7 @@
     },
     "126": {
       "n": 126,
-      "term": "Qerev / Haqrev",
+      "term": "Brought Near",
       "movement": 1,
       "rootLine": "qerev / haqrev — Aramaic",
       "caseStrongs": "H7127",
@@ -9057,7 +9129,7 @@
       "relatedInMovement": [
         {
           "n": 131,
-          "term": "Attiq Yomin"
+          "term": "Ancient of Days"
         },
         {
           "n": 83,
@@ -9069,7 +9141,7 @@
         },
         {
           "n": 129,
-          "term": "Heedayah Sholtan"
+          "term": "Dominion Taken Away"
         }
       ]
     },
@@ -10788,7 +10860,7 @@
     },
     "128": {
       "n": 128,
-      "term": "Sepharim Pethichu",
+      "term": "The Books Opened",
       "movement": 6,
       "rootLine": "sifrin pethichu — Aramaic",
       "caseStrongs": "Daniel 7:10",
@@ -10948,7 +11020,7 @@
     },
     "140": {
       "n": 140,
-      "term": "Katargeo",
+      "term": "Made Inoperative",
       "movement": 4,
       "rootLine": "katargeo — Greek",
       "caseStrongs": "G2673",
@@ -11011,7 +11083,7 @@
       "relatedInMovement": [
         {
           "n": 137,
-          "term": "Cheirographon"
+          "term": "Handwriting of Ordinances"
         },
         {
           "n": 16,
