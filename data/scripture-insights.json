@@ -1,6 +1,6 @@
 {
-  "version": "0808 V5",
-  "changeNote": "SI-003 studyLink switched to the relative path /blog/two-kingdoms/ (works in local preview, survives a domain change). V4: SI-002 postedDate -> 2026-08-08; SI-003 replaced with the two-princes / Two Kingdoms insight (postedDate 2026-08-09) carrying the new optional studyLink/studyLabel pair. SI-001 untouched. refs stored as arrays.",
+  "version": "0831 V6",
+  "changeNote": "SI-004 added (ten virgins / lamp and light, postedDate 2026-08-31, studyLink /blog/kingdom-of-lights/) — renders first in the Insights lane and becomes the home-page strip. V5: SI-003 studyLink switched to the relative path /blog/two-kingdoms/ (works in local preview, survives a domain change). V4: SI-002 postedDate -> 2026-08-08; SI-003 replaced with the two-princes / Two Kingdoms insight (postedDate 2026-08-09) carrying the new optional studyLink/studyLabel pair. SI-001 untouched. refs stored as arrays.",
   "insights": [
     {
       "id": "SI-001",
@@ -30,6 +30,17 @@
       "postedDate": "2026-08-09",
       "studyLink": "/blog/two-kingdoms/",
       "studyLabel": "Two Kingdoms"
+    },
+    {
+      "id": "SI-004",
+      "key": "ten-virgins-lamp-and-light",
+      "text": "The ten virgins is not a story about being late, and it is not a story about how much of the Spirit anyone had. It is about a priesthood, a light, and what happens to a house when that light goes out. The commandment is a lamp and the Torah is light. Nobody sells the Spirit of Yahuah, and verse nine sends them out to buy.",
+      "blip": "",
+      "refs": ["Matthew 25:1-13", "Proverbs 6:23", "Exodus 27:20"],
+      "status": "posted",
+      "postedDate": "2026-08-31",
+      "studyLink": "/blog/kingdom-of-lights/",
+      "studyLabel": "Kingdom of Lights"
     }
   ]
 }
