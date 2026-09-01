@@ -1,6 +1,6 @@
 {
-  "version": "0831 V6",
-  "changeNote": "SI-004 added (ten virgins / lamp and light, postedDate 2026-08-31, studyLink /blog/kingdom-of-lights/) — renders first in the Insights lane and becomes the home-page strip. V5: SI-003 studyLink switched to the relative path /blog/two-kingdoms/ (works in local preview, survives a domain change). V4: SI-002 postedDate -> 2026-08-08; SI-003 replaced with the two-princes / Two Kingdoms insight (postedDate 2026-08-09) carrying the new optional studyLink/studyLabel pair. SI-001 untouched. refs stored as arrays.",
+  "version": "0831 V7",
+  "changeNote": "Five insights posted 2026-08-31. NOTE the batch specified them as SI-004 through SI-008, but SI-004 was already taken and posted earlier the same day (the ten virgins / lamp and light insight, live with a studyLink to Kingdom of Lights). Posted ids do not move, so the five were loaded as SI-005 through SI-009 instead: many mansions, Isaiah in four blocks, the cup and the bread, the apostle requirement, and the courthouse monument. No studyLink on any of the five; refs render on screen as usual. Because all six of the 2026-08-31 insights share a date, the lane breaks the tie by id descending, so SI-009 is now newest and drives the home-page strip. V6: SI-004 added (ten virgins / lamp and light, studyLink /blog/kingdom-of-lights/). V5: SI-003 studyLink switched to the relative path /blog/two-kingdoms/ (works in local preview, survives a domain change). refs stored as arrays.",
   "insights": [
     {
       "id": "SI-001",
@@ -41,6 +41,51 @@
       "postedDate": "2026-08-31",
       "studyLink": "/blog/kingdom-of-lights/",
       "studyLabel": "Kingdom of Lights"
+    },
+    {
+      "id": "SI-005",
+      "key": "many-mansions-dwelling-place",
+      "text": "Yahushua said in my Father's house are many mansions, and it gets read as real estate waiting in the sky. The word is not a mansion, it is a dwelling place, and He uses it again a few verses later: we will come to him and make our dwelling with him. The house was never a subdivision. It was people.",
+      "blip": "",
+      "refs": ["John 14:2", "John 14:23"],
+      "status": "posted",
+      "postedDate": "2026-08-31"
+    },
+    {
+      "id": "SI-006",
+      "key": "isaiah-four-blocks-last-unfulfilled",
+      "text": "Isaiah gets read like a drawer of loose verses — a Christmas line here, a suffering servant there. It runs in four blocks, in order, each covering its own stretch of time. Notice what that does to the last block: not one verse in it has ever been quoted as already fulfilled.",
+      "blip": "",
+      "refs": ["Isaiah 65:17", "Isaiah 66:22-23"],
+      "status": "posted",
+      "postedDate": "2026-08-31"
+    },
+    {
+      "id": "SI-007",
+      "key": "cup-is-entry-bread-is-the-walk",
+      "text": "The table has two things on it, and most teaching stops at one. The cup is entry — the blood, the door, the way in. The bread is the walk that follows, and a man who takes the cup and never touches the bread has come through the door and sat down in the entryway.",
+      "blip": "",
+      "refs": ["Matthew 26:26-28", "Romans 5:9-10"],
+      "status": "posted",
+      "postedDate": "2026-08-31"
+    },
+    {
+      "id": "SI-008",
+      "key": "apostle-requirement-eyewitness",
+      "text": "When they replaced Judas they did not vote on character. They named one requirement: the man had to have been there from the immersion of John to the day Yahushua was taken up, and to have seen Him risen. That is not a job description anyone alive can meet.",
+      "blip": "",
+      "refs": ["Acts 1:21-22", "1 Corinthians 9:1"],
+      "status": "posted",
+      "postedDate": "2026-08-31"
+    },
+    {
+      "id": "SI-009",
+      "key": "monument-outside-the-law-inside",
+      "text": "A monument of the ten commandments goes up outside a courthouse and the crowd cheers. That same week the sermon says the law was nailed to the cross. One of those two is wrong, and it is not the stone.",
+      "blip": "",
+      "refs": ["Matthew 5:18", "Romans 3:31"],
+      "status": "posted",
+      "postedDate": "2026-08-31"
     }
   ]
 }

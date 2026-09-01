@@ -1,6 +1,6 @@
 {
-  "version": "0808 V2",
-  "changeNote": "Added DEF-089 (royal priesthood is a Sinai quote) as APPROVED, not posted — the Defense lane stays unpublished, so it renders nothing new. Master numbering is unbroken; unloaded ids (086-088) are simply not present here (no placeholders).",
+  "version": "0831 V4",
+  "changeNote": "DEF-089 posted 2026-08-31 (a mansion is a dwelling, and He makes it with you here). Lane now 083-089 unbroken; next free id is 090. V3: Three entries posted 2026-08-31, closing the lane at 083-088 unbroken. DEF-086 (Joel described a condition, not an event) and DEF-088 (salt slows corruption) are new. DEF-087 is the former DEF-089 renumbered and promoted from approved to posted — same trigger, answer, key and refs. NOTE the batch specified deleting 086 and sliding 088/089/090 down; this file never carried 086, 088 or 090, so only the 089->087 move was real. Posted ids 083-085 untouched. Next free id is 089. V2: added DEF-089 (royal priesthood is a Sinai quote) as APPROVED, not posted. Master numbering is unbroken; unloaded ids are simply not present here (no placeholders).",
   "entries": [
     {
       "id": "DEF-083",
@@ -30,13 +30,40 @@
       "postedDate": "2026-08-06"
     },
     {
-      "id": "DEF-089",
+      "id": "DEF-086",
+      "key": "joel-condition-not-event",
+      "trigger": "Joel said in the last days Yahuah would pour out His Spirit.",
+      "answer": "Joel described a condition, not an event. A new temple, not a revival.",
+      "refs": ["Joel 2:28", "Ezekiel 36:27", "Acts 2:16"],
+      "status": "posted",
+      "postedDate": "2026-08-31"
+    },
+    {
+      "id": "DEF-087",
       "key": "royal-priesthood-quote-from-sinai",
       "trigger": "Peter calls believers a royal priesthood. That's a New Testament thing.",
       "answer": "It's a quote from Sinai. He offered it to every household before He narrowed it to one.",
       "refs": ["Exodus 19:6", "Numbers 3:12-13", "1 Peter 2:9"],
-      "status": "approved",
-      "postedDate": ""
+      "status": "posted",
+      "postedDate": "2026-08-31"
+    },
+    {
+      "id": "DEF-088",
+      "key": "salt-slows-corruption",
+      "trigger": "Our job is to change the culture.",
+      "answer": "Salt slows corruption. It does not reverse it. You were given a mark to carry, not a world to fix.",
+      "refs": ["Matthew 5:13", "Mark 9:50"],
+      "status": "posted",
+      "postedDate": "2026-08-31"
+    },
+    {
+      "id": "DEF-089",
+      "key": "mansion-is-a-dwelling-made-with-you",
+      "trigger": "He's preparing a mansion for me.",
+      "answer": "He said dwelling, not mansion. And He said He would make it with you, here.",
+      "refs": ["John 14:2", "John 14:23"],
+      "status": "posted",
+      "postedDate": "2026-08-31"
     }
   ]
 }
