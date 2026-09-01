@@ -2,7 +2,7 @@
   "meta": {
     "title": "The Legal Lexicon of Scripture",
     "role": "MASTER LIST — single source of truth. Check new terms against this before proposing any.",
-    "version": "0831 V19",
+    "version": "0831 V20",
     "updated": "2026-08-31",
     "totalTerms": 150,
     "movementsAreForward": true,
@@ -37,7 +37,8 @@
       "0831 V16: headword rule restored — 20 transliterated headwords (122–142, less 124 which already complied) converted to English; transliterations retained in rootLine. Promoted 5 queue candidates as 143–147, records only, word pages pending. 146 False Report joins the nasa root family, now four motions.",
       "0831 V17: rulings pass on V16. Repaired the V8 mis-key leftover — words[33] Engrave carried a self-reference {n:33, term:'Write'}; repointed to {n:32, term:'Write'}, which is where it belonged before the record moved 32→33. Swept the whole file for self-references (relatedInMovement or sharesRoot sibling whose n equals its parent's): that was the only one. The 20 word-page URLs the V16 rename changed are now covered by 301s in netlify.toml, and the 20 renamed pages carry social cards at their new slugs.",
       "0831 V18: added 148 Lawlessness, 149 Joint-Heir, 150 Sent One — three terms surfaced in chat between Aug 9 and Aug 15 that were never queued. Records only, word pages pending. NOTE the batch specified this as V17; V17 was already taken by the rulings pass on V16 (the words[33] self-reference repair) and is live, so this is V18.",
-      "0831 V19: 28 Recompense final word page written and flipped live. Joins 26 Shalom in the shalam root family. All 142 word pages now live; no draft remains. NOTE two corrections against the batch: it specified V18, which the 148-150 batch already took, so this is V19; and it said '147 original word pages', but the file holds 142 word records (141 previously live plus Recompense) — 147 was the term count before 148-150, and terms 143-150 still have no word page."
+      "0831 V19: 28 Recompense final word page written and flipped live. Joins 26 Shalom in the shalam root family. All 142 word pages now live; no draft remains. NOTE two corrections against the batch: it specified V18, which the 148-150 batch already took, so this is V19; and it said '147 original word pages', but the file holds 142 word records (141 previously live plus Recompense) — 147 was the term count before 148-150, and terms 143-150 still have no word page.",
+      "0831 V20: rulings pass. 27 Restitution added back to words[28].sharesRoot so the shalam-H7999 family runs symmetric in all three directions (26, 27 and 28 each list the other two); the note on 28 now covers all three parts — Recompense the payment, Restitution what goes back to the injured party, Shalom the state of the books once both have landed. ROOTLINE RULING: the rootLine carries the actual lemma, not a memory of the old headword, so 128 keeps sifrin and 132 keeps karat — both were already correct, so no edit was needed. Swept all 20 renamed records (122-142) for the same class of disagreement: those two were the only ones."
     ]
   },
   "movements": [
@@ -1821,9 +1822,13 @@
           {
             "n": 26,
             "term": "Shalom"
+          },
+          {
+            "n": 27,
+            "term": "Restitution"
           }
         ],
-        "note": "Shalom (H7965) and shillum (H7966) both grow from shalam (H7999): the recompense is the payment, and the shalom is the state of the books once it lands."
+        "note": "Shalam is to make an account whole, and the family holds its three parts: Recompense is the payment, Restitution is what goes back to the injured party, and Shalom is the state of the books once both have landed. Shalom (H7965) and shillum (H7966) both grow from shalam (H7999)."
       },
       "courtroomWord": "A settlement term — the payment that brings an account all the way to complete.",
       "itsRole": "An open account is not closed by pity. It is closed by payment, and recompense is that payment made whole. In Movement IV the recompense that clears the accused did not come from the accused. Yahuah is the one who provided the Lamb and the one who laid the charge upon Him — the Father initiates the payment, He is not talked into accepting it. This is where the modern pulpit inverts the scene, teaching an angry Father held back by a Son who buys Him off. Isaiah files it the other way: it pleased Yahuah to bruise Him, and the chastisement of our shalom was upon Him. The Father recompensed the debt with the Lamb He Himself provided.",
