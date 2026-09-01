@@ -2,9 +2,9 @@
   "meta": {
     "title": "The Legal Lexicon of Scripture",
     "role": "MASTER LIST — single source of truth. Check new terms against this before proposing any.",
-    "version": "0831 V17",
+    "version": "0831 V19",
     "updated": "2026-08-31",
-    "totalTerms": 147,
+    "totalTerms": 150,
     "movementsAreForward": true,
     "tokens": {
       "font": "Georgia, 'Times New Roman', serif",
@@ -35,7 +35,9 @@
       "0801 V14 FINAL: merged 13 word pages (Transgression–Write: 19,110,40,68,112,103,43,107,47,66,7,111,32) into words; those terms set page draft-v1. 32 Write fills the slot cleared in V8. Completes all 142 of 142 word pages.",
       "0801 V15: GO-LIVE — flipped 141 word pages from draft-v1 to live. Recompense (28) held at draft-v4 (its own advanced draft, pending confirmation). All 142 word records present; page status is metadata only (rendering runs off hasWord, not page).",
       "0831 V16: headword rule restored — 20 transliterated headwords (122–142, less 124 which already complied) converted to English; transliterations retained in rootLine. Promoted 5 queue candidates as 143–147, records only, word pages pending. 146 False Report joins the nasa root family, now four motions.",
-      "0831 V17: rulings pass on V16. Repaired the V8 mis-key leftover — words[33] Engrave carried a self-reference {n:33, term:'Write'}; repointed to {n:32, term:'Write'}, which is where it belonged before the record moved 32→33. Swept the whole file for self-references (relatedInMovement or sharesRoot sibling whose n equals its parent's): that was the only one. The 20 word-page URLs the V16 rename changed are now covered by 301s in netlify.toml, and the 20 renamed pages carry social cards at their new slugs."
+      "0831 V17: rulings pass on V16. Repaired the V8 mis-key leftover — words[33] Engrave carried a self-reference {n:33, term:'Write'}; repointed to {n:32, term:'Write'}, which is where it belonged before the record moved 32→33. Swept the whole file for self-references (relatedInMovement or sharesRoot sibling whose n equals its parent's): that was the only one. The 20 word-page URLs the V16 rename changed are now covered by 301s in netlify.toml, and the 20 renamed pages carry social cards at their new slugs.",
+      "0831 V18: added 148 Lawlessness, 149 Joint-Heir, 150 Sent One — three terms surfaced in chat between Aug 9 and Aug 15 that were never queued. Records only, word pages pending. NOTE the batch specified this as V17; V17 was already taken by the rulings pass on V16 (the words[33] self-reference repair) and is live, so this is V18.",
+      "0831 V19: 28 Recompense final word page written and flipped live. Joins 26 Shalom in the shalam root family. All 142 word pages now live; no draft remains. NOTE two corrections against the batch: it specified V18, which the 148-150 batch already took, so this is V19; and it said '147 original word pages', but the file holds 142 word records (141 previously live plus Recompense) — 147 was the term count before 148-150, and terms 143-150 still have no word page."
     ]
   },
   "movements": [
@@ -278,7 +280,7 @@
       "term": "Recompense",
       "movement": 4,
       "gloss": "the debt paid in our place",
-      "page": "draft-v4"
+      "page": "live"
     },
     {
       "n": 29,
@@ -1179,6 +1181,30 @@
       "gloss": "the firstborn's two shares of the estate",
       "strongs": "H6310+H8147",
       "page": "pending"
+    },
+    {
+      "n": 148,
+      "term": "Lawlessness",
+      "movement": 2,
+      "gloss": "the state of standing outside the code",
+      "strongs": "G458",
+      "page": "pending"
+    },
+    {
+      "n": 149,
+      "term": "Joint-Heir",
+      "movement": 3,
+      "gloss": "shared standing in one undivided estate",
+      "strongs": "G4789",
+      "page": "pending"
+    },
+    {
+      "n": 150,
+      "term": "Sent One",
+      "movement": 1,
+      "gloss": "delegated authority, bound to the message sent",
+      "strongs": "G652 / H7971",
+      "page": "pending"
     }
   ],
   "words": {
@@ -1774,19 +1800,19 @@
       "n": 28,
       "term": "Recompense",
       "movement": 4,
-      "rootLine": "shalam / gamal — Hebrew",
-      "caseStrongs": "H7999 · H1580",
-      "lead": "To render the legal due — good for good, ill for ill — as the case requires. “To me belongeth vengeance, and recompence” (Deuteronomy 32:35) is a court reserving to itself the right to settle every outstanding account, favorable and unfavorable alike. Recompense is not spite when the ledger runs against a man, nor mere generosity when it runs for him; it is the verdict paid out in full. The same word that guarantees the faithful their wage guarantees the guilty their sentence. To recompense is to close the account by giving each party exactly what the record assigns.",
+      "rootLine": "shillum / shalam — Hebrew",
+      "caseStrongs": "H7966 · H7999",
+      "lead": "Recompense sounds like a synonym for revenge, and half the time the English carries it that way. But shalam does not mean to strike back. It means to make whole — to bring an account all the way to complete, so that nothing is left standing open. A man who repays what he took has shalamed the debt. The same root gives shalom: not a feeling of calm, but a ledger with nothing outstanding. Recompense is that settling. It runs both directions in Scripture, and Movement IV holds the direction that clears the defendant: the debt answered in full, in the place of the one who owed it. Isaiah says it in the root itself — the chastisement of our shalom was upon Him. The very word for the peace we walk in is the word for a debt paid to the bottom.",
       "root": [
         {
           "lemma": "shalam",
           "strong": "H7999",
-          "sense": "to make whole, to pay in full, to render what is owed"
+          "sense": "to make whole, to complete, to repay in full"
         },
         {
-          "lemma": "gamal",
-          "strong": "H1580",
-          "sense": "to deal out, to bring a matter to its due return"
+          "lemma": "shillum",
+          "strong": "H7966",
+          "sense": "a recompense, a requital; the payment that settles"
         }
       ],
       "sharesRoot": {
@@ -1795,94 +1821,73 @@
           {
             "n": 26,
             "term": "Shalom"
-          },
-          {
-            "n": 27,
-            "term": "Restitution"
           }
         ],
-        "note": "One root, three faces of a single legal idea: peace is the account paid (Shalom), the wrong repaid (Restitution), the verdict paid out (Recompense). The same shalam is why Isaiah can say the chastisement of our peace was upon Him — the recompense that makes us whole and the peace it buys are the same word."
+        "note": "Shalom (H7965) and shillum (H7966) both grow from shalam (H7999): the recompense is the payment, and the shalom is the state of the books once it lands."
       },
-      "courtroomWord": "A settlement verb — the paying-out term of the court. It does not weigh guilt or innocence; that is already decided. Recompense is the act that comes after the finding: the debt settled, the wage paid.",
-      "itsRole": "Recompense is the payout. The pay that sin earns is death (Romans 6:23) — a real debt the court will collect. But at the tree the Father stepped in and laid that payment on the Lamb He provided. The recompense did not fall on us; it fell on the Son. The right to settle the account belongs to Yahuah alone, and He commits the settling to His Son (John 5:22) — the Son who bore it once will render it at the end.",
+      "courtroomWord": "A settlement term — the payment that brings an account all the way to complete.",
+      "itsRole": "An open account is not closed by pity. It is closed by payment, and recompense is that payment made whole. In Movement IV the recompense that clears the accused did not come from the accused. Yahuah is the one who provided the Lamb and the one who laid the charge upon Him — the Father initiates the payment, He is not talked into accepting it. This is where the modern pulpit inverts the scene, teaching an angry Father held back by a Son who buys Him off. Isaiah files it the other way: it pleased Yahuah to bruise Him, and the chastisement of our shalom was upon Him. The Father recompensed the debt with the Lamb He Himself provided.",
       "proofTexts": [
-        {
-          "ref": "Romans 6:23",
-          "text": "The wages of sin is death.",
-          "note": "The debt on the books — the pay sin earns."
-        },
         {
           "ref": "Isaiah 53:5",
           "text": "The chastisement of our peace was upon him.",
-          "note": "The Father lays the payment on the Son; the recompense that makes us whole falls on the Lamb."
+          "note": "The recompense that produced our shalom, laid on the Lamb."
+        },
+        {
+          "ref": "Isaiah 53:6",
+          "text": "Yahuah hath laid on him the iniquity of us all.",
+          "note": "The Father as the one who lays the charge, not the one persuaded."
         },
         {
           "ref": "Deuteronomy 32:35",
           "text": "To me belongeth vengeance, and recompence.",
-          "note": "The right to settle the account is reserved to Yahuah's court."
+          "note": "The settling reserved to the bench."
         },
         {
-          "ref": "John 5:22",
-          "text": "The Father… hath committed all judgment unto the Son.",
-          "note": "The payout is handed to the Son — an office given, not seized."
-        },
-        {
-          "ref": "Matthew 16:27",
-          "text": "He shall reward every man according to his works.",
-          "note": "The same Son delivers the final payout at the bench."
+          "ref": "Isaiah 35:4",
+          "text": "Your Elohim will come with... a recompence; he will come and save you.",
+          "note": "The same settling that clears the delivered."
         }
       ],
       "plainTerms": [
-        "Recompense means being paid back exactly what is coming to you — good or bad — because the record says so. It is not revenge, and it is not a gift. It is the account settled down to the last line.",
-        "Here is the turn: the pay that sin earned was death, and it did not land on you. Yahuah laid it on the Lamb He provided. The payment that should have made you pay is the payment that makes you whole."
+        "Recompense means to make an account whole — to pay it all the way to the bottom so nothing is left owing. It is the same root as shalom, which is not a calm feeling but a ledger at zero. The debt we could not pay was answered in our place, and the one who provided the payment was Yahuah Himself."
       ],
       "bringItHome": [
-        "Picture a debt so large it costs a life. The court will be paid — that part is certain. But the Father steps in and lays the payment on the Son He provided. Isaiah saw it a thousand years early: “the chastisement of our peace was upon him.” The recompense that makes us whole fell on the Lamb, not on us. The Father rendered it; the Son bore it. That is the tree.",
-        "The Father did the appointing; the Son did the bearing. Neither is the other, and the Son does not step forward on His own — He is the Lamb the Father provided and laid the account upon."
+        "Think of a bill paid to the last penny, so there is nothing left to come back for. That is recompense — the account made whole. And notice what the word turns into: shalom. Peace, in Hebrew, is what a settled account feels like. The chastisement of our shalom was upon Him means the payment that cleared our books landed on the Lamb, and it was the Father who provided Him and the Father who laid it there."
       ],
-      "bringItHomeForward": "And the same Son the Father laid the payment on is the One to whom the Father hands the final payout: “he shall reward every man according to his works.” What He bore at the tree, He delivers at the bench (Movement VII). Tree to throne — the Father appointing, the Son carrying it out.",
       "courtroomRoles": [
         {
           "who": "Yahuah",
-          "role": "the Judge",
-          "does": "reserves the right to settle every account, and lays the payment where He wills."
+          "role": "the Judge and the Provider",
+          "does": "provides the Lamb and lays the recompense upon Him."
         },
         {
           "who": "Yahushua",
-          "role": "bears the sentence",
-          "does": "the Lamb the Father provided, on whom the recompense fell."
+          "role": "the Lamb provided",
+          "does": "bears the payment that settles the account."
         },
         {
-          "who": "The guilty",
+          "who": "The debtor",
           "role": "the Defendant",
-          "does": "the one whose wage was death — the debt that had to be paid."
-        },
-        {
-          "who": "The ledger",
-          "role": "the Record",
-          "does": "fixes exactly what each party is owed, to the last line."
+          "does": "whose books are brought to zero by a payment he did not make."
         }
       ],
       "relatedInMovement": [
         {
-          "n": 13,
-          "term": "Redeem"
+          "n": 26,
+          "term": "Shalom"
         },
         {
-          "n": 15,
-          "term": "Ransom"
+          "n": 27,
+          "term": "Restitution"
         },
         {
           "n": 20,
           "term": "Atonement"
         },
         {
-          "n": 89,
-          "term": "Blood"
-        },
-        {
-          "n": 9,
-          "term": "Advocate"
+          "n": 15,
+          "term": "Ransom"
         }
       ]
     },

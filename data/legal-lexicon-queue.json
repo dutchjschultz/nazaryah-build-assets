@@ -2,12 +2,22 @@
   "meta": {
     "title": "Legal Lexicon — Candidate Queue (Monthly Review)",
     "role": "Growing list of terms surfaced in chats, awaiting promotion. Promoted terms are removed here and added to the MASTER.",
-    "version": "0831 V4",
+    "version": "0831 V5",
     "updated": "2026-08-31",
-    "openCount": 0,
+    "openCount": 1,
     "deployAs": "/data/legal-lexicon-queue.json"
   },
-  "candidates": [],
+  "candidates": [
+    {
+      "term": "Prayer",
+      "strongs": "H6419",
+      "proposedMovement": 7,
+      "gloss": "to fall before the judge and press for a verdict",
+      "legalSense": "Palal is to judge, to mediate, to intervene. The reflexive lehitpalel is to judge oneself. The root sits in a purely legal context at Exodus 21:22. Tephillah, the common noun for prayer, grows from it.",
+      "duplicateCheck": "Master 115 Plead already carries 'to bring and argue the lawsuit,' and 12 Intercession carries the stepping-between sense. Prayer may be a refinement of 115 rather than a new number. Resolve before promotion.",
+      "surfaced": "2026-08-31"
+    }
+  ],
   "promotionLog": [
     {
       "date": "2026-07-31",
@@ -143,6 +153,7 @@
   "changelog": [
     "0801 V2: audited the standing pending list against master 0731 V2. All 22 prior terms confirmed present as 121-142; Goral and Mishpat confirmed discarded as duplicates. Two terms surfaced 0731 were never queued and are entered here as open candidates: Ed / Al-pi Shnayim Edim, and Darash.",
     "0808 V3: added three candidates surfaced in chat — Rakil (H7400), Nasa Shema Shav (H5375+H8088+H7723), and Pi Shenayim (H6310+H8147). Open count 2 to 5. Two of the five (Ed / Al-pi Shnayim Edim, Pi Shenayim) are flagged as possible refinements of existing master entries rather than new numbers; both must be resolved before promotion. Master untouched at 0801 V15, 142 terms.",
-    "0831 V4: promoted all 5 open candidates as 143–147 under English headwords per the restored headword rule. Queue empty."
+    "0831 V4: promoted all 5 open candidates as 143–147 under English headwords per the restored headword rule. Queue empty.",
+    "0831 V5: Prayer (H6419) entered as an open candidate, flagged as a possible refinement of 115 Plead."
   ]
 }
