@@ -1,6 +1,6 @@
 {
-  "version": "0831 V4",
-  "changeNote": "DEF-089 posted 2026-08-31 (a mansion is a dwelling, and He makes it with you here). Lane now 083-089 unbroken; next free id is 090. V3: Three entries posted 2026-08-31, closing the lane at 083-088 unbroken. DEF-086 (Joel described a condition, not an event) and DEF-088 (salt slows corruption) are new. DEF-087 is the former DEF-089 renumbered and promoted from approved to posted — same trigger, answer, key and refs. NOTE the batch specified deleting 086 and sliding 088/089/090 down; this file never carried 086, 088 or 090, so only the 089->087 move was real. Posted ids 083-085 untouched. Next free id is 089. V2: added DEF-089 (royal priesthood is a Sinai quote) as APPROVED, not posted. Master numbering is unbroken; unloaded ids are simply not present here (no placeholders).",
+  "version": "0903 V5",
+  "changeNote": "V5: DEF-090 posted 2026-09-03 (Satan fell from heaven with a third of the angels — the apostles reported the fruit, Yahushua named what it meant in the unseen world). Lane now 083-090 unbroken; next free id is 091. Paired with SI-011 on the same passage. V4: DEF-089 posted 2026-08-31 (a mansion is a dwelling, and He makes it with you here). Lane now 083-089 unbroken; next free id is 090. V3: Three entries posted 2026-08-31, closing the lane at 083-088 unbroken. DEF-086 (Joel described a condition, not an event) and DEF-088 (salt slows corruption) are new. DEF-087 is the former DEF-089 renumbered and promoted from approved to posted — same trigger, answer, key and refs. NOTE the batch specified deleting 086 and sliding 088/089/090 down; this file never carried 086, 088 or 090, so only the 089->087 move was real. Posted ids 083-085 untouched. Next free id is 089. V2: added DEF-089 (royal priesthood is a Sinai quote) as APPROVED, not posted. Master numbering is unbroken; unloaded ids are simply not present here (no placeholders).",
   "entries": [
     {
       "id": "DEF-083",
@@ -64,6 +64,15 @@
       "refs": ["John 14:2", "John 14:23"],
       "status": "posted",
       "postedDate": "2026-08-31"
+    },
+    {
+      "id": "DEF-090",
+      "key": "satan-fell-from-heaven-not-a-history-lesson",
+      "trigger": "Satan fell from heaven with a third of the angels.",
+      "answer": "The apostles reported the fruit; Yahushua told them what it meant in the unseen world.",
+      "refs": ["Luke 10:17-18"],
+      "status": "posted",
+      "postedDate": "2026-09-03"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "version": "0902 V8",
-  "changeNote": "V8: SI-010 added — the vineyard owner came to collect righteousness (Matthew 21:43 · Deuteronomy 6:25 · Isaiah 5:7), studyLink /blog/house-without-the-owner/, postedDate 2026-09-02 so it sorts above the 2026-08-31 block and leads the lane. V7: Five insights posted 2026-08-31. NOTE the batch specified them as SI-004 through SI-008, but SI-004 was already taken and posted earlier the same day (the ten virgins / lamp and light insight, live with a studyLink to Kingdom of Lights). Posted ids do not move, so the five were loaded as SI-005 through SI-009 instead: many mansions, Isaiah in four blocks, the cup and the bread, the apostle requirement, and the courthouse monument. No studyLink on any of the five; refs render on screen as usual. Because all six of the 2026-08-31 insights share a date, the lane breaks the tie by id descending, so SI-009 is now newest and drives the home-page strip. V6: SI-004 added (ten virgins / lamp and light, studyLink /blog/kingdom-of-lights/). V5: SI-003 studyLink switched to the relative path /blog/two-kingdoms/ (works in local preview, survives a domain change). refs stored as arrays.",
+  "version": "0903 V9",
+  "changeNote": "V9: SI-011 added — Luke 10:17-18, the lightning fall read as the enemy's grip breaking in real time rather than a history lesson. The trailing verse citation in the supplied copy was moved out of the body into refs, where the lane renders it. Paired with DEF-090 on the same passage. V8: SI-010 added — the vineyard owner came to collect righteousness (Matthew 21:43 · Deuteronomy 6:25 · Isaiah 5:7), studyLink /blog/house-without-the-owner/, postedDate 2026-09-02 so it sorts above the 2026-08-31 block and leads the lane. V7: Five insights posted 2026-08-31. NOTE the batch specified them as SI-004 through SI-008, but SI-004 was already taken and posted earlier the same day (the ten virgins / lamp and light insight, live with a studyLink to Kingdom of Lights). Posted ids do not move, so the five were loaded as SI-005 through SI-009 instead: many mansions, Isaiah in four blocks, the cup and the bread, the apostle requirement, and the courthouse monument. No studyLink on any of the five; refs render on screen as usual. Because all six of the 2026-08-31 insights share a date, the lane breaks the tie by id descending, so SI-009 is now newest and drives the home-page strip. V6: SI-004 added (ten virgins / lamp and light, studyLink /blog/kingdom-of-lights/). V5: SI-003 studyLink switched to the relative path /blog/two-kingdoms/ (works in local preview, survives a domain change). refs stored as arrays.",
   "insights": [
     {
       "id": "SI-001",
@@ -97,6 +97,15 @@
       "postedDate": "2026-09-02",
       "studyLink": "/blog/house-without-the-owner/",
       "studyLabel": "They Wanted the House Without the Owner"
+    },
+    {
+      "id": "SI-011",
+      "key": "lightning-fall-not-a-history-lesson",
+      "text": "The apostles reported the fruit; Yahushua told them what it meant in the unseen world. He was not giving a history lesson — He was watching the enemy's grip on men break in real time, and the tree would finish it.",
+      "blip": "",
+      "refs": ["Luke 10:17-18"],
+      "status": "posted",
+      "postedDate": "2026-09-03"
     }
   ]
 }
