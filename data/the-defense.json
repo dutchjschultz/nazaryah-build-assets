@@ -1,6 +1,6 @@
 {
-  "version": "0903 V6",
-  "changeNote": "V6: the PAIRING pass — every Scripture Insight now carries a Defense that mirrors it (the standing shape: the answer is the insight's first sentence, the insight carries the reasoning, and the only new writing is the claim in the objector's voice). DEF-091 through DEF-098 mirror SI-004, SI-001, SI-003, SI-006, SI-007, SI-008, SI-009 and SI-010 in that order. SI-002 already had DEF-086, SI-005 had DEF-089, SI-011 had DEF-090. Only DEF-091 takes its insight's first sentence verbatim; the other seven insights were written before this shape existed and open on a scene-setter or a fragment, so their answers are SHORTENED from the insight's own words per the standing exception — no insight was bent to fit, and no new doctrine was introduced. No entry was left standing alone: none of the eleven is a declaration nobody contests. Lane now 083-098 unbroken; next free id is 099. V5: DEF-090 posted 2026-09-03 (Satan fell from heaven with a third of the angels — the apostles reported the fruit, Yahushua named what it meant in the unseen world). Lane now 083-090 unbroken; next free id is 091. Paired with SI-011 on the same passage. V4: DEF-089 posted 2026-08-31 (a mansion is a dwelling, and He makes it with you here). Lane now 083-089 unbroken; next free id is 090. V3: Three entries posted 2026-08-31, closing the lane at 083-088 unbroken. DEF-086 (Joel described a condition, not an event) and DEF-088 (salt slows corruption) are new. DEF-087 is the former DEF-089 renumbered and promoted from approved to posted — same trigger, answer, key and refs. NOTE the batch specified deleting 086 and sliding 088/089/090 down; this file never carried 086, 088 or 090, so only the 089->087 move was real. Posted ids 083-085 untouched. Next free id is 089. V2: added DEF-089 (royal priesthood is a Sinai quote) as APPROVED, not posted. Master numbering is unbroken; unloaded ids are simply not present here (no placeholders).",
+  "version": "0903 V7",
+  "changeNote": "V7: PAIRED-CARD REBUILD. Each entry that mirrors an insight carries `pair` (that insight's id); the five entries with no insight carry none, per the spec. WARNING those five — DEF-083, DEF-084, DEF-085, DEF-087, DEF-088 — are no longer rendered anywhere: /close-to-the-hip is now one card per Scripture Insight, and a Defense reaches the page only through its pair. They are still posted and still in this file, but they are dark until an insight is written for them or the page grows a card shape for a standalone claim. NOTE the rebuild spec called for a `meta` block to hold the version; this file has never had one — version and changeNote are top-level fields here, and that is where the bump went. V6: the PAIRING pass — every Scripture Insight now carries a Defense that mirrors it (the standing shape: the answer is the insight's first sentence, the insight carries the reasoning, and the only new writing is the claim in the objector's voice). DEF-091 through DEF-098 mirror SI-004, SI-001, SI-003, SI-006, SI-007, SI-008, SI-009 and SI-010 in that order. SI-002 already had DEF-086, SI-005 had DEF-089, SI-011 had DEF-090. Only DEF-091 takes its insight's first sentence verbatim; the other seven insights were written before this shape existed and open on a scene-setter or a fragment, so their answers are SHORTENED from the insight's own words per the standing exception — no insight was bent to fit, and no new doctrine was introduced. No entry was left standing alone: none of the eleven is a declaration nobody contests. Lane now 083-098 unbroken; next free id is 099. V5: DEF-090 posted 2026-09-03 (Satan fell from heaven with a third of the angels — the apostles reported the fruit, Yahushua named what it meant in the unseen world). Lane now 083-090 unbroken; next free id is 091. Paired with SI-011 on the same passage. V4: DEF-089 posted 2026-08-31 (a mansion is a dwelling, and He makes it with you here). Lane now 083-089 unbroken; next free id is 090. V3: Three entries posted 2026-08-31, closing the lane at 083-088 unbroken. DEF-086 (Joel described a condition, not an event) and DEF-088 (salt slows corruption) are new. DEF-087 is the former DEF-089 renumbered and promoted from approved to posted — same trigger, answer, key and refs. NOTE the batch specified deleting 086 and sliding 088/089/090 down; this file never carried 086, 088 or 090, so only the 089->087 move was real. Posted ids 083-085 untouched. Next free id is 089. V2: added DEF-089 (royal priesthood is a Sinai quote) as APPROVED, not posted. Master numbering is unbroken; unloaded ids are simply not present here (no placeholders).",
   "entries": [
     {
       "id": "DEF-083",
@@ -32,6 +32,7 @@
     {
       "id": "DEF-086",
       "key": "joel-condition-not-event",
+      "pair": "SI-002",
       "trigger": "Joel said in the last days Yahuah would pour out His Spirit.",
       "answer": "Joel described a condition, not an event. A new temple, not a revival.",
       "refs": ["Joel 2:28", "Ezekiel 36:27", "Acts 2:16"],
@@ -59,6 +60,7 @@
     {
       "id": "DEF-089",
       "key": "mansion-is-a-dwelling-made-with-you",
+      "pair": "SI-005",
       "trigger": "He's preparing a mansion for me.",
       "answer": "He said dwelling, not mansion. And He said He would make it with you, here.",
       "refs": ["John 14:2", "John 14:23"],
@@ -68,6 +70,7 @@
     {
       "id": "DEF-090",
       "key": "satan-fell-from-heaven-not-a-history-lesson",
+      "pair": "SI-011",
       "trigger": "Satan fell from heaven with a third of the angels.",
       "answer": "The apostles reported the fruit; Yahushua told them what it meant in the unseen world.",
       "refs": ["Luke 10:17-18"],
@@ -77,6 +80,7 @@
     {
       "id": "DEF-091",
       "key": "oil-is-not-the-spirit",
+      "pair": "SI-004",
       "trigger": "The oil in the ten virgins is the Holy Spirit.",
       "answer": "The ten virgins is not a story about being late, and it is not a story about how much of the Spirit anyone had.",
       "refs": ["Matthew 25:1-13", "Proverbs 6:23", "Exodus 27:20"],
@@ -86,6 +90,7 @@
     {
       "id": "DEF-092",
       "key": "law-on-the-heart-is-the-tablets",
+      "pair": "SI-001",
       "trigger": "The law is written on my heart now. I do not need the written commandments.",
       "answer": "Your body is the temple, and what was kept in its innermost room was the law. The deepest place in a man holds a standard, not a feeling.",
       "refs": ["1 Corinthians 6:19", "Jeremiah 31:33", "Hebrews 9:4"],
@@ -95,6 +100,7 @@
     {
       "id": "DEF-093",
       "key": "two-princes-neither-holds-a-deed",
+      "pair": "SI-003",
       "trigger": "Satan is the god of this world. This world is his.",
       "answer": "Two princes are named in the Book, and neither one holds a deed. Allegiance shows up in the statutes a man keeps.",
       "refs": ["Psalm 24:1", "John 12:31", "Isaiah 9:6"],
@@ -104,6 +110,7 @@
     {
       "id": "DEF-094",
       "key": "isaiah-last-block-unfulfilled",
+      "pair": "SI-006",
       "trigger": "Isaiah was all fulfilled at the first coming.",
       "answer": "Isaiah runs in four blocks, in order, each covering its own stretch of time. Not one verse in the last block has ever been quoted as already fulfilled.",
       "refs": ["Isaiah 65:17", "Isaiah 66:22-23"],
@@ -113,6 +120,7 @@
     {
       "id": "DEF-095",
       "key": "cup-is-entry-bread-is-the-walk",
+      "pair": "SI-007",
       "trigger": "The blood is what saves me. The rest is legalism.",
       "answer": "The cup is entry — the blood, the door, the way in. The bread is the walk that follows, and a man who takes the cup and never touches the bread has sat down in the entryway.",
       "refs": ["Matthew 26:26-28", "Romans 5:9-10"],
@@ -122,6 +130,7 @@
     {
       "id": "DEF-096",
       "key": "no-apostle-alive-can-meet-the-requirement",
+      "pair": "SI-008",
       "trigger": "He's a modern-day apostle.",
       "answer": "When they replaced Judas they did not vote on character. They named one requirement: the man had to have walked with Yahushua from the immersion of John and seen Him risen. Nobody alive can meet it.",
       "refs": ["Acts 1:21-22", "1 Corinthians 9:1"],
@@ -131,6 +140,7 @@
     {
       "id": "DEF-097",
       "key": "monument-outside-the-law-inside",
+      "pair": "SI-009",
       "trigger": "The law was nailed to the cross.",
       "answer": "A monument of the ten commandments goes up outside a courthouse and the crowd cheers. That same week the sermon says the law was nailed to the cross. One of those two is wrong, and it is not the stone.",
       "refs": ["Matthew 5:18", "Romans 3:31"],
@@ -140,6 +150,7 @@
     {
       "id": "DEF-098",
       "key": "vineyard-never-moved",
+      "pair": "SI-010",
       "trigger": "Yahuah replaced Israel with the church.",
       "answer": "Ask what the owner came to collect. Not grapes, not attendance, not a building — righteousness in his people. The renters were removed. The vineyard stayed exactly where it was.",
       "refs": ["Matthew 21:43", "Deuteronomy 6:25", "Isaiah 5:7"],

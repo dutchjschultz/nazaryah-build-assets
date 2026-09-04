@@ -1,31 +1,37 @@
 {
-  "version": "0903 V9",
-  "changeNote": "V9: SI-011 added — Luke 10:17-18, the lightning fall read as the enemy's grip breaking in real time rather than a history lesson. The trailing verse citation in the supplied copy was moved out of the body into refs, where the lane renders it. Paired with DEF-090 on the same passage. V8: SI-010 added — the vineyard owner came to collect righteousness (Matthew 21:43 · Deuteronomy 6:25 · Isaiah 5:7), studyLink /blog/house-without-the-owner/, postedDate 2026-09-02 so it sorts above the 2026-08-31 block and leads the lane. V7: Five insights posted 2026-08-31. NOTE the batch specified them as SI-004 through SI-008, but SI-004 was already taken and posted earlier the same day (the ten virgins / lamp and light insight, live with a studyLink to Kingdom of Lights). Posted ids do not move, so the five were loaded as SI-005 through SI-009 instead: many mansions, Isaiah in four blocks, the cup and the bread, the apostle requirement, and the courthouse monument. No studyLink on any of the five; refs render on screen as usual. Because all six of the 2026-08-31 insights share a date, the lane breaks the tie by id descending, so SI-009 is now newest and drives the home-page strip. V6: SI-004 added (ten virgins / lamp and light, studyLink /blog/kingdom-of-lights/). V5: SI-003 studyLink switched to the relative path /blog/two-kingdoms/ (works in local preview, survives a domain change). refs stored as arrays.",
+  "version": "0903 V10",
+  "changeNote": "V10: PAIRED-CARD REBUILD. Every insight now carries `pair` (the id of its mirroring Defense entry) and, where the subject is load-bearing, `clusters` — cluster keys taken character-for-character from src/data/associations.js and validated against that registry before writing. The clusters field is what the chip row on /close-to-the-hip is generated from; the chip list itself is never hand-maintained. SI-008, SI-009 and SI-011 carry no clusters: nothing in the registry fits without stretching, and standing alone is a valid answer. NOTE the rebuild spec called for a `meta` block to hold the version; this file has never had one — version and changeNote are top-level fields here, and that is where the bump went. V9: SI-011 added — Luke 10:17-18, the lightning fall read as the enemy's grip breaking in real time rather than a history lesson. The trailing verse citation in the supplied copy was moved out of the body into refs, where the lane renders it. Paired with DEF-090 on the same passage. V8: SI-010 added — the vineyard owner came to collect righteousness (Matthew 21:43 · Deuteronomy 6:25 · Isaiah 5:7), studyLink /blog/house-without-the-owner/, postedDate 2026-09-02 so it sorts above the 2026-08-31 block and leads the lane. V7: Five insights posted 2026-08-31. NOTE the batch specified them as SI-004 through SI-008, but SI-004 was already taken and posted earlier the same day (the ten virgins / lamp and light insight, live with a studyLink to Kingdom of Lights). Posted ids do not move, so the five were loaded as SI-005 through SI-009 instead: many mansions, Isaiah in four blocks, the cup and the bread, the apostle requirement, and the courthouse monument. No studyLink on any of the five; refs render on screen as usual. Because all six of the 2026-08-31 insights share a date, the lane breaks the tie by id descending, so SI-009 is now newest and drives the home-page strip. V6: SI-004 added (ten virgins / lamp and light, studyLink /blog/kingdom-of-lights/). V5: SI-003 studyLink switched to the relative path /blog/two-kingdoms/ (works in local preview, survives a domain change). refs stored as arrays.",
   "insights": [
     {
       "id": "SI-001",
       "key": "body-temple-law-innermost-room",
+      "pair": "DEF-092",
       "text": "Your body is the temple. What was kept in the innermost room was the law. So when Jeremiah says the law is written on the inward parts, the tablets are back where they belong. The deepest place in a man holds a standard, not a feeling.",
       "blip": "The manna and the rod sat there too — provision and priesthood. Fed, led, and governed, all behind the veil.",
       "refs": ["1 Corinthians 6:19", "Jeremiah 31:33", "Hebrews 9:4"],
+      "clusters": ["the-mishkan"],
       "status": "posted",
       "postedDate": "2026-08-05"
     },
     {
       "id": "SI-002",
       "key": "joel-shavuot-new-temple",
+      "pair": "DEF-086",
       "text": "Yahuah's presence sat in one room, behind one veil, and one man went in once a year. Joel wasn't promising a revival. He was promising a new temple — the Spirit poured out on all flesh, so the innermost room is now a person. Shavuot was the day it started.",
       "blip": "",
       "refs": ["Joel 2:28", "Acts 2:16-17", "1 Corinthians 6:19"],
+      "clusters": ["the-mishkan"],
       "status": "posted",
       "postedDate": "2026-08-08"
     },
     {
       "id": "SI-003",
       "key": "two-princes-whose-statutes",
+      "pair": "DEF-093",
       "text": "Prince of this world. Prince of Peace. Two princes named in the Book, and neither one holds a deed — the earth is Yahuah's, and the fulness thereof. Allegiance shows up in the statutes a man keeps. Whose are you keeping?",
       "blip": "",
       "refs": ["Psalm 24:1", "John 12:31", "Isaiah 9:6"],
+      "clusters": ["delegated-authority"],
       "status": "posted",
       "postedDate": "2026-08-09",
       "studyLink": "/blog/two-kingdoms/",
@@ -34,9 +40,11 @@
     {
       "id": "SI-004",
       "key": "ten-virgins-lamp-and-light",
+      "pair": "DEF-091",
       "text": "The ten virgins is not a story about being late, and it is not a story about how much of the Spirit anyone had. It is about a priesthood, a light, and what happens to a house when that light goes out. The commandment is a lamp and the Torah is light. Nobody sells the Spirit of Yahuah, and verse nine sends them out to buy.",
       "blip": "",
       "refs": ["Matthew 25:1-13", "Proverbs 6:23", "Exodus 27:20"],
+      "clusters": ["light-and-lamp", "the-mishkan"],
       "status": "posted",
       "postedDate": "2026-08-31",
       "studyLink": "/blog/kingdom-of-lights/",
@@ -45,33 +53,40 @@
     {
       "id": "SI-005",
       "key": "many-mansions-dwelling-place",
+      "pair": "DEF-089",
       "text": "Yahushua said in my Father's house are many mansions, and it gets read as real estate waiting in the sky. The word is not a mansion, it is a dwelling place, and He uses it again a few verses later: we will come to him and make our dwelling with him. The house was never a subdivision. It was people.",
       "blip": "",
       "refs": ["John 14:2", "John 14:23"],
+      "clusters": ["pulpit-vocabulary", "lost-in-translation"],
       "status": "posted",
       "postedDate": "2026-08-31"
     },
     {
       "id": "SI-006",
       "key": "isaiah-four-blocks-last-unfulfilled",
+      "pair": "DEF-094",
       "text": "Isaiah gets read like a drawer of loose verses — a Christmas line here, a suffering servant there. It runs in four blocks, in order, each covering its own stretch of time. Notice what that does to the last block: not one verse in it has ever been quoted as already fulfilled.",
       "blip": "",
       "refs": ["Isaiah 65:17", "Isaiah 66:22-23"],
+      "clusters": ["restored-creation"],
       "status": "posted",
       "postedDate": "2026-08-31"
     },
     {
       "id": "SI-007",
       "key": "cup-is-entry-bread-is-the-walk",
+      "pair": "DEF-095",
       "text": "The table has two things on it, and most teaching stops at one. The cup is entry — the blood, the door, the way in. The bread is the walk that follows, and a man who takes the cup and never touches the bread has come through the door and sat down in the entryway.",
       "blip": "",
       "refs": ["Matthew 26:26-28", "Romans 5:9-10"],
+      "clusters": ["two-stage-salvation"],
       "status": "posted",
       "postedDate": "2026-08-31"
     },
     {
       "id": "SI-008",
       "key": "apostle-requirement-eyewitness",
+      "pair": "DEF-096",
       "text": "When they replaced Judas they did not vote on character. They named one requirement: the man had to have been there from the immersion of John to the day Yahushua was taken up, and to have seen Him risen. That is not a job description anyone alive can meet.",
       "blip": "",
       "refs": ["Acts 1:21-22", "1 Corinthians 9:1"],
@@ -81,6 +96,7 @@
     {
       "id": "SI-009",
       "key": "monument-outside-the-law-inside",
+      "pair": "DEF-097",
       "text": "A monument of the ten commandments goes up outside a courthouse and the crowd cheers. That same week the sermon says the law was nailed to the cross. One of those two is wrong, and it is not the stone.",
       "blip": "",
       "refs": ["Matthew 5:18", "Romans 3:31"],
@@ -90,9 +106,11 @@
     {
       "id": "SI-010",
       "key": "vineyard-owner-came-to-collect-righteousness",
+      "pair": "DEF-098",
       "text": "Ask what the owner came to collect and the whole reading straightens out. Not grapes, not attendance, not a building. Righteousness in his people, which Moses already defined as keeping the commandments. The renters were removed for failing to grow it. The vineyard stayed exactly where it was.",
       "blip": "",
       "refs": ["Matthew 21:43", "Deuteronomy 6:25", "Isaiah 5:7"],
+      "clusters": ["whose-righteousness", "delegated-authority"],
       "status": "posted",
       "postedDate": "2026-09-02",
       "studyLink": "/blog/house-without-the-owner/",
@@ -101,6 +119,7 @@
     {
       "id": "SI-011",
       "key": "lightning-fall-not-a-history-lesson",
+      "pair": "DEF-090",
       "text": "The apostles reported the fruit; Yahushua told them what it meant in the unseen world. He was not giving a history lesson — He was watching the enemy's grip on men break in real time, and the tree would finish it.",
       "blip": "",
       "refs": ["Luke 10:17-18"],
