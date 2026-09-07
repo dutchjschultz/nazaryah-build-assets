@@ -1,4 +1,13 @@
-// associations 0907 V18.js
+// associations 0907 V19.js
+// V19: The Talents joins pulpit-vocabulary — the one tag, approved by Dutch off
+// the batch-18 proposal. One expected count bumps: pulpit-vocabulary 22 -> 23.
+// No cluster is added and no anchor moves. NOTE the batch was written against
+// V17 and proposed itself as V18; V18 was taken by Who Is My Neighbour first.
+// A PRIESTHOOD CLUSTER MAY BE FORMING and is named here rather than acted on:
+// Kingdom of Lights (the lamp charge), The Talents (the teaching charge), and
+// The Wicked Husbandmen (a charge taken from its keepers) all read a parable as
+// the accounting of a priestly office. Three studies with an obvious centre and
+// no cluster to hold them. When a fourth lands, the anchor question is Dutch's.
 // V18: Who Is My Neighbour joins two-stage-salvation and the-mishkan.
 // Two expected counts bump: two-stage-salvation 24 -> 25, the-mishkan 14 -> 15.
 // The study anchors neither cluster. Its read-through carries no keys of its
@@ -86,7 +95,7 @@ export const CLUSTERS = {
     blurb:
       "Words the pulpit softened, sweetened, or reinvented outright — and what the Hebrew and Greek actually say.",
     anchor: "the-whole-counsel",
-    expected: 22,
+    expected: 23,
   },
 
   "goel-kopher": {
