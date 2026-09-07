@@ -1,4 +1,8 @@
-// associations 0827 V17.js
+// associations 0907 V18.js
+// V18: Who Is My Neighbour joins two-stage-salvation and the-mishkan.
+// Two expected counts bump: two-stage-salvation 24 -> 25, the-mishkan 14 -> 15.
+// The study anchors neither cluster. Its read-through carries no keys of its
+// own — it is a companion page, not a second entry in the panels.
 // V17: The Parables section opens. Kingdom of Lights joins the-mishkan and
 // pulpit-vocabulary; Dark Sayings of Old joins how-yahuah-speaks. Three expected
 // counts bump: the-mishkan 13 -> 14, pulpit-vocabulary 21 -> 22,
@@ -26,7 +30,7 @@ export const CLUSTERS = {
     blurb:
       "Entry by the blood, walk by the bread. The framework the pulpit collapsed into a single step.",
     anchor: "bread-and-wine",
-    expected: 24,
+    expected: 25,
   },
 
   "lost-in-translation": {
@@ -98,7 +102,7 @@ export const CLUSTERS = {
     blurb:
       "The structure Yahuah designed: ark, cover, veil, garments — and who may pass through what.",
     anchor: "ark-of-covering",
-    expected: 14,
+    expected: 15,
   },
 
   "yom-kippur": {
