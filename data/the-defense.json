@@ -1,6 +1,6 @@
 {
-  "version": "0903 V8",
-  "changeNote": "V8: the five entries V7 flagged as dark — DEF-083, DEF-084, DEF-085, DEF-087, DEF-088 — are LIVE again, and no data changed to do it: /close-to-the-hip now builds a card from any posted entry in either file, and an entry with no insight renders as its own card with the claim as the face. The page also carries a build-time guard that fails the build and names ids if any posted entry in this file or scripture-insights.json reaches no card, so a warning in a changeNote is no longer the only thing standing between a posted entry and the dark. V7: PAIRED-CARD REBUILD. Each entry that mirrors an insight carries `pair` (that insight's id); the five entries with no insight carry none, per the spec. WARNING those five — DEF-083, DEF-084, DEF-085, DEF-087, DEF-088 — are no longer rendered anywhere: /close-to-the-hip is now one card per Scripture Insight, and a Defense reaches the page only through its pair. They are still posted and still in this file, but they are dark until an insight is written for them or the page grows a card shape for a standalone claim. NOTE the rebuild spec called for a `meta` block to hold the version; this file has never had one — version and changeNote are top-level fields here, and that is where the bump went. V6: the PAIRING pass — every Scripture Insight now carries a Defense that mirrors it (the standing shape: the answer is the insight's first sentence, the insight carries the reasoning, and the only new writing is the claim in the objector's voice). DEF-091 through DEF-098 mirror SI-004, SI-001, SI-003, SI-006, SI-007, SI-008, SI-009 and SI-010 in that order. SI-002 already had DEF-086, SI-005 had DEF-089, SI-011 had DEF-090. Only DEF-091 takes its insight's first sentence verbatim; the other seven insights were written before this shape existed and open on a scene-setter or a fragment, so their answers are SHORTENED from the insight's own words per the standing exception — no insight was bent to fit, and no new doctrine was introduced. No entry was left standing alone: none of the eleven is a declaration nobody contests. Lane now 083-098 unbroken; next free id is 099. V5: DEF-090 posted 2026-09-03 (Satan fell from heaven with a third of the angels — the apostles reported the fruit, Yahushua named what it meant in the unseen world). Lane now 083-090 unbroken; next free id is 091. Paired with SI-011 on the same passage. V4: DEF-089 posted 2026-08-31 (a mansion is a dwelling, and He makes it with you here). Lane now 083-089 unbroken; next free id is 090. V3: Three entries posted 2026-08-31, closing the lane at 083-088 unbroken. DEF-086 (Joel described a condition, not an event) and DEF-088 (salt slows corruption) are new. DEF-087 is the former DEF-089 renumbered and promoted from approved to posted — same trigger, answer, key and refs. NOTE the batch specified deleting 086 and sliding 088/089/090 down; this file never carried 086, 088 or 090, so only the 089->087 move was real. Posted ids 083-085 untouched. Next free id is 089. V2: added DEF-089 (royal priesthood is a Sinai quote) as APPROVED, not posted. Master numbering is unbroken; unloaded ids are simply not present here (no placeholders).",
+  "version": "0907 V9",
+  "changeNote": "V9: DEF-099 through DEF-104 added — the six Defense entries from the Talents CTH document. Triggers are Dutch's own, supplied as flat claims to match every other trigger in this file; the document phrased them as questions. Answers are the document's, with inline scripture citations moved out of the body and into refs, the way scripture-insights V9 did for SI-011 — no answer or insight in either file carries a citation in its prose. DEF-103 is paired to SI-012, the one of the six that mirrors the insight; the other five stand alone, as DEF-083 through DEF-088 do. No expected count was bumped for any of this: /associations does not read these files. V8: the five entries V7 flagged as dark — DEF-083, DEF-084, DEF-085, DEF-087, DEF-088 — are LIVE again, and no data changed to do it: /close-to-the-hip now builds a card from any posted entry in either file, and an entry with no insight renders as its own card with the claim as the face. The page also carries a build-time guard that fails the build and names ids if any posted entry in this file or scripture-insights.json reaches no card, so a warning in a changeNote is no longer the only thing standing between a posted entry and the dark. V7: PAIRED-CARD REBUILD. Each entry that mirrors an insight carries `pair` (that insight's id); the five entries with no insight carry none, per the spec. WARNING those five — DEF-083, DEF-084, DEF-085, DEF-087, DEF-088 — are no longer rendered anywhere: /close-to-the-hip is now one card per Scripture Insight, and a Defense reaches the page only through its pair. They are still posted and still in this file, but they are dark until an insight is written for them or the page grows a card shape for a standalone claim. NOTE the rebuild spec called for a `meta` block to hold the version; this file has never had one — version and changeNote are top-level fields here, and that is where the bump went. V6: the PAIRING pass — every Scripture Insight now carries a Defense that mirrors it (the standing shape: the answer is the insight's first sentence, the insight carries the reasoning, and the only new writing is the claim in the objector's voice). DEF-091 through DEF-098 mirror SI-004, SI-001, SI-003, SI-006, SI-007, SI-008, SI-009 and SI-010 in that order. SI-002 already had DEF-086, SI-005 had DEF-089, SI-011 had DEF-090. Only DEF-091 takes its insight's first sentence verbatim; the other seven insights were written before this shape existed and open on a scene-setter or a fragment, so their answers are SHORTENED from the insight's own words per the standing exception — no insight was bent to fit, and no new doctrine was introduced. No entry was left standing alone: none of the eleven is a declaration nobody contests. Lane now 083-098 unbroken; next free id is 099. V5: DEF-090 posted 2026-09-03 (Satan fell from heaven with a third of the angels — the apostles reported the fruit, Yahushua named what it meant in the unseen world). Lane now 083-090 unbroken; next free id is 091. Paired with SI-011 on the same passage. V4: DEF-089 posted 2026-08-31 (a mansion is a dwelling, and He makes it with you here). Lane now 083-089 unbroken; next free id is 090. V3: Three entries posted 2026-08-31, closing the lane at 083-088 unbroken. DEF-086 (Joel described a condition, not an event) and DEF-088 (salt slows corruption) are new. DEF-087 is the former DEF-089 renumbered and promoted from approved to posted — same trigger, answer, key and refs. NOTE the batch specified deleting 086 and sliding 088/089/090 down; this file never carried 086, 088 or 090, so only the 089->087 move was real. Posted ids 083-085 untouched. Next free id is 089. V2: added DEF-089 (royal priesthood is a Sinai quote) as APPROVED, not posted. Master numbering is unbroken; unloaded ids are simply not present here (no placeholders).",
   "entries": [
     {
       "id": "DEF-083",
@@ -156,6 +156,61 @@
       "refs": ["Matthew 21:43", "Deuteronomy 6:25", "Isaiah 5:7"],
       "status": "posted",
       "postedDate": "2026-09-03"
+    },
+    {
+      "id": "DEF-099",
+      "key": "talents-are-what-feeds-the-household",
+      "trigger": "The talents are resources God entrusted to you to manage.",
+      "answer": "One chapter earlier Yahushua said what the goods were for — feeding the household — and the food is the word.",
+      "refs": ["Matthew 24:45", "Amos 8:11"],
+      "status": "posted",
+      "postedDate": "2026-09-07"
+    },
+    {
+      "id": "DEF-100",
+      "key": "talent-ability-is-a-later-english-word",
+      "trigger": "A talent is a natural ability.",
+      "answer": "That meaning came into English out of this parable, centuries after it was spoken.",
+      "refs": ["Matthew 25:15"],
+      "status": "posted",
+      "postedDate": "2026-09-07"
+    },
+    {
+      "id": "DEF-101",
+      "key": "talent-stays-a-weight",
+      "trigger": "The Old Testament never makes a talent a symbol, so the priestly reading is imported.",
+      "answer": "No, and the study never claims it — the talent stays a weight, and what settles it is who it got weighed into and why.",
+      "refs": ["Malachi 2:7", "Ezra 8:28-29"],
+      "status": "posted",
+      "postedDate": "2026-09-07"
+    },
+    {
+      "id": "DEF-102",
+      "key": "verse-29-is-about-understanding",
+      "trigger": "Matthew 25:29 is a general principle — the more you use, the more you are given.",
+      "answer": "Yahushua had given that same sentence once before, and there He says what is given and taken is understanding of the word.",
+      "refs": ["Matthew 25:29", "Matthew 13:11-12"],
+      "status": "posted",
+      "postedDate": "2026-09-07"
+    },
+    {
+      "id": "DEF-103",
+      "key": "third-servant-buried-the-law",
+      "pair": "SI-012",
+      "trigger": "The third servant played it safe. He was timid, not wicked.",
+      "answer": "He buried the law of Yahuah — the meat in due season the household lives on — and a watchman is judged for the silence, not for the outcome.",
+      "refs": ["Matthew 25:25", "Ezekiel 33:6"],
+      "status": "posted",
+      "postedDate": "2026-09-07"
+    },
+    {
+      "id": "DEF-104",
+      "key": "servants-already-belong-to-the-house",
+      "trigger": "Reading the talents as the law makes obedience the price of salvation.",
+      "answer": "No, every servant in the story already belongs to the house.",
+      "refs": ["Matthew 25:14"],
+      "status": "posted",
+      "postedDate": "2026-09-07"
     }
   ]
 }
