@@ -1,5 +1,8 @@
-// associations 0908 V20.js
-// V20: The Appointed Times joins the-moedim, two-stage-salvation and yom-kippur.
+// associations 0908 V21.js
+// V21: header only — the study V20 named as "The Appointed Times" shipped and
+// was then renamed "Kept to the Hour" to clear the collision with this
+// registry's own the-moedim label. No count changes; V20's three bumps stand.
+// V20: Kept to the Hour joins the-moedim, two-stage-salvation and yom-kippur.
 // Three expected counts bump: the-moedim 13 -> 14, two-stage-salvation 25 -> 26,
 // yom-kippur 6 -> 7. The study anchors none of the three. It is the first study
 // to sit in all three at once, which makes it the bridge between the calendar
