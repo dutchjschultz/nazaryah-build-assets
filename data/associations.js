@@ -1,4 +1,9 @@
-// associations 0907 V19.js
+// associations 0908 V20.js
+// V20: The Appointed Times joins the-moedim, two-stage-salvation and yom-kippur.
+// Three expected counts bump: the-moedim 13 -> 14, two-stage-salvation 25 -> 26,
+// yom-kippur 6 -> 7. The study anchors none of the three. It is the first study
+// to sit in all three at once, which makes it the bridge between the calendar
+// panel and the salvation panel.
 // V19: The Talents joins pulpit-vocabulary — the one tag, approved by Dutch off
 // the batch-18 proposal. One expected count bumps: pulpit-vocabulary 22 -> 23.
 // No cluster is added and no anchor moves. NOTE the batch was written against
@@ -39,7 +44,7 @@ export const CLUSTERS = {
     blurb:
       "Entry by the blood, walk by the bread. The framework the pulpit collapsed into a single step.",
     anchor: "bread-and-wine",
-    expected: 25,
+    expected: 26,
   },
 
   "lost-in-translation": {
@@ -119,7 +124,7 @@ export const CLUSTERS = {
     blurb:
       "The Day of Atonement pattern: the goat that was slain, the goat that was not, and what the church never explains.",
     anchor: "goat-that-was-not-slain",
-    expected: 6,
+    expected: 7,
   },
 
   "light-and-lamp": {
@@ -135,7 +140,7 @@ export const CLUSTERS = {
     blurb:
       "Yahuah's moedim as He set them — the days, the timing, and what was kept on each.",
     anchor: "seven-feasts-in-exodus",
-    expected: 13,
+    expected: 14,
   },
 
   "restored-creation": {
