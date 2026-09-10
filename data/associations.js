@@ -1,4 +1,8 @@
-// associations 0908 V21.js
+// associations 0910 V22.js
+// V22: blurb only — the yom-kippur cluster blurb now reads "Yom Kippur pattern"
+// instead of "The Day of Atonement pattern", under the Group 3 house rule that
+// an English feast name is not used where the site names the appointed time.
+// No cluster, member or count changes.
 // V21: header only — the study V20 named as "The Appointed Times" shipped and
 // was then renamed "Kept to the Hour" to clear the collision with this
 // registry's own the-moedim label. No count changes; V20's three bumps stand.
@@ -125,7 +129,7 @@ export const CLUSTERS = {
   "yom-kippur": {
     label: "Yom Kippur and the Two Goats",
     blurb:
-      "The Day of Atonement pattern: the goat that was slain, the goat that was not, and what the church never explains.",
+      "Yom Kippur pattern: the goat that was slain, the goat that was not, and what the church never explains.",
     anchor: "goat-that-was-not-slain",
     expected: 7,
   },
