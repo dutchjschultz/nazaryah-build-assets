@@ -1,4 +1,9 @@
-// associations 0910 V22.js
+// associations 0927 V23.js
+// V23: The Heavens and the Earth joins cosmology-north and lost-in-translation.
+// One expected count bumps: cosmology-north 6 -> 7. lost-in-translation is not
+// bumped here — set it to 20 if the study ships in the same batch. The study
+// anchors neither cluster. A SECOND COSMOLOGY CLUSTER MAY BE FORMING around how
+// the heliocentric model was assembled; named, not acted on.
 // V22: blurb only — the yom-kippur cluster blurb now reads "Yom Kippur pattern"
 // instead of "The Day of Atonement pattern", under the Group 3 house rule that
 // an English feast name is not used where the site names the appointed time.
@@ -59,7 +64,7 @@ export const CLUSTERS = {
     blurb:
       "Helel became Lucifer. Kappōret became a mercy seat. Qesheth became a rainbow. Har Mo'ed became Megiddo. What the English buried, and what it cost.",
     anchor: "the-lucifer-deception",
-    expected: 19,
+    expected: 20,
   },
 
   "how-yahuah-speaks": {
@@ -163,7 +168,7 @@ export const CLUSTERS = {
     blurb:
       "The shape of what Yahuah made, the direction of His dwelling, and the machine built to hide both.",
     anchor: "throne-above-the-north",
-    expected: 6,
+    expected: 7,
   },
 
   "foreign-fire": {
