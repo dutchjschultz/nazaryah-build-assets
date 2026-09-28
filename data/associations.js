@@ -1,4 +1,15 @@
-// associations 0927 V23.js
+// associations 0928 V24.js
+// V24: The Signature in the Swarm rebuild. Six Hollywood pieces join
+// foreign-fire (the hub and its five film entries); the hub also joins
+// goel-kopher; They Made Him a Face, moved to The Craft, joins trinity-examined.
+// Three expected counts bump: foreign-fire 12 -> 18, goel-kopher 13 -> 14,
+// trinity-examined 6 -> 7. No clusters added, no anchors moved. These are Astro
+// pages, not posts — their tags live on the cards in src/data/hollywood.js and
+// src/lib/study-pool.js folds them into the count. The batch was written against
+// V15 and proposed itself as V16 with 12 -> 17 / 12 -> 13 / 4 -> 5; its deltas
+// were applied to the live V23 counts instead, and foreign-fire takes +6 for
+// six tagged pieces. NOTE foreign-fire already held 14 posts against an
+// expected 12 before this batch, so the map reads 20 / 18.
 // V23: The Heavens and the Earth joins cosmology-north and lost-in-translation.
 // One expected count bumps: cosmology-north 6 -> 7. lost-in-translation is not
 // bumped here — set it to 20 if the study ships in the same batch. The study
@@ -120,7 +131,7 @@ export const CLUSTERS = {
     blurb:
       "Yahuah as sole Redeemer, the Son as the price paid. The legal spine under the whole atonement question.",
     anchor: "the-redeemer-who-never-needed-redeeming",
-    expected: 13,
+    expected: 14,
   },
 
   "the-mishkan": {
@@ -176,7 +187,7 @@ export const CLUSTERS = {
     blurb:
       "Borrowed worship, borrowed names, borrowed fire — traced back to where it was struck.",
     anchor: "esther-ishtar-marduk",
-    expected: 12,
+    expected: 18,
   },
 
   "trinity-examined": {
@@ -184,7 +195,7 @@ export const CLUSTERS = {
     blurb:
       "The Godhead the text actually shows. Every throne vision names two, not three; worship and service sort the same way — the pattern the doctrine has to explain away.",
     anchor: "the-throne-and-the-right-hand",
-    expected: 6,
+    expected: 7,
   },
 };
 
