@@ -1,4 +1,11 @@
-// associations 0928 V24.js
+// associations 0929 V25.js
+// V25: The End Times Gap goes live. Its nucleus and three new witnesses (The
+// Seventieth Week, The Reign Is Now, Gog and Magog) join lost-in-translation;
+// Gog and Magog also joins pulpit-vocabulary. The fourth witness, The Short
+// Season, keeps its tags (foreign-fire, the-moedim), so it moves no count.
+// Two expected counts bump: lost-in-translation 20 -> 24, pulpit-vocabulary
+// 23 -> 24. No clusters added, no anchors moved. The batch was written against
+// V15 and proposed itself as V16; its deltas were applied to the live V24.
 // V24: The Signature in the Swarm rebuild. Six Hollywood pieces join
 // foreign-fire (the hub and its five film entries); the hub also joins
 // goel-kopher; They Made Him a Face, moved to The Craft, joins trinity-examined.
@@ -75,7 +82,7 @@ export const CLUSTERS = {
     blurb:
       "Helel became Lucifer. Kappōret became a mercy seat. Qesheth became a rainbow. Har Mo'ed became Megiddo. What the English buried, and what it cost.",
     anchor: "the-lucifer-deception",
-    expected: 20,
+    expected: 24,
   },
 
   "how-yahuah-speaks": {
@@ -123,7 +130,7 @@ export const CLUSTERS = {
     blurb:
       "Words the pulpit softened, sweetened, or reinvented outright — and what the Hebrew and Greek actually say.",
     anchor: "the-whole-counsel",
-    expected: 23,
+    expected: 24,
   },
 
   "goel-kopher": {
