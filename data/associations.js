@@ -1,4 +1,9 @@
-// associations 0929 V25.js
+// associations 0929 V26.js
+// V26: Ground That Keeps It joins two-stage-salvation, pulpit-vocabulary and
+// whose-righteousness. Three expected counts bump: two-stage-salvation 26 -> 27,
+// pulpit-vocabulary 24 -> 25, whose-righteousness 10 -> 11. The study anchors none
+// of the three. Its read-through carries no keys of its own. No clusters added,
+// no anchors moved.
 // V25: The End Times Gap goes live. Its nucleus and three new witnesses (The
 // Seventieth Week, The Reign Is Now, Gog and Magog) join lost-in-translation;
 // Gog and Magog also joins pulpit-vocabulary. The fourth witness, The Short
@@ -74,7 +79,7 @@ export const CLUSTERS = {
     blurb:
       "Entry by the blood, walk by the bread. The framework the pulpit collapsed into a single step.",
     anchor: "bread-and-wine",
-    expected: 26,
+    expected: 27,
   },
 
   "lost-in-translation": {
@@ -106,7 +111,7 @@ export const CLUSTERS = {
     blurb:
       "Fruit belongs to the owner of the tree. The covering belongs to the one who made it. Self-generated righteousness has always been filthy rags.",
     anchor: "clothed-by-the-owner",
-    expected: 10,
+    expected: 11,
   },
 
   "garments-and-covering": {
@@ -130,7 +135,7 @@ export const CLUSTERS = {
     blurb:
       "Words the pulpit softened, sweetened, or reinvented outright — and what the Hebrew and Greek actually say.",
     anchor: "the-whole-counsel",
-    expected: 24,
+    expected: 25,
   },
 
   "goel-kopher": {
