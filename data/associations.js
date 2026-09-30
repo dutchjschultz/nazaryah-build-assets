@@ -1,4 +1,15 @@
-// associations 0930 V28.js
+// associations 0930 V29.js
+// V29: kingdom-now cluster born, anchored to The Reign Is Now, expected 4 —
+// the End Times Gap nucleus, The Seventieth Week, The Reign Is Now and The
+// Stone That Was Sown. The three End Times Gap pieces keep every key they
+// already carry (each held one, so none nears the cap); kingdom-now is added
+// alongside. The Stone That Was Sown drops pulpit-vocabulary (the
+// kingdom-reinvented argument is what the new cluster holds) and keeps
+// two-stage-salvation. The retag handover was written against V27 and named
+// itself V28; V28 had already shipped the Stone with pulpit-vocabulary 26 -> 27,
+// so that bump is reversed here: pulpit-vocabulary 27 -> 26. two-stage-salvation
+// stays at the 29 V28 set. lost-in-translation is unchanged at 24; whether the
+// nucleus and The Reign Is Now still belong in it is an open call for Dutch.
 // V28: The Stone That Was Sown joins pulpit-vocabulary and two-stage-salvation.
 // Two expected counts bump: pulpit-vocabulary 26 -> 27, two-stage-salvation
 // 28 -> 29. The study anchors neither cluster. Its read-through carries no keys
@@ -101,6 +112,14 @@ export const CLUSTERS = {
     expected: 24,
   },
 
+  "kingdom-now": {
+    label: "The Kingdom Is Now",
+    blurb:
+      "Daniel dated it in the days of those kings. It came as a seed and not as a conquest — and the pulpit is still waiting for the crash.",
+    anchor: "the-reign-is-now",
+    expected: 4,
+  },
+
   "how-yahuah-speaks": {
     label: "How Yahuah Speaks",
     blurb:
@@ -146,7 +165,7 @@ export const CLUSTERS = {
     blurb:
       "Words the pulpit softened, sweetened, or reinvented outright — and what the Hebrew and Greek actually say.",
     anchor: "the-whole-counsel",
-    expected: 27,
+    expected: 26,
   },
 
   "goel-kopher": {
