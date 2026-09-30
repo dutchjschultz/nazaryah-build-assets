@@ -1,4 +1,9 @@
-// associations 0930 V29.js
+// associations 0930 V30.js
+// V30: New Wine, Old Bottles joins pulpit-vocabulary and two-stage-salvation.
+// Two expected counts bump: pulpit-vocabulary 26 -> 27, two-stage-salvation
+// 29 -> 30. The study anchors neither cluster. Its read-through carries no keys
+// of its own. No clusters added, no anchors moved. The batch was written against
+// V27 and proposed 26 -> 27 / 28 -> 29; its deltas were applied to the live V29.
 // V29: kingdom-now cluster born, anchored to The Reign Is Now, expected 4 —
 // the End Times Gap nucleus, The Seventieth Week, The Reign Is Now and The
 // Stone That Was Sown. The three End Times Gap pieces keep every key they
@@ -101,7 +106,7 @@ export const CLUSTERS = {
     blurb:
       "Entry by the blood, walk by the bread. The framework the pulpit collapsed into a single step.",
     anchor: "bread-and-wine",
-    expected: 29,
+    expected: 30,
   },
 
   "lost-in-translation": {
@@ -165,7 +170,7 @@ export const CLUSTERS = {
     blurb:
       "Words the pulpit softened, sweetened, or reinvented outright — and what the Hebrew and Greek actually say.",
     anchor: "the-whole-counsel",
-    expected: 26,
+    expected: 27,
   },
 
   "goel-kopher": {
