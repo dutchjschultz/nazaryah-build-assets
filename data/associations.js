@@ -1,4 +1,9 @@
-// associations 0930 V27.js
+// associations 0930 V28.js
+// V28: The Stone That Was Sown joins pulpit-vocabulary and two-stage-salvation.
+// Two expected counts bump: pulpit-vocabulary 26 -> 27, two-stage-salvation
+// 28 -> 29. The study anchors neither cluster. Its read-through carries no keys
+// of its own. No clusters added, no anchors moved. A KINGDOM-NOW CLUSTER MAY BE
+// FORMING and is named here rather than acted on — see the batch note.
 // V27: The Seed Growing Secretly joins two-stage-salvation and pulpit-vocabulary.
 // Two expected counts bump: two-stage-salvation 27 -> 28, pulpit-vocabulary
 // 25 -> 26. The study anchors neither cluster. Its read-through carries no keys
@@ -85,7 +90,7 @@ export const CLUSTERS = {
     blurb:
       "Entry by the blood, walk by the bread. The framework the pulpit collapsed into a single step.",
     anchor: "bread-and-wine",
-    expected: 28,
+    expected: 29,
   },
 
   "lost-in-translation": {
@@ -141,7 +146,7 @@ export const CLUSTERS = {
     blurb:
       "Words the pulpit softened, sweetened, or reinvented outright — and what the Hebrew and Greek actually say.",
     anchor: "the-whole-counsel",
-    expected: 26,
+    expected: 27,
   },
 
   "goel-kopher": {
