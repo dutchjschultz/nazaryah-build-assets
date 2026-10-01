@@ -1,6 +1,6 @@
 {
-  "version": "0930 V25",
-  "changeNote": "V25: SI-019 and SI-021 tagged two-stage-salvation and pulpit-vocabulary per Dutch. Still untagged: SI-008, SI-009, SI-011 (no clusters field), SI-014 and SI-015 (empty). V24: SI-021 added — the bottle is a man, and the new bottle has the law written inside him; from New Wine, Old Bottles (Luke 5:33-39). Pairs DEF-111. The handover named it SI-014, long taken; it takes the next free id. Clusters left empty: the handover supplied none. V23: SI-020 tagged kingdom-now per the kingdom-now handover (one key: the entry carries Daniel's timing, not the law argument). SI-019 still untagged, waiting on its values. V22: SI-020 added — Daniel's stone and the mustard seed, the kingdom arriving as a seed in the days of those kings; from The Stone That Was Sown (Mark 4:30-32). Pairs DEF-110. The handover named it SI-014, long taken; it takes the next free id. Clusters left empty: the handover supplied none. V21: SI-019 added — Joel's sickle closes the parable, and the field being cut is a man; from The Seed Growing Secretly (Mark 4:26-29). The handover named it SI-014, long taken; it takes the next free id. Clusters left empty: the handover supplied none. No Defense pair: DEF-109, from the same study, answers the Joel's-army claim rather than mirroring this insight, so it stands as its own card. V20: SI-018 tagged two-stage-salvation and pulpit-vocabulary per Dutch. Not whose-righteousness: the insight argues the altar-call error and what seed and fruit mean, never whose work the fruit is. The study keeps all three. V19: SI-018 added — seed brings forth after its kind, so the sower's seed is the law of Yahuah and the fruit is the keeping of it; from Ground That Keeps It (Mark 4:1-20). Pairs DEF-108. The handover named it SI-014, which has been live since 2026-09-11 (Wrap It In A Bow); it takes the next free id. Clusters left empty pending Dutch's values. V18: SI-017 added — the moon as the faithful witness to Messiah's throne (Psalm 89:37); companion to the Pe'ah entry The Moon and the Throne of David. Citation kept in refs, not the prose, per Dutch, matching every other insight. Tagged the-moedim per the batch. No Defense pair yet (pair left empty). Next free id is 018. V17: SI-016 gains foreign-fire as a second cluster (the-moedim kept), Dutch's pick from the existing registry. No new cluster values. V16: SI-016 text replaced with Dutch's revision — the three in-prose citations are gone, so it now matches every other insight in the file (refs unchanged: Deuteronomy 6:8, Exodus 13:9, Daniel 7:25). SI-016 tagged the-moedim, the one registry cluster covering the feasts and calendar, on Dutch's instruction; the registry has no Law or prophecy cluster, and no new value was created. V15: SI-016 added — the sign on the hand and forehead, paired with DEF-107 (the-defense.json V12); companion to the Pe'ah entry of the same name. Text is Dutch's, loaded verbatim — NOTE it keeps three scripture citations in its prose, the only insight that does (see V9). clusters left empty: cluster values come from Dutch. SI-013 remains unused; next free id is 017. V14: SI-015's `pair` filled in — DEF-106, written the same day (the-defense.json V11). V13 left it empty because no Defense existed yet. This field is the one the lane matches on: /close-to-the-hip builds each card from the INSIGHT's pair, so until the insight points back, a paired Defense renders as its own separate card instead of riding along under it. Clusters still stand empty, still awaiting Dutch. V13: SI-015 added — The King and the Sceptre. Yahuah is the King; Yahushua is the Sceptre of righteousness, received by believing in the Son. No Defense pair yet and no clusters supplied, so both stand empty. SI-013 was not used. V12: SI-014 added — Wrap It In A Bow, the Watchman's Desk open letter. Four empires supplied what Jeremiah 10:2 forbade. clusters [] — Close to the Hip cluster values come from Dutch and none were supplied with the upload, so the entry stands with no chips rather than taking a guessed key. Pairs DEF-105, NOT the \"95\" the handover reserved: DEF-095 has been live and posted since 2026-09-03. studyLink points at the letter, the first non-/blog/ link in this file. V11: SI-012 added — The Talents. The disciples asked when the temple would fall and the parable answers why. clusters [\"pulpit-vocabulary\"], assigned by Dutch, the same key as the parent study; the /associations coverage map does not read this file, so nothing about this entry moves that cluster's count and no expected was bumped for it. Paired with DEF-103, the one of the six Defense entries in this drop that mirrors the insight. studyLink to the study. V10: PAIRED-CARD REBUILD. Every insight now carries `pair` (the id of its mirroring Defense entry) and, where the subject is load-bearing, `clusters` — cluster keys taken character-for-character from src/data/associations.js and validated against that registry before writing. The clusters field is what the chip row on /close-to-the-hip is generated from; the chip list itself is never hand-maintained. SI-008, SI-009 and SI-011 carry no clusters: nothing in the registry fits without stretching, and standing alone is a valid answer. NOTE the rebuild spec called for a `meta` block to hold the version; this file has never had one — version and changeNote are top-level fields here, and that is where the bump went. V9: SI-011 added — Luke 10:17-18, the lightning fall read as the enemy's grip breaking in real time rather than a history lesson. The trailing verse citation in the supplied copy was moved out of the body into refs, where the lane renders it. Paired with DEF-090 on the same passage. V8: SI-010 added — the vineyard owner came to collect righteousness (Matthew 21:43 · Deuteronomy 6:25 · Isaiah 5:7), studyLink /blog/house-without-the-owner/, postedDate 2026-09-02 so it sorts above the 2026-08-31 block and leads the lane. V7: Five insights posted 2026-08-31. NOTE the batch specified them as SI-004 through SI-008, but SI-004 was already taken and posted earlier the same day (the ten virgins / lamp and light insight, live with a studyLink to Kingdom of Lights). Posted ids do not move, so the five were loaded as SI-005 through SI-009 instead: many mansions, Isaiah in four blocks, the cup and the bread, the apostle requirement, and the courthouse monument. No studyLink on any of the five; refs render on screen as usual. Because all six of the 2026-08-31 insights share a date, the lane breaks the tie by id descending, so SI-009 is now newest and drives the home-page strip. V6: SI-004 added (ten virgins / lamp and light, studyLink /blog/kingdom-of-lights/). V5: SI-003 studyLink switched to the relative path /blog/two-kingdoms/ (works in local preview, survives a domain change). refs stored as arrays.",
+  "version": "1001 V26",
+  "changeNote": "V26: SI-022 through SI-027 added from the parable studies — Kingdom of Lights (oil keeps His light alight), Dark Sayings of Old (two: the sayings are old; parables stay shut without Torah), The Talents (the talents are the law, not abilities), Who Is My Neighbour (a neighbour is what a man becomes), and The Strong Man Bound (you are the goods). SI-022 pairs DEF-113 and SI-024 pairs DEF-115; the other four stand alone. Clusters left empty: the handover supplied none. NOTE SI-022 covers the same ground as SI-004 (ten virgins / lamp and light) and SI-025 the same ground as SI-012 (the talents as the law); loaded because their text is new. V25: SI-019 and SI-021 tagged two-stage-salvation and pulpit-vocabulary per Dutch. Still untagged: SI-008, SI-009, SI-011 (no clusters field), SI-014 and SI-015 (empty). V24: SI-021 added — the bottle is a man, and the new bottle has the law written inside him; from New Wine, Old Bottles (Luke 5:33-39). Pairs DEF-111. The handover named it SI-014, long taken; it takes the next free id. Clusters left empty: the handover supplied none. V23: SI-020 tagged kingdom-now per the kingdom-now handover (one key: the entry carries Daniel's timing, not the law argument). SI-019 still untagged, waiting on its values. V22: SI-020 added — Daniel's stone and the mustard seed, the kingdom arriving as a seed in the days of those kings; from The Stone That Was Sown (Mark 4:30-32). Pairs DEF-110. The handover named it SI-014, long taken; it takes the next free id. Clusters left empty: the handover supplied none. V21: SI-019 added — Joel's sickle closes the parable, and the field being cut is a man; from The Seed Growing Secretly (Mark 4:26-29). The handover named it SI-014, long taken; it takes the next free id. Clusters left empty: the handover supplied none. No Defense pair: DEF-109, from the same study, answers the Joel's-army claim rather than mirroring this insight, so it stands as its own card. V20: SI-018 tagged two-stage-salvation and pulpit-vocabulary per Dutch. Not whose-righteousness: the insight argues the altar-call error and what seed and fruit mean, never whose work the fruit is. The study keeps all three. V19: SI-018 added — seed brings forth after its kind, so the sower's seed is the law of Yahuah and the fruit is the keeping of it; from Ground That Keeps It (Mark 4:1-20). Pairs DEF-108. The handover named it SI-014, which has been live since 2026-09-11 (Wrap It In A Bow); it takes the next free id. Clusters left empty pending Dutch's values. V18: SI-017 added — the moon as the faithful witness to Messiah's throne (Psalm 89:37); companion to the Pe'ah entry The Moon and the Throne of David. Citation kept in refs, not the prose, per Dutch, matching every other insight. Tagged the-moedim per the batch. No Defense pair yet (pair left empty). Next free id is 018. V17: SI-016 gains foreign-fire as a second cluster (the-moedim kept), Dutch's pick from the existing registry. No new cluster values. V16: SI-016 text replaced with Dutch's revision — the three in-prose citations are gone, so it now matches every other insight in the file (refs unchanged: Deuteronomy 6:8, Exodus 13:9, Daniel 7:25). SI-016 tagged the-moedim, the one registry cluster covering the feasts and calendar, on Dutch's instruction; the registry has no Law or prophecy cluster, and no new value was created. V15: SI-016 added — the sign on the hand and forehead, paired with DEF-107 (the-defense.json V12); companion to the Pe'ah entry of the same name. Text is Dutch's, loaded verbatim — NOTE it keeps three scripture citations in its prose, the only insight that does (see V9). clusters left empty: cluster values come from Dutch. SI-013 remains unused; next free id is 017. V14: SI-015's `pair` filled in — DEF-106, written the same day (the-defense.json V11). V13 left it empty because no Defense existed yet. This field is the one the lane matches on: /close-to-the-hip builds each card from the INSIGHT's pair, so until the insight points back, a paired Defense renders as its own separate card instead of riding along under it. Clusters still stand empty, still awaiting Dutch. V13: SI-015 added — The King and the Sceptre. Yahuah is the King; Yahushua is the Sceptre of righteousness, received by believing in the Son. No Defense pair yet and no clusters supplied, so both stand empty. SI-013 was not used. V12: SI-014 added — Wrap It In A Bow, the Watchman's Desk open letter. Four empires supplied what Jeremiah 10:2 forbade. clusters [] — Close to the Hip cluster values come from Dutch and none were supplied with the upload, so the entry stands with no chips rather than taking a guessed key. Pairs DEF-105, NOT the \"95\" the handover reserved: DEF-095 has been live and posted since 2026-09-03. studyLink points at the letter, the first non-/blog/ link in this file. V11: SI-012 added — The Talents. The disciples asked when the temple would fall and the parable answers why. clusters [\"pulpit-vocabulary\"], assigned by Dutch, the same key as the parent study; the /associations coverage map does not read this file, so nothing about this entry moves that cluster's count and no expected was bumped for it. Paired with DEF-103, the one of the six Defense entries in this drop that mirrors the insight. studyLink to the study. V10: PAIRED-CARD REBUILD. Every insight now carries `pair` (the id of its mirroring Defense entry) and, where the subject is load-bearing, `clusters` — cluster keys taken character-for-character from src/data/associations.js and validated against that registry before writing. The clusters field is what the chip row on /close-to-the-hip is generated from; the chip list itself is never hand-maintained. SI-008, SI-009 and SI-011 carry no clusters: nothing in the registry fits without stretching, and standing alone is a valid answer. NOTE the rebuild spec called for a `meta` block to hold the version; this file has never had one — version and changeNote are top-level fields here, and that is where the bump went. V9: SI-011 added — Luke 10:17-18, the lightning fall read as the enemy's grip breaking in real time rather than a history lesson. The trailing verse citation in the supplied copy was moved out of the body into refs, where the lane renders it. Paired with DEF-090 on the same passage. V8: SI-010 added — the vineyard owner came to collect righteousness (Matthew 21:43 · Deuteronomy 6:25 · Isaiah 5:7), studyLink /blog/house-without-the-owner/, postedDate 2026-09-02 so it sorts above the 2026-08-31 block and leads the lane. V7: Five insights posted 2026-08-31. NOTE the batch specified them as SI-004 through SI-008, but SI-004 was already taken and posted earlier the same day (the ten virgins / lamp and light insight, live with a studyLink to Kingdom of Lights). Posted ids do not move, so the five were loaded as SI-005 through SI-009 instead: many mansions, Isaiah in four blocks, the cup and the bread, the apostle requirement, and the courthouse monument. No studyLink on any of the five; refs render on screen as usual. Because all six of the 2026-08-31 insights share a date, the lane breaks the tie by id descending, so SI-009 is now newest and drives the home-page strip. V6: SI-004 added (ten virgins / lamp and light, studyLink /blog/kingdom-of-lights/). V5: SI-003 studyLink switched to the relative path /blog/two-kingdoms/ (works in local preview, survives a domain change). refs stored as arrays.",
   "insights": [
     {
       "id": "SI-001",
@@ -236,6 +236,84 @@
       "postedDate": "2026-09-30",
       "studyLink": "/blog/new-wine-old-bottles/",
       "studyLabel": "New Wine, Old Bottles"
+    },
+    {
+      "id": "SI-022",
+      "key": "oil-keeps-his-light-alight",
+      "pair": "DEF-113",
+      "text": "Ten virgins, five wise and five foolish. What separated them was oil, and Scripture commands oil in a lamp for exactly one purpose — to keep the light in Yahuah's house from going out. The commandment is the lamp and the law is the light, so the five who ran dry were priests who let His instruction die in them.",
+      "blip": "",
+      "refs": ["Matthew 25:1-13"],
+      "clusters": [],
+      "status": "posted",
+      "postedDate": "2026-10-01",
+      "studyLink": "/blog/kingdom-of-lights/",
+      "studyLabel": "Kingdom of Lights"
+    },
+    {
+      "id": "SI-023",
+      "key": "dark-sayings-of-old-are-old",
+      "pair": "",
+      "text": "I will open my mouth in a parable; I will utter dark sayings of old. Yahushua quoted that line about His own teaching, and the word old is the whole point. He was not inventing pictures on the spot — He was using symbols His hearers had carried since childhood, which is why a parable read without the Hebrew Scriptures has nowhere left to go but a moral.",
+      "blip": "",
+      "refs": ["Psalm 78:2", "Matthew 13:34-35"],
+      "clusters": [],
+      "status": "posted",
+      "postedDate": "2026-10-01",
+      "studyLink": "/blog/dark-sayings-of-old/",
+      "studyLabel": "Dark Sayings of Old"
+    },
+    {
+      "id": "SI-024",
+      "key": "parables-stay-shut-without-torah",
+      "pair": "DEF-115",
+      "text": "Why speakest thou unto them in parables? His own disciples asked it, and His answer was not that stories make hard truth easy — He said He spoke that way so that some, hearing, would not understand. Every lamp, vineyard, door and seed in them already carried a settled meaning in Torah and the Prophets, and to anyone who had set those Scriptures aside the picture stayed shut.",
+      "blip": "",
+      "refs": ["Matthew 13:10-13"],
+      "clusters": [],
+      "status": "posted",
+      "postedDate": "2026-10-01",
+      "studyLink": "/blog/dark-sayings-of-old/",
+      "studyLabel": "Dark Sayings of Old"
+    },
+    {
+      "id": "SI-025",
+      "key": "talents-are-the-law-not-abilities",
+      "pair": "",
+      "text": "The talents were never an inventory of a man's abilities — they are the law of Yahuah, the thing He said He would write on a man's heart, weighed into the hands of servants charged to feed the household with it, and the one who buried his talent buried that.",
+      "blip": "",
+      "refs": ["Matthew 25:14-30"],
+      "clusters": [],
+      "status": "posted",
+      "postedDate": "2026-10-01",
+      "studyLink": "/blog/the-talents/",
+      "studyLabel": "The Talents"
+    },
+    {
+      "id": "SI-026",
+      "key": "neighbour-is-what-a-man-becomes",
+      "pair": "",
+      "text": "The parable answers a lawyer hunting a loophole in the word neighbour, and the answer is a road with four men on it — one stripped of anything saying whose he is, two holding the altar and the teaching of the law who walked around him, and one shut out of the house who stopped and did for the broken what Yahuah said He would do Himself — because the law had already named the stranger and the enemy, and a neighbour is not settled before a man acts but is what he becomes when he does.",
+      "blip": "",
+      "refs": ["Luke 10:25-37"],
+      "clusters": [],
+      "status": "posted",
+      "postedDate": "2026-10-01",
+      "studyLink": "/blog/who-is-my-neighbour/",
+      "studyLabel": "Who Is My Neighbour"
+    },
+    {
+      "id": "SI-027",
+      "key": "you-are-the-goods",
+      "pair": "",
+      "text": "The pulpit teaches you to bind the strong man and take back your goods, but in the parable you are the goods, carried out of the house of bondage the way Israel left Egypt on Pesach night.",
+      "blip": "",
+      "refs": ["Mark 3:22-30", "Isaiah 49:24-25", "Exodus 12:12"],
+      "clusters": [],
+      "status": "posted",
+      "postedDate": "2026-10-01",
+      "studyLink": "/blog/the-strong-man-bound/",
+      "studyLabel": "The Strong Man Bound"
     }
   ]
 }
