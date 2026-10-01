@@ -1,4 +1,7 @@
-// associations 1001 V31.js
+// associations 1001 V32.js
+// V32: Strange Apparel (Matthew 22:1-14) tagged two-stage-salvation (+1);
+// expected 31 -> 32. the-priestly-charge is not in the registry, so the study
+// carries the one key. No clusters added, no anchors moved.
 // V31: The Same Word, a Different Master and Hearts and Reins join. No clusters
 // added, no anchors moved. The Same Word carries lost-in-translation and
 // two-stage-salvation; Hearts and Reins carries lost-in-translation and
@@ -111,7 +114,7 @@ export const CLUSTERS = {
     blurb:
       "Entry by the blood, walk by the bread. The framework the pulpit collapsed into a single step.",
     anchor: "bread-and-wine",
-    expected: 31,
+    expected: 32,
   },
 
   "lost-in-translation": {
