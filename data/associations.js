@@ -1,4 +1,8 @@
-// associations 1001 V32.js
+// associations 1002 V33.js
+// V33: Summer Is Nigh (Mark 13:28-31) joins kingdom-now and two-stage-salvation. Two
+// expected counts bump: kingdom-now 4 -> 5, two-stage-salvation 32 -> 33. The study
+// anchors neither cluster. Its read-through carries no keys of its own. No clusters
+// added, no anchors moved.
 // V32: Strange Apparel (Matthew 22:1-14) tagged two-stage-salvation (+1);
 // expected 31 -> 32. the-priestly-charge is not in the registry, so the study
 // carries the one key. No clusters added, no anchors moved.
@@ -114,7 +118,7 @@ export const CLUSTERS = {
     blurb:
       "Entry by the blood, walk by the bread. The framework the pulpit collapsed into a single step.",
     anchor: "bread-and-wine",
-    expected: 32,
+    expected: 33,
   },
 
   "lost-in-translation": {
@@ -130,7 +134,7 @@ export const CLUSTERS = {
     blurb:
       "Daniel dated it in the days of those kings. It came as a seed and not as a conquest — and the pulpit is still waiting for the crash.",
     anchor: "the-reign-is-now",
-    expected: 4,
+    expected: 5,
   },
 
   "how-yahuah-speaks": {
