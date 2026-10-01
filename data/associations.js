@@ -1,4 +1,9 @@
-// associations 0930 V30.js
+// associations 1001 V31.js
+// V31: The Same Word, a Different Master and Hearts and Reins join. No clusters
+// added, no anchors moved. The Same Word carries lost-in-translation and
+// two-stage-salvation; Hearts and Reins carries lost-in-translation and
+// pulpit-vocabulary. Three expected counts bump: lost-in-translation 24 -> 26,
+// two-stage-salvation 30 -> 31, pulpit-vocabulary 27 -> 28.
 // V30: New Wine, Old Bottles joins pulpit-vocabulary and two-stage-salvation.
 // Two expected counts bump: pulpit-vocabulary 26 -> 27, two-stage-salvation
 // 29 -> 30. The study anchors neither cluster. Its read-through carries no keys
@@ -106,7 +111,7 @@ export const CLUSTERS = {
     blurb:
       "Entry by the blood, walk by the bread. The framework the pulpit collapsed into a single step.",
     anchor: "bread-and-wine",
-    expected: 30,
+    expected: 31,
   },
 
   "lost-in-translation": {
@@ -114,7 +119,7 @@ export const CLUSTERS = {
     blurb:
       "Helel became Lucifer. Kappōret became a mercy seat. Qesheth became a rainbow. Har Mo'ed became Megiddo. What the English buried, and what it cost.",
     anchor: "the-lucifer-deception",
-    expected: 24,
+    expected: 26,
   },
 
   "kingdom-now": {
@@ -170,7 +175,7 @@ export const CLUSTERS = {
     blurb:
       "Words the pulpit softened, sweetened, or reinvented outright — and what the Hebrew and Greek actually say.",
     anchor: "the-whole-counsel",
-    expected: 27,
+    expected: 28,
   },
 
   "goel-kopher": {
