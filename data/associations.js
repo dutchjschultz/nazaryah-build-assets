@@ -1,4 +1,9 @@
-// associations 1004 V34.js
+// associations 1004 V35.js
+// V35: the Jubilee pair. The Year of Liberty joins the-moedim, yom-kippur and
+// lost-in-translation; its deep dive Forty-Nine or Fifty joins the-moedim. Three
+// expected counts bump: the-moedim 14 -> 16, yom-kippur 7 -> 8, lost-in-translation
+// 26 -> 27. The Goat keeps its keys and its yom-kippur anchor (it moved category to
+// The Feasts, which moves no count). No clusters added, no anchors moved.
 // V34: the Goat split. The Sign of the Goat (new, companion to The Goat That Was
 // Not Slain) carries foreign-fire and lost-in-translation; the Goat, whose se'irim,
 // goat-cult and Cultural Note material moved into it, drops those two and takes
@@ -132,7 +137,7 @@ export const CLUSTERS = {
     blurb:
       "Helel became Lucifer. Kappōret became a mercy seat. Qesheth became a rainbow. Har Mo'ed became Megiddo. What the English buried, and what it cost.",
     anchor: "the-lucifer-deception",
-    expected: 26,
+    expected: 27,
   },
 
   "kingdom-now": {
@@ -212,7 +217,7 @@ export const CLUSTERS = {
     blurb:
       "Yom Kippur pattern: the goat that was slain, the goat that was not, and what the church never explains.",
     anchor: "goat-that-was-not-slain",
-    expected: 7,
+    expected: 8,
   },
 
   "light-and-lamp": {
@@ -228,7 +233,7 @@ export const CLUSTERS = {
     blurb:
       "Yahuah's moedim as He set them — the days, the timing, and what was kept on each.",
     anchor: "seven-feasts-in-exodus",
-    expected: 14,
+    expected: 16,
   },
 
   "restored-creation": {
