@@ -1,4 +1,10 @@
-// associations 1002 V33.js
+// associations 1004 V34.js
+// V34: the Goat split. The Sign of the Goat (new, companion to The Goat That Was
+// Not Slain) carries foreign-fire and lost-in-translation; the Goat, whose se'irim,
+// goat-cult and Cultural Note material moved into it, drops those two and takes
+// goel-kopher and the-mishkan. foreign-fire and lost-in-translation net zero.
+// Two expected counts bump: goel-kopher 14 -> 15, the-mishkan 15 -> 16. The Goat
+// still anchors yom-kippur. No clusters added, no anchors moved.
 // V33: Summer Is Nigh (Mark 13:28-31) joins kingdom-now and two-stage-salvation. Two
 // expected counts bump: kingdom-now 4 -> 5, two-stage-salvation 32 -> 33. The study
 // anchors neither cluster. Its read-through carries no keys of its own. No clusters
@@ -190,7 +196,7 @@ export const CLUSTERS = {
     blurb:
       "Yahuah as sole Redeemer, the Son as the price paid. The legal spine under the whole atonement question.",
     anchor: "the-redeemer-who-never-needed-redeeming",
-    expected: 14,
+    expected: 15,
   },
 
   "the-mishkan": {
@@ -198,7 +204,7 @@ export const CLUSTERS = {
     blurb:
       "The structure Yahuah designed: ark, cover, veil, garments — and who may pass through what.",
     anchor: "ark-of-covering",
-    expected: 15,
+    expected: 16,
   },
 
   "yom-kippur": {
