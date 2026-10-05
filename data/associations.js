@@ -1,4 +1,12 @@
-// associations 1005 V36.js
+// associations 1005 V37.js
+// V37: The Blood and the Bread joins two-stage-salvation, goel-kopher and
+// yom-kippur. Three expected counts bump: two-stage-salvation 33 -> 34,
+// goel-kopher 15 -> 16, yom-kippur 8 -> 9. The study anchors none of the three.
+// It ships as a post (src/content/posts/blood-and-bread.mdx, /blog/blood-and-bread)
+// with the Blood/Bread toggle on StudyModes, so its keys come from its own
+// frontmatter like any study; no pool card is needed. No clusters added,
+// no anchors moved. Category stands in at Scripture Unfiltered pending the
+// planned Salvation category and the coming reassociation pass.
 // V36: The Sign of the Goat and Forty-Nine or Fifty are no longer studies — they
 // are unlisted "go deeper" pages under The Goat That Was Not Slain and The Year of
 // Liberty, carrying no keys. Sign of the Goat leaves foreign-fire and
@@ -137,7 +145,7 @@ export const CLUSTERS = {
     blurb:
       "Entry by the blood, walk by the bread. The framework the pulpit collapsed into a single step.",
     anchor: "bread-and-wine",
-    expected: 33,
+    expected: 34,
   },
 
   "lost-in-translation": {
@@ -209,7 +217,7 @@ export const CLUSTERS = {
     blurb:
       "Yahuah as sole Redeemer, the Son as the price paid. The legal spine under the whole atonement question.",
     anchor: "the-redeemer-who-never-needed-redeeming",
-    expected: 15,
+    expected: 16,
   },
 
   "the-mishkan": {
@@ -225,7 +233,7 @@ export const CLUSTERS = {
     blurb:
       "Yom Kippur pattern: the goat that was slain, the goat that was not, and what the church never explains.",
     anchor: "goat-that-was-not-slain",
-    expected: 8,
+    expected: 9,
   },
 
   "light-and-lamp": {
