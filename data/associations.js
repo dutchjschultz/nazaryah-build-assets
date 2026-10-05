@@ -1,4 +1,12 @@
-// associations 1004 V35.js
+// associations 1005 V36.js
+// V36: The Sign of the Goat and Forty-Nine or Fifty are no longer studies — they
+// are unlisted "go deeper" pages under The Goat That Was Not Slain and The Year of
+// Liberty, carrying no keys. Sign of the Goat leaves foreign-fire and
+// lost-in-translation; Forty-Nine or Fifty leaves the-moedim. Three expected counts
+// drop: foreign-fire 18 -> 17, lost-in-translation 27 -> 26, the-moedim 16 -> 15.
+// Net against V33: The Year of Liberty joins the-moedim, yom-kippur and
+// lost-in-translation; the Goat keeps yom-kippur (anchor), goel-kopher, the-mishkan.
+// No clusters added, no anchors moved.
 // V35: the Jubilee pair. The Year of Liberty joins the-moedim, yom-kippur and
 // lost-in-translation; its deep dive Forty-Nine or Fifty joins the-moedim. Three
 // expected counts bump: the-moedim 14 -> 16, yom-kippur 7 -> 8, lost-in-translation
@@ -137,7 +145,7 @@ export const CLUSTERS = {
     blurb:
       "Helel became Lucifer. Kappōret became a mercy seat. Qesheth became a rainbow. Har Mo'ed became Megiddo. What the English buried, and what it cost.",
     anchor: "the-lucifer-deception",
-    expected: 27,
+    expected: 26,
   },
 
   "kingdom-now": {
@@ -233,7 +241,7 @@ export const CLUSTERS = {
     blurb:
       "Yahuah's moedim as He set them — the days, the timing, and what was kept on each.",
     anchor: "seven-feasts-in-exodus",
-    expected: 16,
+    expected: 15,
   },
 
   "restored-creation": {
@@ -257,7 +265,7 @@ export const CLUSTERS = {
     blurb:
       "Borrowed worship, borrowed names, borrowed fire — traced back to where it was struck.",
     anchor: "esther-ishtar-marduk",
-    expected: 18,
+    expected: 17,
   },
 
   "trinity-examined": {
