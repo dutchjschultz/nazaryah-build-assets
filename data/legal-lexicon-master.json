@@ -2,7 +2,7 @@
   "meta": {
     "title": "The Legal Lexicon of Scripture",
     "role": "MASTER LIST — single source of truth. Check new terms against this before proposing any.",
-    "version": "1007 V21",
+    "version": "1007 V22",
     "updated": "2026-10-07",
     "totalTerms": 154,
     "movementsAreForward": true,
@@ -39,7 +39,8 @@
       "0831 V18: added 148 Lawlessness, 149 Joint-Heir, 150 Sent One — three terms surfaced in chat between Aug 9 and Aug 15 that were never queued. Records only, word pages pending. NOTE the batch specified this as V17; V17 was already taken by the rulings pass on V16 (the words[33] self-reference repair) and is live, so this is V18.",
       "0831 V19: 28 Recompense final word page written and flipped live. Joins 26 Shalom in the shalam root family. All 142 word pages now live; no draft remains. NOTE two corrections against the batch: it specified V18, which the 148-150 batch already took, so this is V19; and it said '147 original word pages', but the file holds 142 word records (141 previously live plus Recompense) — 147 was the term count before 148-150, and terms 143-150 still have no word page.",
       "0831 V20: rulings pass. 27 Restitution added back to words[28].sharesRoot so the shalam-H7999 family runs symmetric in all three directions (26, 27 and 28 each list the other two); the note on 28 now covers all three parts — Recompense the payment, Restitution what goes back to the injured party, Shalom the state of the books once both have landed. ROOTLINE RULING: the rootLine carries the actual lemma, not a memory of the old headword, so 128 keeps sifrin and 132 keeps karat — both were already correct, so no edit was needed. Swept all 20 renamed records (122-142) for the same class of disagreement: those two were the only ones.",
-      "1007 V21: wrote word pages 143–150 and flipped them live. Promoted Prayer (palal H6419) as 151 with its word page — a separate root from 115 Plead and 12 Intercession. 143 Two Witnesses joins the ed-H5707 family with 7 and 8. Testament (diatheke G1242), Confirm (bebaios G949) and Inaugurate (enkainizo G1457) promoted as 152–154 from the Hebrews 9:16-17 study, each with its word page — distinct Greek words, so each takes its own number. Break flags added to 148 Lawlessness, 150 Sent One and 152 Testament. 18 Covenant: the Hebrews 9:17 proof text realigned to the covenant reading (made sure over the slain, never by the Maker's death). Every term 1–154 has a word page."
+      "1007 V21: wrote word pages 143–150 and flipped them live. Promoted Prayer (palal H6419) as 151 with its word page — a separate root from 115 Plead and 12 Intercession. 143 Two Witnesses joins the ed-H5707 family with 7 and 8. Testament (diatheke G1242), Confirm (bebaios G949) and Inaugurate (enkainizo G1457) promoted as 152–154 from the Hebrews 9:16-17 study, each with its word page — distinct Greek words, so each takes its own number. Break flags added to 148 Lawlessness, 150 Sent One and 152 Testament. 18 Covenant: the Hebrews 9:17 proof text realigned to the covenant reading (made sure over the slain, never by the Maker's death). Every term 1–154 has a word page.",
+      "1007 V22: Removed 'Testator' from 51 Inheritance, 52 Heir and 53 Inherit. Scripture's inheritance is allotted by its Owner, not willed by a testator — aligned to the Hebrews 9:16-17 study."
     ]
   },
   "movements": [
@@ -2498,7 +2499,7 @@
       "courtroomRoles": [
         {
           "who": "Yahuah",
-          "role": "the Father, the Testator",
+          "role": "the Father, Owner of the estate",
           "does": "confers the standing of heir."
         },
         {
@@ -6031,7 +6032,7 @@
       "courtroomRoles": [
         {
           "who": "Yahuah",
-          "role": "the Testator",
+          "role": "the Owner of the estate",
           "does": "conveys the estate to the heirs."
         },
         {
@@ -6130,7 +6131,7 @@
       "courtroomRoles": [
         {
           "who": "Yahuah",
-          "role": "the Owner and Testator",
+          "role": "the Owner who allots",
           "does": "allots and secures the inheritance."
         },
         {
