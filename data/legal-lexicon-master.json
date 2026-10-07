@@ -2,9 +2,9 @@
   "meta": {
     "title": "The Legal Lexicon of Scripture",
     "role": "MASTER LIST — single source of truth. Check new terms against this before proposing any.",
-    "version": "0831 V20",
-    "updated": "2026-08-31",
-    "totalTerms": 150,
+    "version": "1007 V21",
+    "updated": "2026-10-07",
+    "totalTerms": 154,
     "movementsAreForward": true,
     "tokens": {
       "font": "Georgia, 'Times New Roman', serif",
@@ -38,7 +38,8 @@
       "0831 V17: rulings pass on V16. Repaired the V8 mis-key leftover — words[33] Engrave carried a self-reference {n:33, term:'Write'}; repointed to {n:32, term:'Write'}, which is where it belonged before the record moved 32→33. Swept the whole file for self-references (relatedInMovement or sharesRoot sibling whose n equals its parent's): that was the only one. The 20 word-page URLs the V16 rename changed are now covered by 301s in netlify.toml, and the 20 renamed pages carry social cards at their new slugs.",
       "0831 V18: added 148 Lawlessness, 149 Joint-Heir, 150 Sent One — three terms surfaced in chat between Aug 9 and Aug 15 that were never queued. Records only, word pages pending. NOTE the batch specified this as V17; V17 was already taken by the rulings pass on V16 (the words[33] self-reference repair) and is live, so this is V18.",
       "0831 V19: 28 Recompense final word page written and flipped live. Joins 26 Shalom in the shalam root family. All 142 word pages now live; no draft remains. NOTE two corrections against the batch: it specified V18, which the 148-150 batch already took, so this is V19; and it said '147 original word pages', but the file holds 142 word records (141 previously live plus Recompense) — 147 was the term count before 148-150, and terms 143-150 still have no word page.",
-      "0831 V20: rulings pass. 27 Restitution added back to words[28].sharesRoot so the shalam-H7999 family runs symmetric in all three directions (26, 27 and 28 each list the other two); the note on 28 now covers all three parts — Recompense the payment, Restitution what goes back to the injured party, Shalom the state of the books once both have landed. ROOTLINE RULING: the rootLine carries the actual lemma, not a memory of the old headword, so 128 keeps sifrin and 132 keeps karat — both were already correct, so no edit was needed. Swept all 20 renamed records (122-142) for the same class of disagreement: those two were the only ones."
+      "0831 V20: rulings pass. 27 Restitution added back to words[28].sharesRoot so the shalam-H7999 family runs symmetric in all three directions (26, 27 and 28 each list the other two); the note on 28 now covers all three parts — Recompense the payment, Restitution what goes back to the injured party, Shalom the state of the books once both have landed. ROOTLINE RULING: the rootLine carries the actual lemma, not a memory of the old headword, so 128 keeps sifrin and 132 keeps karat — both were already correct, so no edit was needed. Swept all 20 renamed records (122-142) for the same class of disagreement: those two were the only ones.",
+      "1007 V21: wrote word pages 143–150 and flipped them live. Promoted Prayer (palal H6419) as 151 with its word page — a separate root from 115 Plead and 12 Intercession. 143 Two Witnesses joins the ed-H5707 family with 7 and 8. Testament (diatheke G1242), Confirm (bebaios G949) and Inaugurate (enkainizo G1457) promoted as 152–154 from the Hebrews 9:16-17 study, each with its word page — distinct Greek words, so each takes its own number. Break flags added to 148 Lawlessness, 150 Sent One and 152 Testament. 18 Covenant: the Hebrews 9:17 proof text realigned to the covenant reading (made sure over the slain, never by the Maker's death). Every term 1–154 has a word page."
     ]
   },
   "movements": [
@@ -1131,7 +1132,7 @@
       "movement": 6,
       "gloss": "a matter established at two or three mouths",
       "strongs": "H5707+H6310",
-      "page": "pending"
+      "page": "live"
     },
     {
       "n": 144,
@@ -1139,7 +1140,7 @@
       "movement": 6,
       "gloss": "the required judicial inquiry into witnesses",
       "strongs": "H1875",
-      "page": "pending"
+      "page": "live"
     },
     {
       "n": 145,
@@ -1147,7 +1148,7 @@
       "movement": 6,
       "gloss": "one who peddles a report house to house",
       "strongs": "H7400",
-      "page": "pending"
+      "page": "live"
     },
     {
       "n": 146,
@@ -1173,7 +1174,7 @@
         ],
         "note": "One verb, four legal motions: to lift a charge away (Forgive), to bear the liability of a charge (Bear Iniquity), to lift a face in partiality (Lift the face), and here to lift an empty report and carry it."
       },
-      "page": "pending"
+      "page": "live"
     },
     {
       "n": 147,
@@ -1181,7 +1182,7 @@
       "movement": 3,
       "gloss": "the firstborn's two shares of the estate",
       "strongs": "H6310+H8147",
-      "page": "pending"
+      "page": "live"
     },
     {
       "n": 148,
@@ -1189,7 +1190,10 @@
       "movement": 2,
       "gloss": "the state of standing outside the code",
       "strongs": "G458",
-      "page": "pending"
+      "page": "live",
+      "break": {
+        "note": "The mystery of lawlessness already at work — the code removed, and the removal sold as liberty (2 Thessalonians 2:7)."
+      }
     },
     {
       "n": 149,
@@ -1197,7 +1201,7 @@
       "movement": 3,
       "gloss": "shared standing in one undivided estate",
       "strongs": "G4789",
-      "page": "pending"
+      "page": "live"
     },
     {
       "n": 150,
@@ -1205,7 +1209,45 @@
       "movement": 1,
       "gloss": "delegated authority, bound to the message sent",
       "strongs": "G652 / H7971",
-      "page": "pending"
+      "page": "live",
+      "break": {
+        "note": "The office claimed by men who were never sent — they say they are apostles, and are not (Revelation 2:2)."
+      }
+    },
+    {
+      "n": 151,
+      "term": "Prayer",
+      "movement": 7,
+      "gloss": "to fall before the judge and press for a verdict",
+      "strongs": "H6419",
+      "page": "live"
+    },
+    {
+      "n": 152,
+      "term": "Testament",
+      "movement": 2,
+      "gloss": "the covenant, dressed in English as a will",
+      "strongs": "G1242",
+      "page": "live",
+      "break": {
+        "note": "The covenant dressed as a will — ‘testament’ and ‘testator’ make the Maker die and fold the Lamb into the Maker (Hebrews 9:16–17)."
+      }
+    },
+    {
+      "n": 153,
+      "term": "Confirm",
+      "movement": 2,
+      "gloss": "made legally firm — in force and warranted",
+      "strongs": "G949",
+      "page": "live"
+    },
+    {
+      "n": 154,
+      "term": "Inaugurate",
+      "movement": 4,
+      "gloss": "to put a covenant into force by blood",
+      "strongs": "G1457",
+      "page": "live"
     }
   ],
   "words": {
@@ -1661,8 +1703,8 @@
         },
         {
           "ref": "Hebrews 9:17",
-          "text": "A testament is of force after men are dead.",
-          "note": "The covenant’s binding force."
+          "text": "For a testament [covenant] is of force [made sure] after men are dead [over the slain].",
+          "note": "Sealed over the slain sacrifice — never by the death of the Maker."
         }
       ],
       "plainTerms": [
@@ -11883,9 +11925,13 @@
           {
             "n": 7,
             "term": "Witness"
+          },
+          {
+            "n": 143,
+            "term": "Two Witnesses"
           }
         ],
-        "note": "Eduth (the testimony) is from ed (a witness): the deposited terms are the covenant’s standing witness to itself."
+        "note": "Ed (the witness) gives eduth (the testimony), and the court will not establish a matter until two or three ed stand at separate mouths — Witness, Testimony, and Two Witnesses are one root in three motions."
       },
       "courtroomWord": "A deposited-record term — the witnessed covenant terms placed on file.",
       "itsRole": "A covenant deposits its terms as a witness, and the testimony is that deposit — the tablets, the law, placed on file in the ark. Eduth is from ‘witness’: the covenant’s own testimony to itself, recorded and preserved. To keep the testimony is to keep the deposited terms. It is the documentary core of the covenant, the standing witness against any breach — not inspiration but the recorded law itself.",
@@ -12972,9 +13018,13 @@
           {
             "n": 8,
             "term": "Testimony"
+          },
+          {
+            "n": 143,
+            "term": "Two Witnesses"
           }
         ],
-        "note": "Eduth (the testimony) is from ed (the witness): the witness gives the testimony, and the deposited testimony is the covenant’s standing witness."
+        "note": "Ed (the witness) gives eduth (the testimony), and the court will not establish a matter until two or three ed stand at separate mouths — Witness, Testimony, and Two Witnesses are one root in three motions."
       },
       "courtroomWord": "An evidence term — the sworn source whose corroborated testimony establishes a matter.",
       "itsRole": "A case is decided on testimony, and the witness is its source — the one who saw and testifies, whose word, corroborated, establishes the matter. Torah requires two or three: one witness cannot convict. The false witness is gravely punished, for he corrupts judgment at its root. To be a witness is to bear the responsibility of establishing truth before the bench. The whole trial rests on the reliability of the witnesses — the matter stands or falls on their testimony.",
@@ -13204,6 +13254,1058 @@
         {
           "n": 36,
           "term": "Memorial"
+        }
+      ]
+    },
+    "143": {
+      "n": 143,
+      "term": "Two Witnesses",
+      "movement": 6,
+      "rootLine": "al-pi shnayim edim — Hebrew",
+      "caseStrongs": "H5707 · H6310",
+      "lead": "The modern ear hears ‘two witnesses’ and pictures two people telling the same story. Torah demands more than a headcount. The phrase is al-pi shnayim edim — ‘at the mouth of two witnesses’ — and the weight sits on the word mouth: two separate mouths, each speaking from what it saw. “At the mouth of two witnesses, or at the mouth of three witnesses, shall the matter be established” (Deuteronomy 19:15). One story repeated by a second voice is still one witness. Jezebel knew the rule well enough to counterfeit it — she hired two men to recite one prepared charge against Naboth (1 Kings 21:10). The court of Yahuah counts independent mouths, not echoes.",
+      "root": [
+        {
+          "lemma": "ed",
+          "strong": "H5707",
+          "sense": "a witness; one who saw and testifies"
+        },
+        {
+          "lemma": "peh",
+          "strong": "H6310",
+          "sense": "mouth; by extension the word spoken, and a measured share"
+        }
+      ],
+      "sharesRoot": {
+        "rootId": "ed-H5707",
+        "siblings": [
+          {
+            "n": 7,
+            "term": "Witness"
+          },
+          {
+            "n": 8,
+            "term": "Testimony"
+          }
+        ],
+        "note": "Ed (the witness) gives eduth (the testimony), and the court will not establish a matter until two or three ed stand at separate mouths — Witness, Testimony, and Two Witnesses are one root in three motions."
+      },
+      "courtroomWord": "An evidence-threshold term — the minimum count of independent testimony before a matter can stand.",
+      "itsRole": "No matter is established on one voice. The court requires two or three witnesses, each an independent mouth, before a charge can stand — and before a death sentence can be carried out (Deuteronomy 17:6). The rule protects the accused from a lone accuser and protects the court from a rehearsed story. Repetition is not corroboration; the same report carried by two mouths is still one source. Yahushua carries the rule straight into the assembly (Matthew 18:16), and Paul applies it again (2 Corinthians 13:1). The threshold never moved.",
+      "proofTexts": [
+        {
+          "ref": "Deuteronomy 19:15",
+          "text": "At the mouth of two witnesses, or at the mouth of three witnesses, shall the matter be established.",
+          "note": "The threshold stated."
+        },
+        {
+          "ref": "Deuteronomy 17:6",
+          "text": "At the mouth of two witnesses, or three witnesses, shall he that is worthy of death be put to death; but at the mouth of one witness he shall not be put to death.",
+          "note": "One mouth cannot carry a sentence."
+        },
+        {
+          "ref": "Matthew 18:16",
+          "text": "That in the mouth of two or three witnesses every word may be established.",
+          "note": "The rule carried into the assembly."
+        },
+        {
+          "ref": "1 Kings 21:10",
+          "text": "And set two men, sons of Belial, before him, to bear witness against him.",
+          "note": "The rule counterfeited: two hired mouths, one script."
+        }
+      ],
+      "plainTerms": [
+        "Torah will not settle a matter on one person’s word. It takes two or three witnesses, each speaking from what he saw himself. Two people repeating the same story do not count as two — that is still one witness with an echo."
+      ],
+      "bringItHome": [
+        "When Jezebel wanted Naboth dead, she did not send one accuser — she hired two, because she knew the court counted mouths. But two men reciting one script is still one witness. That is the line Torah draws: not how many voices, but how many independent mouths. A report heard ten times from one source is still one source."
+      ],
+      "courtroomRoles": [
+        {
+          "who": "The witnesses",
+          "role": "the independent mouths",
+          "does": "each testify to what they saw, apart from the other."
+        },
+        {
+          "who": "The accused",
+          "role": "the protected party",
+          "does": "cannot be condemned on a single voice."
+        },
+        {
+          "who": "Yahuah",
+          "role": "the Judge",
+          "does": "who set the threshold and holds every court to it."
+        }
+      ],
+      "relatedInMovement": [
+        {
+          "n": 7,
+          "term": "Witness"
+        },
+        {
+          "n": 144,
+          "term": "Examine"
+        },
+        {
+          "n": 146,
+          "term": "False Report"
+        },
+        {
+          "n": 147,
+          "term": "Double Portion"
+        }
+      ]
+    },
+    "144": {
+      "n": 144,
+      "term": "Examine",
+      "movement": 6,
+      "rootLine": "darash — Hebrew",
+      "caseStrongs": "H1875",
+      "lead": "Counting witnesses is not the end of the court’s work; it is the beginning. Torah orders the judges to darash — to seek out, inquire, investigate — before any verdict is reached: “And the judges shall make diligent inquisition: and, behold, if the witness be a false witness, and hath testified falsely against his brother” (Deuteronomy 19:18). The same verb governs the gravest charges: the report must be heard, then searched out, until it is found “true, and the thing certain” (Deuteronomy 17:4). Darash forbids a verdict by rumor. A court that rules on what it has merely heard, without inquiry, has broken the law it claims to enforce.",
+      "root": [
+        {
+          "lemma": "darash",
+          "strong": "H1875",
+          "sense": "to seek, to inquire, to investigate; to search a matter out"
+        }
+      ],
+      "courtroomWord": "A procedure term — the judges’ mandatory investigation of a report and its witnesses before any ruling.",
+      "itsRole": "Between the report and the verdict stands the inquiry. The judges must search the matter out — question the witnesses, test the testimony, and establish that the thing is ‘true, and the thing certain’ before acting. Darash is what exposes the false witness, and the false witness then receives the sentence he sought for his brother (Deuteronomy 19:19). The order is fixed: hear, inquire, establish, then rule. Skip the inquiry and the court becomes the instrument of whoever spoke first.",
+      "proofTexts": [
+        {
+          "ref": "Deuteronomy 19:18",
+          "text": "And the judges shall make diligent inquisition: and, behold, if the witness be a false witness, and hath testified falsely against his brother.",
+          "note": "The inquiry commanded."
+        },
+        {
+          "ref": "Deuteronomy 17:4",
+          "text": "And it be told thee, and thou hast heard of it, and enquired diligently, and, behold, it be true, and the thing certain.",
+          "note": "Heard, then searched, then certain."
+        },
+        {
+          "ref": "Deuteronomy 13:14",
+          "text": "Then shalt thou enquire, and make search, and ask diligently; and, behold, if it be truth, and the thing certain.",
+          "note": "Three verbs of inquiry before any action."
+        },
+        {
+          "ref": "Proverbs 18:17",
+          "text": "He that is first in his own cause seemeth just; but his neighbour cometh and searcheth him.",
+          "note": "Why the first report cannot decide the case."
+        }
+      ],
+      "plainTerms": [
+        "Before a judge rules, he has to investigate. Torah commands the judges to search the matter out, question the witnesses, and make sure the thing is true and certain. A ruling made on what was only heard, never examined, breaks the very law it claims to keep."
+      ],
+      "bringItHome": [
+        "The first man to tell his story always sounds right — until the other side is heard and the account is searched out. That is why Torah will not let a court rule on hearing alone. ‘Enquire, and make search, and ask diligently.’ Only then, if the thing is true and certain, does the bench act."
+      ],
+      "courtroomRoles": [
+        {
+          "who": "The judges",
+          "role": "the examiners",
+          "does": "search out the matter and test every witness."
+        },
+        {
+          "who": "The witness",
+          "role": "the one examined",
+          "does": "whose testimony must hold up under inquiry."
+        },
+        {
+          "who": "The false witness",
+          "role": "the exposed party",
+          "does": "who receives the sentence he sought for his brother."
+        }
+      ],
+      "relatedInMovement": [
+        {
+          "n": 143,
+          "term": "Two Witnesses"
+        },
+        {
+          "n": 7,
+          "term": "Witness"
+        },
+        {
+          "n": 146,
+          "term": "False Report"
+        },
+        {
+          "n": 1,
+          "term": "Judge"
+        }
+      ]
+    },
+    "145": {
+      "n": 145,
+      "term": "Talebearer",
+      "movement": 6,
+      "rootLine": "rakil — Hebrew",
+      "caseStrongs": "H7400",
+      "lead": "The church treats gossip as a manners problem. Torah treats it as an offense against the court. The rakil is one who goes about with a report, from rakal, to travel as a trader — the talebearer moves words house to house the way a peddler moves goods. “Thou shalt not go up and down as a talebearer among thy people: neither shalt thou stand against the blood of thy neighbour” (Leviticus 19:16). The verse sits inside the courtroom passage, one breath after “in righteousness shalt thou judge thy neighbour” (19:15). The offense is the carrying itself. A report does not need to be false for the talebearer to be guilty; it only needs to be peddled.",
+      "root": [
+        {
+          "lemma": "rakil",
+          "strong": "H7400",
+          "sense": "a talebearer, a slanderer; one who goes about with a report"
+        },
+        {
+          "lemma": "rakal",
+          "strong": "H7402",
+          "sense": "to go about as a trader or merchant"
+        }
+      ],
+      "courtroomWord": "An offense term — the circulation of a report through the community, outside any court.",
+      "itsRole": "Torah sets a procedure for every accusation: witnesses, inquiry, judges, verdict. The talebearer bypasses all of it. He carries the matter house to house, and the community convicts before any bench has heard a word. That is why Leviticus places him beside the man who stands against his neighbour’s blood, and why Ezekiel names men ‘that carry tales to shed blood’ (Ezekiel 22:9). The charge is the carrying. Truth is no defense, because the report was never his to circulate.",
+      "proofTexts": [
+        {
+          "ref": "Leviticus 19:16",
+          "text": "Thou shalt not go up and down as a talebearer among thy people: neither shalt thou stand against the blood of thy neighbour: I am Yahuah.",
+          "note": "The carrying forbidden."
+        },
+        {
+          "ref": "Proverbs 11:13",
+          "text": "A talebearer revealeth secrets: but he that is of a faithful spirit concealeth the matter.",
+          "note": "The faithful keep the matter where it belongs."
+        },
+        {
+          "ref": "Proverbs 20:19",
+          "text": "He that goeth about as a talebearer revealeth secrets: therefore meddle not with him that flattereth with his lips.",
+          "note": "The one who goes about."
+        },
+        {
+          "ref": "Ezekiel 22:9",
+          "text": "In thee are men that carry tales to shed blood.",
+          "note": "Where the carrying ends."
+        }
+      ],
+      "plainTerms": [
+        "A talebearer is someone who carries a story from house to house. Torah forbids it outright, in the same breath as standing against a neighbor’s life. The report does not have to be false — passing it along outside the court is the offense."
+      ],
+      "bringItHome": [
+        "Picture a peddler going door to door — only what is in his pack is a report about a neighbor. That is the rakil. By the time any judge could hear the matter, the whole town has already ruled. Torah shuts that down at the first door: ‘Thou shalt not go up and down as a talebearer.’ Passing it on is carrying it."
+      ],
+      "courtroomRoles": [
+        {
+          "who": "The talebearer",
+          "role": "the carrier",
+          "does": "moves the report through the community outside the court."
+        },
+        {
+          "who": "The neighbour",
+          "role": "the one tried in absentia",
+          "does": "convicted by the town before any hearing."
+        },
+        {
+          "who": "The court",
+          "role": "the bypassed bench",
+          "does": "where the matter belonged and never arrived."
+        }
+      ],
+      "relatedInMovement": [
+        {
+          "n": 146,
+          "term": "False Report"
+        },
+        {
+          "n": 136,
+          "term": "Set Apart by Report"
+        },
+        {
+          "n": 134,
+          "term": "Slanderer"
+        },
+        {
+          "n": 88,
+          "term": "Tongue"
+        }
+      ]
+    },
+    "146": {
+      "n": 146,
+      "term": "False Report",
+      "movement": 6,
+      "rootLine": "nasa shema shav — Hebrew",
+      "caseStrongs": "H5375 · H8088 · H7723",
+      "lead": "“Thou shalt not raise a false report” (Exodus 23:1). The modern reader hears ‘don’t lie.’ The Hebrew says more. Nasa is to lift and carry; shema is the thing heard; shav is empty, without substance. The offense is picking up a report that has nothing under it and carrying it on. It happens before any trial — before a single witness is sworn. And the verse goes straight on: “put not thine hand with the wicked to be an unrighteous witness.” The raised report is the first step toward false testimony. A man does not have to invent the story to be charged with it; he only has to lift it and pass it along unweighed.",
+      "root": [
+        {
+          "lemma": "nasa",
+          "strong": "H5375",
+          "sense": "to lift, to carry, to take up"
+        },
+        {
+          "lemma": "shema",
+          "strong": "H8088",
+          "sense": "a report, a thing heard"
+        },
+        {
+          "lemma": "shav",
+          "strong": "H7723",
+          "sense": "empty, vain, without substance; falsehood"
+        }
+      ],
+      "sharesRoot": {
+        "rootId": "nasa-H5375",
+        "siblings": [
+          {
+            "n": 16,
+            "term": "Forgive"
+          },
+          {
+            "n": 84,
+            "term": "Lift the face"
+          },
+          {
+            "n": 122,
+            "term": "Bear Iniquity"
+          }
+        ],
+        "note": "One verb, four legal motions: to lift a charge away (Forgive), to bear the liability of a charge (Bear Iniquity), to lift a face in partiality (Lift the face), and here to lift an empty report and carry it."
+      },
+      "courtroomWord": "A pre-trial offense — lifting an unverified report and carrying it before any court has weighed it.",
+      "itsRole": "The false report is the charge that attaches before testimony is ever given. Its whole fault is weight: the thing heard had nothing in it, and it was lifted anyway. Exodus joins it at once to joining hands with the wicked as an unrighteous witness, and to following a multitude to wrest judgment (23:2) — the report raised, then the crowd, then the court corrupted. The same verb that lifts a charge off the guilty in Forgive here lifts an empty word onto the innocent. Nasa runs both directions; Torah names which one is lawful.",
+      "proofTexts": [
+        {
+          "ref": "Exodus 23:1",
+          "text": "Thou shalt not raise a false report: put not thine hand with the wicked to be an unrighteous witness.",
+          "note": "The report raised, the witness corrupted."
+        },
+        {
+          "ref": "Exodus 23:2",
+          "text": "Thou shalt not follow a multitude to do evil; neither shalt thou speak in a cause to decline after many to wrest judgment.",
+          "note": "Where the raised report leads."
+        },
+        {
+          "ref": "Psalm 15:3",
+          "text": "He that backbiteth not with his tongue, nor doeth evil to his neighbour, nor taketh up a reproach against his neighbour.",
+          "note": "Nasa again — the reproach not taken up."
+        },
+        {
+          "ref": "Proverbs 17:4",
+          "text": "A wicked doer giveth heed to false lips; and a liar giveth ear to a naughty tongue.",
+          "note": "The ear that receives it."
+        }
+      ],
+      "plainTerms": [
+        "Raising a false report means picking up something heard — with nothing behind it — and passing it on. The offense comes before any trial. A person does not have to start the story to be guilty of it; carrying it unchecked is enough."
+      ],
+      "bringItHome": [
+        "‘I didn’t start it, I just shared it.’ Torah answers that line before anyone says it: thou shalt not raise — lift — an empty report. The same verb that lifts a debt off the guilty in forgiveness here lifts a hollow word onto the innocent. One carrying clears a man. The other buries him."
+      ],
+      "courtroomRoles": [
+        {
+          "who": "The raiser",
+          "role": "the carrier",
+          "does": "lifts an unweighed report and passes it on."
+        },
+        {
+          "who": "The neighbour",
+          "role": "the accused",
+          "does": "charged in the street before any court sits."
+        },
+        {
+          "who": "The multitude",
+          "role": "the crowd",
+          "does": "that follows the report and wrests judgment."
+        }
+      ],
+      "relatedInMovement": [
+        {
+          "n": 145,
+          "term": "Talebearer"
+        },
+        {
+          "n": 143,
+          "term": "Two Witnesses"
+        },
+        {
+          "n": 144,
+          "term": "Examine"
+        },
+        {
+          "n": 16,
+          "term": "Forgive"
+        }
+      ]
+    },
+    "147": {
+      "n": 147,
+      "term": "Double Portion",
+      "movement": 3,
+      "rootLine": "pi shenayim — Hebrew",
+      "caseStrongs": "H6310 · H8147",
+      "lead": "Pulpits use ‘double portion’ for a spiritual windfall — twice the anointing, twice the blessing. In Torah it is an inheritance statute. Pi shenayim, literally ‘the mouth of two,’ is the firstborn’s fixed share: two parts of the estate where each brother takes one. “He shall acknowledge the son of the hated for the firstborn, by giving him a double portion of all that he hath: for he is the beginning of his strength; the right of the firstborn is his” (Deuteronomy 21:17). The father may not move it to a favorite son (21:16). When Reuben forfeited it, it passed by lawful transfer to Joseph, whose two sons stood as two tribes (1 Chronicles 5:1; Genesis 48:5).",
+      "root": [
+        {
+          "lemma": "peh",
+          "strong": "H6310",
+          "sense": "mouth; a measure, a share"
+        },
+        {
+          "lemma": "shenayim",
+          "strong": "H8147",
+          "sense": "two"
+        }
+      ],
+      "courtroomWord": "An estate term — the firstborn’s statutory two shares, fixed by law and not by the father’s preference.",
+      "itsRole": "The double portion is how the birthright is paid out. When the estate is divided, the firstborn receives two shares, and the law forbids the father to reassign that right by affection. It can be forfeited — Reuben lost it by defiling his father’s bed — but it is then transferred, not dissolved, and Joseph received it through Ephraim and Manasseh. Elisha asks for it by its legal name when Elijah is taken (2 Kings 2:9): the successor’s claim to the firstborn’s share. Every use is estate law, not a spiritual bonus.",
+      "proofTexts": [
+        {
+          "ref": "Deuteronomy 21:17",
+          "text": "By giving him a double portion of all that he hath: for he is the beginning of his strength; the right of the firstborn is his.",
+          "note": "The share fixed by statute."
+        },
+        {
+          "ref": "Deuteronomy 21:16",
+          "text": "He may not make the son of the beloved firstborn before the son of the hated, which is indeed the firstborn.",
+          "note": "Not reassignable by preference."
+        },
+        {
+          "ref": "1 Chronicles 5:1",
+          "text": "His birthright was given unto the sons of Joseph the son of Israel.",
+          "note": "Forfeited, then lawfully transferred."
+        },
+        {
+          "ref": "2 Kings 2:9",
+          "text": "I pray thee, let a double portion of thy spirit be upon me.",
+          "note": "The successor’s claim by its legal name."
+        }
+      ],
+      "plainTerms": [
+        "The double portion is the firstborn son’s legal share of the estate — two parts where each brother gets one. The father cannot hand it to a favorite. It is a rule of inheritance law, not a promise of extra blessing."
+      ],
+      "bringItHome": [
+        "When the estate was divided, the firstborn’s share was written into the law: two parts to each brother’s one, and no father could move it by favoritism. Reuben lost it; it went to Joseph, and Joseph’s two sons stood as two tribes. That is the double portion — a title, transferred by law, not a windfall."
+      ],
+      "courtroomRoles": [
+        {
+          "who": "The firstborn",
+          "role": "the heir of the double share",
+          "does": "receives two parts by right."
+        },
+        {
+          "who": "The father",
+          "role": "the one dividing the estate",
+          "does": "bound by statute, not free to reassign it by affection."
+        },
+        {
+          "who": "The brothers",
+          "role": "the co-heirs",
+          "does": "each receive one share."
+        }
+      ],
+      "relatedInMovement": [
+        {
+          "n": 60,
+          "term": "Birthright"
+        },
+        {
+          "n": 54,
+          "term": "Portion"
+        },
+        {
+          "n": 51,
+          "term": "Inheritance"
+        },
+        {
+          "n": 143,
+          "term": "Two Witnesses"
+        }
+      ]
+    },
+    "148": {
+      "n": 148,
+      "term": "Lawlessness",
+      "movement": 2,
+      "rootLine": "anomia — Greek",
+      "caseStrongs": "G458",
+      "lead": "The English Bible rarely lets this word speak in its own voice. Anomia is a-nomos — without law. The King James renders it ‘iniquity’ almost everywhere, a word that sounds like general wickedness, and the law drops out of the reader’s view. But John defines sin with it outright: “sin is the transgression of the law” (1 John 3:4) — in the Greek, sin is anomia. And Yahushua’s sentence on the crowd who called Him Lord is “depart from me, ye that work iniquity” (Matthew 7:23) — ye that work lawlessness. They had prophesied, cast out devils, and done many wonderful works in His name. What they had not done was keep the code.",
+      "root": [
+        {
+          "lemma": "anomia",
+          "strong": "G458",
+          "sense": "lawlessness; the condition of being without law"
+        },
+        {
+          "lemma": "anomos",
+          "strong": "G459",
+          "sense": "lawless, without law"
+        }
+      ],
+      "courtroomWord": "A standing term — the condition of living outside the code, the state by which sin is defined.",
+      "itsRole": "Transgression is a single breach; lawlessness is a condition — a life standing outside the code altogether. John uses it to define sin itself, which means sin cannot be recast as a mood of the heart while the law is set aside. Yahushua names it as the ground of rejection at the judgment, ruling by the authority the Father committed to Him (John 5:22). Paul names ‘the mystery of iniquity’ already at work (2 Thessalonians 2:7) — the counterfeit court’s whole project is to make lawlessness look like liberty. The word answers the teaching that the law was removed: removing it is the very thing the word condemns.",
+      "proofTexts": [
+        {
+          "ref": "1 John 3:4",
+          "text": "Whosoever committeth sin transgresseth also the law: for sin is the transgression of the law.",
+          "note": "Sin defined as anomia."
+        },
+        {
+          "ref": "Matthew 7:23",
+          "text": "And then will I profess unto them, I never knew you: depart from me, ye that work iniquity.",
+          "note": "The sentence on the lawless."
+        },
+        {
+          "ref": "Matthew 24:12",
+          "text": "And because iniquity shall abound, the love of many shall wax cold.",
+          "note": "Lawlessness and love set against each other."
+        },
+        {
+          "ref": "2 Thessalonians 2:7",
+          "text": "For the mystery of iniquity doth already work.",
+          "note": "The counterfeit already at work."
+        }
+      ],
+      "plainTerms": [
+        "Lawlessness means living without the law. The King James usually hides it behind the word ‘iniquity,’ but John uses it to define sin itself. Yahushua turns away people who did great works in His name — because they worked lawlessness."
+      ],
+      "bringItHome": [
+        "‘I never knew you: depart from me, ye that work iniquity.’ Those men prophesied and cast out devils in His name. Read the word under the English and the charge comes clear: ye that work lawlessness. Their works were many. Their walk was outside the code."
+      ],
+      "courtroomRoles": [
+        {
+          "who": "The lawless",
+          "role": "the party outside the code",
+          "does": "whose works stand with no law beneath them."
+        },
+        {
+          "who": "Yahushua",
+          "role": "the one who speaks the sentence",
+          "does": "by the authority the Father committed to Him."
+        },
+        {
+          "who": "The law",
+          "role": "the standard",
+          "does": "the line whose absence the word names."
+        }
+      ],
+      "relatedInMovement": [
+        {
+          "n": 19,
+          "term": "Transgression"
+        },
+        {
+          "n": 6,
+          "term": "Righteousness"
+        },
+        {
+          "n": 130,
+          "term": "Times and Law"
+        },
+        {
+          "n": 139,
+          "term": "Under the Law"
+        }
+      ]
+    },
+    "149": {
+      "n": 149,
+      "term": "Joint-Heir",
+      "movement": 3,
+      "rootLine": "sunkleronomos — Greek",
+      "caseStrongs": "G4789",
+      "lead": "A joint-heir is a co-inheritor — one who holds a share in the same undivided estate alongside another. Sunkleronomos is built from sun, ‘together with,’ and kleronomos, ‘heir.’ “And if children, then heirs; heirs of Elohim, and joint-heirs with Messiah” (Romans 8:17). Notice the order of the estate. Elohim is the One whose estate it is. The Son is heir — “whom he hath appointed heir of all things” (Hebrews 1:2), appointed by another. The children stand beside the Son as co-heirs. An heir receives; he does not hold the estate before it is given. The word itself keeps the Father and the Son in their places: the One who assigns, and the One who inherits.",
+      "root": [
+        {
+          "lemma": "sunkleronomos",
+          "strong": "G4789",
+          "sense": "a joint-heir, a co-inheritor"
+        },
+        {
+          "lemma": "kleronomos",
+          "strong": "G2818",
+          "sense": "an heir; one who receives an allotted share"
+        }
+      ],
+      "courtroomWord": "An estate term — shared standing as co-inheritor in one undivided estate.",
+      "itsRole": "Inheritance law always has three parts: the estate, the one whose estate it is, and the heirs who receive it. Joint-heirship places the children inside that structure beside the Son. They do not receive a lesser estate or a separate one; they share the same allotment, as Abraham dwelt with Isaac and Jacob, ‘the heirs with him of the same promise’ (Hebrews 11:9). And the condition stands in the same verse as the title: ‘if so be that we suffer with him.’ Joint-heirship is standing, not a feeling — and it presupposes an estate Yahuah owns and assigns.",
+      "proofTexts": [
+        {
+          "ref": "Romans 8:17",
+          "text": "And if children, then heirs; heirs of Elohim, and joint-heirs with Messiah; if so be that we suffer with him, that we may be also glorified together.",
+          "note": "Co-heirs, with a condition attached."
+        },
+        {
+          "ref": "Ephesians 3:6",
+          "text": "That the Gentiles should be fellowheirs, and of the same body, and partakers of his promise in Messiah by the gospel.",
+          "note": "Admitted to the same estate."
+        },
+        {
+          "ref": "Hebrews 11:9",
+          "text": "Dwelling in tabernacles with Isaac and Jacob, the heirs with him of the same promise.",
+          "note": "One promise, several heirs."
+        },
+        {
+          "ref": "Galatians 4:7",
+          "text": "Wherefore thou art no more a servant, but a son; and if a son, then an heir of Elohim through Messiah.",
+          "note": "Standing changed from servant to heir."
+        }
+      ],
+      "plainTerms": [
+        "A joint-heir shares the same inheritance with someone else. Believers are called joint-heirs with the Messiah — sharing His inheritance, not getting a separate one. And an heir receives: the estate belongs to the Father, who appointed the Son heir of all things."
+      ],
+      "bringItHome": [
+        "In any inheritance there is the one whose estate it is, and the heirs who receive it — and they are never the same person. Scripture places the Father as owner, the Son as appointed heir, and the children standing beside Him as joint-heirs. That is a family estate settled by law, and the Son shares it rather than owning it alone."
+      ],
+      "courtroomRoles": [
+        {
+          "who": "Yahuah",
+          "role": "the owner of the estate",
+          "does": "who appoints the heir and assigns the shares."
+        },
+        {
+          "who": "Yahushua",
+          "role": "the appointed Heir",
+          "does": "who receives the estate from the Father."
+        },
+        {
+          "who": "The children",
+          "role": "the joint-heirs",
+          "does": "who share the same allotment beside the Son."
+        }
+      ],
+      "relatedInMovement": [
+        {
+          "n": 52,
+          "term": "Heir"
+        },
+        {
+          "n": 51,
+          "term": "Inheritance"
+        },
+        {
+          "n": 61,
+          "term": "Adoption"
+        },
+        {
+          "n": 62,
+          "term": "Sonship"
+        }
+      ]
+    },
+    "150": {
+      "n": 150,
+      "term": "Sent One",
+      "movement": 1,
+      "rootLine": "apostolos / shaluach — Greek / Hebrew",
+      "caseStrongs": "G652 · H7971",
+      "lead": "‘Apostle’ has become a title of rank, claimed today by men who govern networks and promise to take the mountains of culture. Its meaning is plainer and binding: one sent. In the Septuagint apostolos stands at 1 Kings 14:6, where the prophet Ahijah says “I am sent to thee with heavy tidings” — Hebrew shaluach, from shalach, to send. A sent one carries authority, but it is borrowed authority, bound to the message and to the sender. “Neither he that is sent greater than he that sent him” (John 13:16). And Scripture calls Yahushua Himself “the Apostle and High Priest of our profession” (Hebrews 3:1) — the Sent One, distinct from the One who sent Him.",
+      "root": [
+        {
+          "lemma": "apostolos",
+          "strong": "G652",
+          "sense": "one sent; a messenger under commission"
+        },
+        {
+          "lemma": "shalach",
+          "strong": "H7971",
+          "sense": "to send, to send forth with a commission"
+        }
+      ],
+      "courtroomWord": "An agency term — delegated authority, valid only as far as the message and the sender reach.",
+      "itsRole": "A sent one acts in another’s name. His word carries weight because the sender stands behind it — and only so far as he delivers what he was given. That is the limit Yahushua sets: the sent is not greater than the sender. It is also why the office of the twelve was closed — they had to be eyewitnesses of the resurrection (Acts 1:21–22), and Paul was ‘last of all’ (1 Corinthians 15:8). And it is the plainest statement of the Father and the Son: ‘the only true God, and Yahushua Messiah, whom thou hast sent’ (John 17:3). The Sender and the Sent are two.",
+      "proofTexts": [
+        {
+          "ref": "John 13:16",
+          "text": "The servant is not greater than his lord; neither he that is sent greater than he that sent him.",
+          "note": "Delegated authority, bounded by the sender."
+        },
+        {
+          "ref": "Hebrews 3:1",
+          "text": "Consider the Apostle and High Priest of our profession, Messiah Yahushua.",
+          "note": "The Son named the Sent One."
+        },
+        {
+          "ref": "John 17:3",
+          "text": "That they might know thee the only true Elohim, and Yahushua Messiah, whom thou hast sent.",
+          "note": "The Sender and the Sent, named apart."
+        },
+        {
+          "ref": "Revelation 2:2",
+          "text": "Thou hast tried them which say they are apostles, and are not, and hast found them liars.",
+          "note": "The counterfeit claim tested and exposed."
+        }
+      ],
+      "plainTerms": [
+        "An apostle is a ‘sent one’ — someone carrying a message with authority borrowed from whoever sent him. He is never greater than the sender. Scripture calls Yahushua the Apostle, the One sent by the only true God."
+      ],
+      "bringItHome": [
+        "An ambassador speaks with the king’s authority, but only while he delivers the king’s message — and no ambassador is the king. That is a sent one. Yahushua said it Himself: the sent is not greater than the sender. And He prayed to ‘the only true God,’ naming Himself as the one ‘whom thou hast sent.’"
+      ],
+      "courtroomRoles": [
+        {
+          "who": "Yahuah",
+          "role": "the Sender",
+          "does": "who commissions and stands behind the message."
+        },
+        {
+          "who": "Yahushua",
+          "role": "the Sent One",
+          "does": "the Apostle who carries the Father’s word."
+        },
+        {
+          "who": "The false apostles",
+          "role": "the claimants",
+          "does": "tried and found liars."
+        }
+      ],
+      "relatedInMovement": [
+        {
+          "n": 72,
+          "term": "Messiah"
+        },
+        {
+          "n": 11,
+          "term": "Mediator"
+        },
+        {
+          "n": 71,
+          "term": "Anoint"
+        },
+        {
+          "n": 142,
+          "term": "Teacher and Master"
+        }
+      ]
+    },
+    "151": {
+      "n": 151,
+      "term": "Prayer",
+      "movement": 7,
+      "rootLine": "palal / tephillah — Hebrew",
+      "caseStrongs": "H6419 · H8605",
+      "lead": "The church pictures prayer as conversation — talking things over with heaven. The Hebrew root puts it in a courtroom. Palal means to judge, to arbitrate, to intervene; its reflexive form, hitpalel, is the common verb ‘to pray,’ and tephillah, prayer, grows from it. The courtroom sense sits on the surface of Torah: a man who injures a woman with child “shall pay as the judges determine” (Exodus 21:22) — bi-flilim, by the arbiters. One verse holds both sides of the word: “If one man sin against another, the judge shall judge him: but if a man sin against Yahuah, who shall intreat for him?” (1 Samuel 2:25). Judge and intreat are the same root. Prayer is a petition laid before the bench.",
+      "root": [
+        {
+          "lemma": "palal",
+          "strong": "H6419",
+          "sense": "to judge, to intervene, to arbitrate; reflexively, to pray"
+        },
+        {
+          "lemma": "tephillah",
+          "strong": "H8605",
+          "sense": "prayer; a petition laid before the Judge"
+        }
+      ],
+      "courtroomWord": "A petition term — the party falling before the Judge to press a case and seek a verdict.",
+      "itsRole": "Prayer is not idle talk; it is a party bringing a matter before the Judge. Solomon prays that way at the dedication of the house: ‘hear thou in heaven their prayer and their supplication, and maintain their cause’ (1 Kings 8:45) — prayer heard, cause ruled. Phinehas ‘stood up, and executed judgment’ (Psalm 106:30), the same root. Yahushua’s parable of the widow and the unjust judge teaches prayer as pressing a case until the verdict comes (Luke 18:1–8). Prayer is addressed to Yahuah the Father as Judge, and the Son stands as Intercessor beside the petitioner (Romans 8:34).",
+      "proofTexts": [
+        {
+          "ref": "1 Samuel 2:25",
+          "text": "If one man sin against another, the judge shall judge him: but if a man sin against Yahuah, who shall intreat for him?",
+          "note": "Judge and intreat — one root."
+        },
+        {
+          "ref": "1 Kings 8:45",
+          "text": "Then hear thou in heaven their prayer and their supplication, and maintain their cause.",
+          "note": "Prayer heard, cause upheld."
+        },
+        {
+          "ref": "Psalm 106:30",
+          "text": "Then stood up Phinehas, and executed judgment: and so the plague was stayed.",
+          "note": "Palal as intervention before the bench."
+        },
+        {
+          "ref": "Luke 18:7",
+          "text": "And shall not Elohim avenge his own elect, which cry day and night unto him, though he bear long with them?",
+          "note": "Prayer as pressing a case for a verdict."
+        }
+      ],
+      "plainTerms": [
+        "In Hebrew, the word for prayer comes from a root that means to judge or to step in as an arbiter. Praying is bringing a case before the Judge and asking for His ruling. Solomon asked Yahuah to hear prayer and ‘maintain their cause’ — a courtroom request."
+      ],
+      "bringItHome": [
+        "Yahushua told of a widow who kept coming to a judge — ‘Avenge me of mine adversary’ — until he ruled. Then He asked: shall not Elohim avenge His own elect who cry to Him day and night? That is prayer in its Hebrew dress: not a chat, but a petition pressed before the bench until the verdict comes."
+      ],
+      "courtroomRoles": [
+        {
+          "who": "Yahuah",
+          "role": "the Judge",
+          "does": "who hears the petition and rules the cause."
+        },
+        {
+          "who": "The petitioner",
+          "role": "the party",
+          "does": "falls before the bench and presses the case."
+        },
+        {
+          "who": "Yahushua",
+          "role": "the Intercessor",
+          "does": "who stands with the petitioner before the Father."
+        }
+      ],
+      "relatedInMovement": [
+        {
+          "n": 115,
+          "term": "Plead"
+        },
+        {
+          "n": 12,
+          "term": "Intercession"
+        },
+        {
+          "n": 90,
+          "term": "Cry"
+        },
+        {
+          "n": 116,
+          "term": "Cause"
+        }
+      ]
+    },
+    "152": {
+      "n": 152,
+      "term": "Testament",
+      "movement": 2,
+      "rootLine": "diatheke — Greek",
+      "caseStrongs": "G1242 · G1303",
+      "lead": "Diatheke is the word the Septuagint chose for berith, the covenant, and Hebrews uses it for “a better covenant” (8:6), “a new covenant” (8:8), and “the blood of the everlasting covenant” (13:20). The King James renders the same word ‘covenant’ twenty times and ‘testament’ thirteen. At Hebrews 9:16–17 the choice does the most damage: ‘testament’ and ‘testator’ turn a blood-bond into a will, and the dying one becomes the maker. The passage refuses the costume. The very next verses retell Sinai — “This is the blood of the testament which Elohim hath enjoined unto you” (9:20) — calves, goats, and sprinkled blood, not lawyers and estates. A covenant is never sealed by the death of its Maker. It is made sure over the slain sacrifice.",
+      "root": [
+        {
+          "lemma": "diatheke",
+          "strong": "G1242",
+          "sense": "a covenant, a setting-out of terms; the Septuagint’s word for berith"
+        },
+        {
+          "lemma": "diatithemi",
+          "strong": "G1303",
+          "sense": "to set out terms, to make a covenant (Hebrews 8:10)"
+        }
+      ],
+      "courtroomWord": "A translation-check term — the covenant instrument as Hebrews names it, dressed in English as a will.",
+      "itsRole": "Diatheke carries berith into Greek, and in Hebrews it carries the whole argument from the first covenant to the renewed one. Read as covenant, Hebrews 9:16–17 says what every covenant in Scripture already showed: where a covenant is, a death must be brought — the sacrifice’s, made sure over the slain, never the Maker’s. Read as a will, it invents a Maker who must die, and the argument that the Son is the Maker is built on that invention. Even granted the will, the Son is the heir, appointed by the Father (Hebrews 1:2) — and the heir is never the one who wrote it.",
+      "proofTexts": [
+        {
+          "ref": "Hebrews 8:8",
+          "text": "Behold, the days come, saith Yahuah, when I will make a new covenant with the house of Israel and with the house of Judah.",
+          "note": "The same word, rendered covenant."
+        },
+        {
+          "ref": "Hebrews 9:17",
+          "text": "For a testament [covenant] is of force [made sure] after men are dead [over the slain]: otherwise it is of no strength at all while the testator [sacrifice] liveth.",
+          "note": "Made sure over the slain sacrifice — never by the Maker’s death."
+        },
+        {
+          "ref": "Hebrews 9:20",
+          "text": "Saying, This is the blood of the testament which Elohim hath enjoined unto you.",
+          "note": "Sinai retold — blood, not a will."
+        },
+        {
+          "ref": "Hebrews 13:20",
+          "text": "Through the blood of the everlasting covenant.",
+          "note": "The same word to the last chapter."
+        }
+      ],
+      "plainTerms": [
+        "The Greek word behind ‘testament’ is the same word Hebrews everywhere else calls ‘covenant.’ A covenant is a blood-bond sealed by the death of a sacrifice, not a will that takes effect when its maker dies. Read it as covenant and Hebrews 9:16–17 stops pointing at the Maker’s death."
+      ],
+      "bringItHome": [
+        "No will on earth is made good by killing a calf. But every covenant was. That is why the writer of Hebrews moves from ‘testament’ straight to Moses at the mountain, sprinkling the blood of calves and goats. The Maker gave the promise. The Lamb was slain to seal it. One English word made them sound like the same person."
+      ],
+      "courtroomRoles": [
+        {
+          "who": "Yahuah",
+          "role": "the Maker of the covenant",
+          "does": "who gives the promise and does not die."
+        },
+        {
+          "who": "Yahushua",
+          "role": "the sacrifice",
+          "does": "the Lamb whose blood seals the covenant."
+        },
+        {
+          "who": "The people",
+          "role": "the covenant party",
+          "does": "bound to Yahuah by the blood."
+        }
+      ],
+      "relatedInMovement": [
+        {
+          "n": 18,
+          "term": "Covenant"
+        },
+        {
+          "n": 41,
+          "term": "Cut"
+        },
+        {
+          "n": 89,
+          "term": "Blood"
+        },
+        {
+          "n": 153,
+          "term": "Confirm"
+        }
+      ]
+    },
+    "153": {
+      "n": 153,
+      "term": "Confirm",
+      "movement": 2,
+      "rootLine": "bebaios — Greek",
+      "caseStrongs": "G949 · G950 · G951",
+      "lead": "‘Of force’ in Hebrews 9:17 is one Greek word: bebaios — firm, sure, legally binding. A covenant is made bebaia over the slain — confirmed, in force, enforceable — and until the sacrifice dies it “is of no strength at all.” The family runs through Hebrews as legal vocabulary. The word spoken by angels “was stedfast, and every transgression and disobedience received a just recompence of reward” (2:2) — firm enough to be enforced. And “an oath for confirmation is to them an end of all strife” (6:16) — bebaiosis, the ratification that closes a dispute. Bebaios marks the moment an instrument stops being words and becomes binding.",
+      "root": [
+        {
+          "lemma": "bebaios",
+          "strong": "G949",
+          "sense": "firm, sure, steadfast; legally in force"
+        },
+        {
+          "lemma": "bebaioo",
+          "strong": "G950",
+          "sense": "to confirm, to make firm"
+        },
+        {
+          "lemma": "bebaiosis",
+          "strong": "G951",
+          "sense": "confirmation, ratification"
+        }
+      ],
+      "courtroomWord": "A ratification term — the state of an instrument once it is binding and enforceable.",
+      "itsRole": "Every legal instrument has a moment when it takes force. For a covenant that moment is the death of the sacrifice: before it, the terms are spoken but without strength; after it, they are bebaios — fixed, enforceable, beyond revocation. The oath works the same way, ending all strife by confirming the matter. Messiah came ‘to confirm the promises made unto the fathers’ (Romans 15:8) — not to replace them, but to put them in force. What is confirmed is the Father’s promise; what confirms it is the sacrifice.",
+      "proofTexts": [
+        {
+          "ref": "Hebrews 9:17",
+          "text": "For a testament [covenant] is of force [made sure] after men are dead [over the slain]: otherwise it is of no strength at all while the testator [sacrifice] liveth.",
+          "note": "In force only once the sacrifice is slain."
+        },
+        {
+          "ref": "Hebrews 6:16",
+          "text": "For men verily swear by the greater: and an oath for confirmation is to them an end of all strife.",
+          "note": "Ratification closes the dispute."
+        },
+        {
+          "ref": "Hebrews 2:2",
+          "text": "For if the word spoken by angels was stedfast, and every transgression and disobedience received a just recompence of reward.",
+          "note": "Firm enough to be enforced."
+        },
+        {
+          "ref": "Romans 15:8",
+          "text": "To confirm the promises made unto the fathers.",
+          "note": "Promises put in force, not replaced."
+        }
+      ],
+      "plainTerms": [
+        "To confirm, in Scripture’s legal sense, is to make an agreement binding — in force and enforceable. Hebrews says a covenant has ‘no strength at all’ until the sacrifice dies; then it is confirmed. Messiah came to confirm the promises made to the fathers, not to cancel them."
+      ],
+      "bringItHome": [
+        "A contract can be drafted, read aloud, and agreed to — and still not be in force until it is executed. Bebaios is the word for that moment. The covenant terms were spoken; the sacrifice made them firm. And what Messiah confirmed was the promise to the fathers — the same covenant, now in force."
+      ],
+      "courtroomRoles": [
+        {
+          "who": "Yahuah",
+          "role": "the Maker",
+          "does": "whose promise is confirmed."
+        },
+        {
+          "who": "Yahushua",
+          "role": "the sacrifice",
+          "does": "whose death puts the covenant in force."
+        },
+        {
+          "who": "The fathers and their seed",
+          "role": "the covenant party",
+          "does": "who receive the confirmed promise."
+        }
+      ],
+      "relatedInMovement": [
+        {
+          "n": 152,
+          "term": "Testament"
+        },
+        {
+          "n": 39,
+          "term": "Amen"
+        },
+        {
+          "n": 42,
+          "term": "Swear"
+        },
+        {
+          "n": 18,
+          "term": "Covenant"
+        }
+      ]
+    },
+    "154": {
+      "n": 154,
+      "term": "Inaugurate",
+      "movement": 4,
+      "rootLine": "enkainizo — Greek",
+      "caseStrongs": "G1457",
+      "lead": "Hebrews 9:18 says “neither the first testament was dedicated without blood.” The word is enkainizo — to make new, to inaugurate, to open a thing for use. A covenant is cut, then inaugurated, then in force, and Hebrews insists the inauguration was by blood: Moses “took the blood of calves and of goats... and sprinkled both the book, and all the people” (9:19). The same verb opens the renewed covenant: “a new and living way, which he hath consecrated for us, through the veil, that is to say, his flesh” (10:20). The way was not opened by a speech or a decree. It was inaugurated the way every covenant was — by blood.",
+      "root": [
+        {
+          "lemma": "enkainizo",
+          "strong": "G1457",
+          "sense": "to renew, to inaugurate, to dedicate for use"
+        }
+      ],
+      "courtroomWord": "An inauguration term — the opening of a covenant for use, done in blood.",
+      "itsRole": "Cutting a covenant sets its terms; inaugurating it opens it for use. Hebrews ties the two together and names the means: the first covenant was not inaugurated without blood, and ‘almost all things are by the law purged with blood’ (9:22). The renewed covenant follows the same pattern — the way opened through the Lamb’s flesh and blood. Inauguration presupposes the covenant already cut and its terms already given; the blood does not write new terms but puts the written ones into service.",
+      "proofTexts": [
+        {
+          "ref": "Hebrews 9:18",
+          "text": "Whereupon neither the first testament was dedicated without blood.",
+          "note": "The first covenant opened in blood."
+        },
+        {
+          "ref": "Hebrews 9:19",
+          "text": "He took the blood of calves and of goats, with water, and scarlet wool, and hyssop, and sprinkled both the book, and all the people.",
+          "note": "The inauguration at Sinai."
+        },
+        {
+          "ref": "Hebrews 10:20",
+          "text": "By a new and living way, which he hath consecrated for us, through the veil, that is to say, his flesh.",
+          "note": "The renewed covenant opened the same way."
+        },
+        {
+          "ref": "Hebrews 9:22",
+          "text": "And almost all things are by the law purged with blood; and without shedding of blood is no remission.",
+          "note": "The law of the inauguration."
+        }
+      ],
+      "plainTerms": [
+        "To inaugurate is to open something for use. Hebrews says the first covenant was opened with blood — Moses sprinkled the book and the people. The new and living way was opened the same way, through the Messiah’s flesh and blood."
+      ],
+      "bringItHome": [
+        "A building can be finished and still stand locked until the day it is dedicated. Hebrews says covenants work the same way, and the dedication is always in blood. Moses opened the first covenant by sprinkling the book and the people. The renewed covenant was opened by the Lamb — a new and living way, consecrated through His flesh."
+      ],
+      "courtroomRoles": [
+        {
+          "who": "Yahuah",
+          "role": "the Maker",
+          "does": "whose covenant is opened for use."
+        },
+        {
+          "who": "Moses",
+          "role": "the mediator at Sinai",
+          "does": "who sprinkled the book and the people."
+        },
+        {
+          "who": "Yahushua",
+          "role": "the Lamb",
+          "does": "through whose flesh the new and living way is opened."
+        }
+      ],
+      "relatedInMovement": [
+        {
+          "n": 41,
+          "term": "Cut"
+        },
+        {
+          "n": 152,
+          "term": "Testament"
+        },
+        {
+          "n": 89,
+          "term": "Blood"
+        },
+        {
+          "n": 20,
+          "term": "Atonement"
         }
       ]
     }
