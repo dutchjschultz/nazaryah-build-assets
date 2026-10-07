@@ -1,4 +1,8 @@
-// associations 1005 V37.js
+// associations 1007 V38.js
+// V38: The Robe of the Firstborn (Genesis 37:3) joins garments-and-covering,
+// lost-in-translation and yom-kippur. Three expected counts bump:
+// garments-and-covering 6 -> 7, lost-in-translation 26 -> 27, yom-kippur 9 -> 10.
+// The study anchors none of the three. No clusters added, no anchors moved.
 // V37: The Blood and the Bread joins two-stage-salvation, goel-kopher and
 // yom-kippur. Three expected counts bump: two-stage-salvation 33 -> 34,
 // goel-kopher 15 -> 16, yom-kippur 8 -> 9. The study anchors none of the three.
@@ -153,7 +157,7 @@ export const CLUSTERS = {
     blurb:
       "Helel became Lucifer. Kappōret became a mercy seat. Qesheth became a rainbow. Har Mo'ed became Megiddo. What the English buried, and what it cost.",
     anchor: "the-lucifer-deception",
-    expected: 26,
+    expected: 27,
   },
 
   "kingdom-now": {
@@ -193,7 +197,7 @@ export const CLUSTERS = {
     blurb:
       "Beged, ketonet, simlah, fine linen — from fig leaves to the robe of the bride. What you wear declares who covered you.",
     anchor: "clothed-by-the-owner",
-    expected: 6,
+    expected: 7,
   },
 
   "delegated-authority": {
@@ -233,7 +237,7 @@ export const CLUSTERS = {
     blurb:
       "Yom Kippur pattern: the goat that was slain, the goat that was not, and what the church never explains.",
     anchor: "goat-that-was-not-slain",
-    expected: 9,
+    expected: 10,
   },
 
   "light-and-lamp": {
