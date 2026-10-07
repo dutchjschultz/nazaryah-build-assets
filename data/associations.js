@@ -1,4 +1,9 @@
-// associations 1007 V39.js
+// associations 1007 V40.js
+// V40: Two Mountains (Scripture Unfiltered, two-mountains) joins
+// how-yahuah-speaks, the-mishkan and two-stage-salvation. Three
+// expected counts bump: how-yahuah-speaks 8 -> 9, the-mishkan
+// 16 -> 17, two-stage-salvation 34 -> 35. The study anchors none
+// of the three. No clusters added, no anchors moved.
 // V39: A Will Nobody Wrote (Hebrews 9:16-17, The Trinity Files,
 // trinity-files-hebrews-9-16-17) joins goel-kopher and lost-in-translation.
 // Two expected counts bump: goel-kopher 16 -> 17, lost-in-translation 27 -> 28.
@@ -153,7 +158,7 @@ export const CLUSTERS = {
     blurb:
       "Entry by the blood, walk by the bread. The framework the pulpit collapsed into a single step.",
     anchor: "bread-and-wine",
-    expected: 34,
+    expected: 35,
   },
 
   "lost-in-translation": {
@@ -177,7 +182,7 @@ export const CLUSTERS = {
     blurb:
       "The sky, the letters, the words, and at last His own Son. He has already spoken — the question is whether we will hear what was given.",
     anchor: "heavens-letters-words-son",
-    expected: 8,
+    expected: 9,
   },
 
   "the-second-adam": {
@@ -233,7 +238,7 @@ export const CLUSTERS = {
     blurb:
       "The structure Yahuah designed: ark, cover, veil, garments — and who may pass through what.",
     anchor: "ark-of-covering",
-    expected: 16,
+    expected: 17,
   },
 
   "yom-kippur": {
