@@ -1,4 +1,8 @@
-// associations 1007 V38.js
+// associations 1007 V39.js
+// V39: A Will Nobody Wrote (Hebrews 9:16-17, The Trinity Files,
+// trinity-files-hebrews-9-16-17) joins goel-kopher and lost-in-translation.
+// Two expected counts bump: goel-kopher 16 -> 17, lost-in-translation 27 -> 28.
+// The study anchors neither. No clusters added, no anchors moved.
 // V38: The Robe of the Firstborn (Genesis 37:3) joins garments-and-covering,
 // lost-in-translation and yom-kippur. Three expected counts bump:
 // garments-and-covering 6 -> 7, lost-in-translation 26 -> 27, yom-kippur 9 -> 10.
@@ -157,7 +161,7 @@ export const CLUSTERS = {
     blurb:
       "Helel became Lucifer. Kappōret became a mercy seat. Qesheth became a rainbow. Har Mo'ed became Megiddo. What the English buried, and what it cost.",
     anchor: "the-lucifer-deception",
-    expected: 27,
+    expected: 28,
   },
 
   "kingdom-now": {
@@ -221,7 +225,7 @@ export const CLUSTERS = {
     blurb:
       "Yahuah as sole Redeemer, the Son as the price paid. The legal spine under the whole atonement question.",
     anchor: "the-redeemer-who-never-needed-redeeming",
-    expected: 16,
+    expected: 17,
   },
 
   "the-mishkan": {
