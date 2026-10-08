@@ -1,4 +1,9 @@
-// associations 1007 V40.js
+// associations 1008 V41.js
+// V41: Isaiah Runs Forward (The Quick Scroll, isaiah-runs-forward) joins
+// kingdom-now and the-moedim. Two expected counts bump: kingdom-now
+// 5 -> 6, the-moedim 15 -> 16. The study anchors neither. No clusters
+// added, no anchors moved. goel-kopher was considered and left off
+// pending Dutch's call.
 // V40: Two Mountains (Scripture Unfiltered, two-mountains) joins
 // how-yahuah-speaks, the-mishkan and two-stage-salvation. Three
 // expected counts bump: how-yahuah-speaks 8 -> 9, the-mishkan
@@ -174,7 +179,7 @@ export const CLUSTERS = {
     blurb:
       "Daniel dated it in the days of those kings. It came as a seed and not as a conquest — and the pulpit is still waiting for the crash.",
     anchor: "the-reign-is-now",
-    expected: 5,
+    expected: 6,
   },
 
   "how-yahuah-speaks": {
@@ -262,7 +267,7 @@ export const CLUSTERS = {
     blurb:
       "Yahuah's moedim as He set them — the days, the timing, and what was kept on each.",
     anchor: "seven-feasts-in-exodus",
-    expected: 15,
+    expected: 16,
   },
 
   "restored-creation": {
