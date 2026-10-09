@@ -1,4 +1,9 @@
-// associations 1009 V42.js
+// associations 1009 V43.js
+// V43: The Pledge and the Bride (The Law Still Stands,
+// the-pledge-and-the-bride) joins garments-and-covering and
+// whose-righteousness. Two expected counts bump:
+// garments-and-covering 7 -> 8, whose-righteousness 11 -> 12.
+// The study anchors neither. No clusters added, no anchors moved.
 // V42: Hosea Lives It, Then Says It (The Quick Scroll,
 // hosea-lives-it-then-says-it) joins goel-kopher, foreign-fire and
 // the-moedim. Three expected counts bump: goel-kopher 17 -> 18,
@@ -210,7 +215,7 @@ export const CLUSTERS = {
     blurb:
       "Fruit belongs to the owner of the tree. The covering belongs to the one who made it. Self-generated righteousness has always been filthy rags.",
     anchor: "clothed-by-the-owner",
-    expected: 11,
+    expected: 12,
   },
 
   "garments-and-covering": {
@@ -218,7 +223,7 @@ export const CLUSTERS = {
     blurb:
       "Beged, ketonet, simlah, fine linen — from fig leaves to the robe of the bride. What you wear declares who covered you.",
     anchor: "clothed-by-the-owner",
-    expected: 7,
+    expected: 8,
   },
 
   "delegated-authority": {
