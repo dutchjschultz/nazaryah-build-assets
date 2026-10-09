@@ -1,4 +1,11 @@
-// associations 1008 V41.js
+// associations 1009 V42.js
+// V42: Hosea Lives It, Then Says It (The Quick Scroll,
+// hosea-lives-it-then-says-it) joins goel-kopher, foreign-fire and
+// the-moedim. Three expected counts bump: goel-kopher 17 -> 18,
+// foreign-fire 17 -> 18, the-moedim 16 -> 17 (V41 already applied).
+// The study anchors none of the three. No clusters added, no anchors
+// moved. how-yahuah-speaks was the near-miss and was dropped at the
+// three-key cap.
 // V41: Isaiah Runs Forward (The Quick Scroll, isaiah-runs-forward) joins
 // kingdom-now and the-moedim. Two expected counts bump: kingdom-now
 // 5 -> 6, the-moedim 15 -> 16. The study anchors neither. No clusters
@@ -235,7 +242,7 @@ export const CLUSTERS = {
     blurb:
       "Yahuah as sole Redeemer, the Son as the price paid. The legal spine under the whole atonement question.",
     anchor: "the-redeemer-who-never-needed-redeeming",
-    expected: 17,
+    expected: 18,
   },
 
   "the-mishkan": {
@@ -267,7 +274,7 @@ export const CLUSTERS = {
     blurb:
       "Yahuah's moedim as He set them — the days, the timing, and what was kept on each.",
     anchor: "seven-feasts-in-exodus",
-    expected: 16,
+    expected: 17,
   },
 
   "restored-creation": {
@@ -291,7 +298,7 @@ export const CLUSTERS = {
     blurb:
       "Borrowed worship, borrowed names, borrowed fire — traced back to where it was struck.",
     anchor: "esther-ishtar-marduk",
-    expected: 17,
+    expected: 18,
   },
 
   "trinity-examined": {
