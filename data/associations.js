@@ -1,4 +1,13 @@
-// associations 1009 V43.js
+// associations 1009 V44.js
+// V44: Six Quick Scroll studies (The Scrolls category, the-quick-scroll
+// group). Jonah joins goel-kopher and the-moedim. Malachi joins
+// trinity-examined and how-yahuah-speaks. Haggai joins the-mishkan. Joel
+// joins the-moedim. Micah joins trinity-examined and kingdom-now.
+// Zephaniah joins foreign-fire. Seven expected counts bump: goel-kopher
+// 18 -> 19, the-moedim 17 -> 19, trinity-examined 7 -> 9,
+// how-yahuah-speaks 9 -> 10, the-mishkan 17 -> 18, kingdom-now 6 -> 7,
+// foreign-fire 18 -> 19. None of the six anchors anything. No clusters
+// added, no anchors moved.
 // V43: The Pledge and the Bride (The Law Still Stands,
 // the-pledge-and-the-bride) joins garments-and-covering and
 // whose-righteousness. Two expected counts bump:
@@ -191,7 +200,7 @@ export const CLUSTERS = {
     blurb:
       "Daniel dated it in the days of those kings. It came as a seed and not as a conquest — and the pulpit is still waiting for the crash.",
     anchor: "the-reign-is-now",
-    expected: 6,
+    expected: 7,
   },
 
   "how-yahuah-speaks": {
@@ -199,7 +208,7 @@ export const CLUSTERS = {
     blurb:
       "The sky, the letters, the words, and at last His own Son. He has already spoken — the question is whether we will hear what was given.",
     anchor: "heavens-letters-words-son",
-    expected: 9,
+    expected: 10,
   },
 
   "the-second-adam": {
@@ -247,7 +256,7 @@ export const CLUSTERS = {
     blurb:
       "Yahuah as sole Redeemer, the Son as the price paid. The legal spine under the whole atonement question.",
     anchor: "the-redeemer-who-never-needed-redeeming",
-    expected: 18,
+    expected: 19,
   },
 
   "the-mishkan": {
@@ -255,7 +264,7 @@ export const CLUSTERS = {
     blurb:
       "The structure Yahuah designed: ark, cover, veil, garments — and who may pass through what.",
     anchor: "ark-of-covering",
-    expected: 17,
+    expected: 18,
   },
 
   "yom-kippur": {
@@ -279,7 +288,7 @@ export const CLUSTERS = {
     blurb:
       "Yahuah's moedim as He set them — the days, the timing, and what was kept on each.",
     anchor: "seven-feasts-in-exodus",
-    expected: 17,
+    expected: 19,
   },
 
   "restored-creation": {
@@ -303,7 +312,7 @@ export const CLUSTERS = {
     blurb:
       "Borrowed worship, borrowed names, borrowed fire — traced back to where it was struck.",
     anchor: "esther-ishtar-marduk",
-    expected: 18,
+    expected: 19,
   },
 
   "trinity-examined": {
@@ -311,7 +320,7 @@ export const CLUSTERS = {
     blurb:
       "The Godhead the text actually shows. Every throne vision names two, not three; worship and service sort the same way — the pattern the doctrine has to explain away.",
     anchor: "the-throne-and-the-right-hand",
-    expected: 7,
+    expected: 9,
   },
 };
 
