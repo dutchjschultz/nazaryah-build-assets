@@ -1,4 +1,16 @@
-// associations 1010 V47.js
+// associations 1010 V48.js
+// V48: Four studies join foreign-fire: Saturnalia and Ashtoreth (Buried in
+// Plain Sight, the Star of Your God trilogy with Esther, Ishtar & Marduk),
+// Bohemian Grove (Buried in Plain Sight) and The Grove That Was Never a Grove
+// (Scripture Unfiltered, the-root group), which also joins lost-in-translation.
+// None of the four anchors anything; esther-ishtar-marduk keeps the foreign-fire
+// anchor. No clusters added, no anchors moved. Counts set to REAL (Dutch's rule):
+//   foreign-fire        19 -> 25  (sheet read 19 -> 23; it was two BEHIND before
+//                                  this batch: 21 carried the key, ledger said 19)
+//   lost-in-translation 29 -> 36  (sheet read 29 -> 30; it was six BEHIND: 35
+//                                  carried the key, ledger said 29)
+// The batch shipped its own "V47" built on V46; the live V47 (real counts for
+// The Copy of the Son) was already out, so its deltas land here as V48.
 // V47: The Copy of the Son (Scripture Unfiltered, the-copy-of-the-son) joins
 // trinity-examined, delegated-authority and light-and-lamp. It anchors none.
 // No clusters added, no anchors moved. Counts are now set to the REAL number
@@ -214,7 +226,7 @@ export const CLUSTERS = {
     blurb:
       "Helel became Lucifer. Kappōret became a mercy seat. Qesheth became a rainbow. Har Mo'ed became Megiddo. What the English buried, and what it cost.",
     anchor: "the-lucifer-deception",
-    expected: 29,
+    expected: 36,
   },
 
   "kingdom-now": {
@@ -334,7 +346,7 @@ export const CLUSTERS = {
     blurb:
       "Borrowed worship, borrowed names, borrowed fire — traced back to where it was struck.",
     anchor: "esther-ishtar-marduk",
-    expected: 19,
+    expected: 25,
   },
 
   "trinity-examined": {
