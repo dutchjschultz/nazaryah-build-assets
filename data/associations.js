@@ -1,4 +1,8 @@
-// associations 1009 V44.js
+// associations 1010 V45.js
+// V45: Two Clocks, Not One (Buried in Plain Sight, two-clocks-not-one) joins
+// lost-in-translation and two-stage-salvation. Two expected counts bump:
+// lost-in-translation 28 -> 29, two-stage-salvation 35 -> 36. The study anchors
+// neither. No clusters added, no anchors moved.
 // V44: Six Quick Scroll studies (The Scrolls category, the-quick-scroll
 // group). Jonah joins goel-kopher and the-moedim. Malachi joins
 // trinity-examined and how-yahuah-speaks. Haggai joins the-mishkan. Joel
@@ -184,7 +188,7 @@ export const CLUSTERS = {
     blurb:
       "Entry by the blood, walk by the bread. The framework the pulpit collapsed into a single step.",
     anchor: "bread-and-wine",
-    expected: 35,
+    expected: 36,
   },
 
   "lost-in-translation": {
@@ -192,7 +196,7 @@ export const CLUSTERS = {
     blurb:
       "Helel became Lucifer. Kappōret became a mercy seat. Qesheth became a rainbow. Har Mo'ed became Megiddo. What the English buried, and what it cost.",
     anchor: "the-lucifer-deception",
-    expected: 28,
+    expected: 29,
   },
 
   "kingdom-now": {
