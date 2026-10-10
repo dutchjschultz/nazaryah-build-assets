@@ -1,4 +1,15 @@
-// associations 1010 V48.js
+// associations 1010 V49.js
+// V49: Two Side Door parables (Scripture Unfiltered, the-side-door group).
+// The Adventures of Barney and Clyde (barney-and-clyde) joins trinity-examined,
+// light-and-lamp and how-yahuah-speaks; The Parable of Sinai Arcade
+// (sinai-arcade) joins two-stage-salvation and goel-kopher. Neither anchors
+// anything. No clusters added, no anchors moved. Counts set to REAL:
+//   trinity-examined     9 -> 10
+//   light-and-lamp       6 -> 7
+//   how-yahuah-speaks   10 -> 11
+//   goel-kopher         19 -> 20
+//   two-stage-salvation 36 -> 31  (sheet read 36 -> 37; the ledger was five
+//                                  AHEAD: 30 carried the key before this batch)
 // V48: Four studies join foreign-fire: Saturnalia and Ashtoreth (Buried in
 // Plain Sight, the Star of Your God trilogy with Esther, Ishtar & Marduk),
 // Bohemian Grove (Buried in Plain Sight) and The Grove That Was Never a Grove
@@ -218,7 +229,7 @@ export const CLUSTERS = {
     blurb:
       "Entry by the blood, walk by the bread. The framework the pulpit collapsed into a single step.",
     anchor: "bread-and-wine",
-    expected: 36,
+    expected: 31,
   },
 
   "lost-in-translation": {
@@ -242,7 +253,7 @@ export const CLUSTERS = {
     blurb:
       "The sky, the letters, the words, and at last His own Son. He has already spoken — the question is whether we will hear what was given.",
     anchor: "heavens-letters-words-son",
-    expected: 10,
+    expected: 11,
   },
 
   "the-second-adam": {
@@ -290,7 +301,7 @@ export const CLUSTERS = {
     blurb:
       "Yahuah as sole Redeemer, the Son as the price paid. The legal spine under the whole atonement question.",
     anchor: "the-redeemer-who-never-needed-redeeming",
-    expected: 19,
+    expected: 20,
   },
 
   "the-mishkan": {
@@ -314,7 +325,7 @@ export const CLUSTERS = {
     blurb:
       "Yahuah is the source; the Son is the lamp that bears it. The Father speaks, the Son delivers. The impression is not the engraver.",
     anchor: "the-bearer-1-light-and-lamp",
-    expected: 6,
+    expected: 7,
   },
 
   "the-moedim": {
@@ -354,7 +365,7 @@ export const CLUSTERS = {
     blurb:
       "The Godhead the text actually shows. Every throne vision names two, not three; worship and service sort the same way — the pattern the doctrine has to explain away.",
     anchor: "the-throne-and-the-right-hand",
-    expected: 9,
+    expected: 10,
   },
 };
 
