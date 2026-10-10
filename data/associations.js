@@ -1,4 +1,9 @@
-// associations 1010 V45.js
+// associations 1010 V46.js
+// V46: Yet Once More (Scripture Unfiltered, yet-once-more) joins
+// how-yahuah-speaks and kingdom-now. Two expected counts bump:
+// how-yahuah-speaks 10 -> 11, kingdom-now 7 -> 8 (batch sheet read 9 -> 10 and
+// 6 -> 7 against V43; applied here to the live counts). The study anchors
+// neither. No clusters added, no anchors moved.
 // V45: Two Clocks, Not One (Buried in Plain Sight, two-clocks-not-one) joins
 // lost-in-translation and two-stage-salvation. Two expected counts bump:
 // lost-in-translation 28 -> 29, two-stage-salvation 35 -> 36. The study anchors
@@ -204,7 +209,7 @@ export const CLUSTERS = {
     blurb:
       "Daniel dated it in the days of those kings. It came as a seed and not as a conquest — and the pulpit is still waiting for the crash.",
     anchor: "the-reign-is-now",
-    expected: 7,
+    expected: 8,
   },
 
   "how-yahuah-speaks": {
@@ -212,7 +217,7 @@ export const CLUSTERS = {
     blurb:
       "The sky, the letters, the words, and at last His own Son. He has already spoken — the question is whether we will hear what was given.",
     anchor: "heavens-letters-words-son",
-    expected: 10,
+    expected: 11,
   },
 
   "the-second-adam": {
