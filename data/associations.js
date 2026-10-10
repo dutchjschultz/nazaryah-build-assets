@@ -1,4 +1,17 @@
-// associations 1010 V46.js
+// associations 1010 V47.js
+// V47: The Copy of the Son (Scripture Unfiltered, the-copy-of-the-son) joins
+// trinity-examined, delegated-authority and light-and-lamp. It anchors none.
+// No clusters added, no anchors moved. Counts are now set to the REAL number
+// of studies carrying each key (posts + Hollywood pages, drafts and unlisted
+// left out), not bump arithmetic. Counts set:
+//   how-yahuah-speaks   11 -> 10  (was one AHEAD since before V40: a July
+//                                  cleanup untagged two studies and the
+//                                  ledger never came down)
+//   kingdom-now          8        (already real)
+//   trinity-examined     9        (real with this study; was one ahead before it)
+//   delegated-authority  9 -> 14  (was five BEHIND)
+//   light-and-lamp      10 -> 6   (was four AHEAD)
+// Other clusters still drift from their real counts and were not touched here.
 // V46: Yet Once More (Scripture Unfiltered, yet-once-more) joins
 // how-yahuah-speaks and kingdom-now. Two expected counts bump:
 // how-yahuah-speaks 10 -> 11, kingdom-now 7 -> 8 (batch sheet read 9 -> 10 and
@@ -217,7 +230,7 @@ export const CLUSTERS = {
     blurb:
       "The sky, the letters, the words, and at last His own Son. He has already spoken — the question is whether we will hear what was given.",
     anchor: "heavens-letters-words-son",
-    expected: 11,
+    expected: 10,
   },
 
   "the-second-adam": {
@@ -249,7 +262,7 @@ export const CLUSTERS = {
     blurb:
       "Authority given, never seized. The Son at the right hand, the heirs in His throne, and the kingdom handed back to the Father.",
     anchor: "the-throne-and-the-right-hand",
-    expected: 9,
+    expected: 14,
   },
 
   "pulpit-vocabulary": {
@@ -289,7 +302,7 @@ export const CLUSTERS = {
     blurb:
       "Yahuah is the source; the Son is the lamp that bears it. The Father speaks, the Son delivers. The impression is not the engraver.",
     anchor: "the-bearer-1-light-and-lamp",
-    expected: 10,
+    expected: 6,
   },
 
   "the-moedim": {
