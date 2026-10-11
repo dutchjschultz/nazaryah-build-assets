@@ -1,4 +1,7 @@
-// associations 1011 V51.js
+// associations 1011 V52.js
+// V52: The Throne in the Sanctuary (Buried in Plain Sight, the-throne-in-the-sanctuary) joins the-mishkan, trinity-examined and delegated-authority. Neither it nor One Face and One Name anchors anything. No clusters added, no anchors moved.
+// One Face and One Name (Pe'ah) is NOT counted: Pe'ah entries carry no associations field and are outside the study pool (posts + Hollywood pages), so its trinity-examined tag was not added.
+// Counts (real, from the pool): the-mishkan 18 -> 19; trinity-examined 10 -> 11; delegated-authority 14 -> 15.
 // V51: Clean and Unclean at the Same Table (The Law & The Feasts, clean-and-unclean-at-the-same-table) joins pulpit-vocabulary and the-mishkan. It anchors neither. No clusters added, no anchors moved.
 // Counts (real, from the study pool): pulpit-vocabulary 28 -> 29; the-mishkan stays 18 (V50 read 18 against 17 studies; this study makes 18).
 // V50: Call No Man Your Father (Scripture Unfiltered, call-no-man-your-father) joins pulpit-vocabulary. It anchors none. No clusters added, no anchors moved.
@@ -289,7 +292,7 @@ export const CLUSTERS = {
     blurb:
       "Authority given, never seized. The Son at the right hand, the heirs in His throne, and the kingdom handed back to the Father.",
     anchor: "the-throne-and-the-right-hand",
-    expected: 14,
+    expected: 15,
   },
 
   "pulpit-vocabulary": {
@@ -313,7 +316,7 @@ export const CLUSTERS = {
     blurb:
       "The structure Yahuah designed: ark, cover, veil, garments — and who may pass through what.",
     anchor: "ark-of-covering",
-    expected: 18,
+    expected: 19,
   },
 
   "yom-kippur": {
@@ -369,7 +372,7 @@ export const CLUSTERS = {
     blurb:
       "The Godhead the text actually shows. Every throne vision names two, not three; worship and service sort the same way — the pattern the doctrine has to explain away.",
     anchor: "the-throne-and-the-right-hand",
-    expected: 10,
+    expected: 11,
   },
 };
 
