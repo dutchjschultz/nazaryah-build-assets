@@ -1,4 +1,6 @@
-// associations 1010 V49.js
+// associations 1011 V50.js
+// V50: Call No Man Your Father (Scripture Unfiltered, call-no-man-your-father) joins pulpit-vocabulary. It anchors none. No clusters added, no anchors moved.
+// pulpit-vocabulary expected stays 28 — now the real count (V49 read 28 against 27 studies; this study makes 28).
 // V49: Two Side Door parables (Scripture Unfiltered, the-side-door group).
 // The Adventures of Barney and Clyde (barney-and-clyde) joins trinity-examined,
 // light-and-lamp and how-yahuah-speaks; The Parable of Sinai Arcade
