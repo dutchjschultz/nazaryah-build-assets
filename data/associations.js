@@ -1,4 +1,6 @@
-// associations 1011 V50.js
+// associations 1011 V51.js
+// V51: Clean and Unclean at the Same Table (The Law & The Feasts, clean-and-unclean-at-the-same-table) joins pulpit-vocabulary and the-mishkan. It anchors neither. No clusters added, no anchors moved.
+// Counts (real, from the study pool): pulpit-vocabulary 28 -> 29; the-mishkan stays 18 (V50 read 18 against 17 studies; this study makes 18).
 // V50: Call No Man Your Father (Scripture Unfiltered, call-no-man-your-father) joins pulpit-vocabulary. It anchors none. No clusters added, no anchors moved.
 // pulpit-vocabulary expected stays 28 — now the real count (V49 read 28 against 27 studies; this study makes 28).
 // V49: Two Side Door parables (Scripture Unfiltered, the-side-door group).
@@ -295,7 +297,7 @@ export const CLUSTERS = {
     blurb:
       "Words the pulpit softened, sweetened, or reinvented outright — and what the Hebrew and Greek actually say.",
     anchor: "the-whole-counsel",
-    expected: 28,
+    expected: 29,
   },
 
   "goel-kopher": {
