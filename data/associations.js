@@ -1,4 +1,5 @@
-// associations 1011 V52.js
+// associations 1012 V53.js
+// V53: Incarnate (Scripture Unfiltered, the-counterfeit-throne group, incarnate) joins trinity-examined. It anchors nothing. No clusters added, no anchors moved. Count (real): trinity-examined 11 -> 12.
 // V52: The Throne in the Sanctuary (Buried in Plain Sight, the-throne-in-the-sanctuary) joins the-mishkan, trinity-examined and delegated-authority. Neither it nor One Face and One Name anchors anything. No clusters added, no anchors moved.
 // One Face and One Name (Pe'ah) is NOT counted: Pe'ah entries carry no associations field and are outside the study pool (posts + Hollywood pages), so its trinity-examined tag was not added.
 // Counts (real, from the pool): the-mishkan 18 -> 19; trinity-examined 10 -> 11; delegated-authority 14 -> 15.
@@ -372,7 +373,7 @@ export const CLUSTERS = {
     blurb:
       "The Godhead the text actually shows. Every throne vision names two, not three; worship and service sort the same way — the pattern the doctrine has to explain away.",
     anchor: "the-throne-and-the-right-hand",
-    expected: 11,
+    expected: 12,
   },
 };
 
