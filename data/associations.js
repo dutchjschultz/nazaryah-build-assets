@@ -1,4 +1,10 @@
-// associations 1012 V53.js
+// associations 1012 V54.js
+// V54: The Sealed Count investigation goes live (nucleus + five witnesses). The Sealed Count (nucleus,
+// the-sealed-count), Letters in Stone (letters-in-stone), The Alphabet Psalms (the-alphabet-psalms) and
+// Twenty-Two Books (twenty-two-books) join how-yahuah-speaks. The Almond Watch (the-almond-watch) joins
+// how-yahuah-speaks and the-mishkan. The Greek Addition (the-greek-addition) joins lost-in-translation.
+// None of the six anchors anything. No clusters added, no anchors moved.
+// Counts (real): how-yahuah-speaks 11 -> 16; the-mishkan 19 -> 20; lost-in-translation 36 -> 37.
 // V53: Incarnate (Scripture Unfiltered, the-counterfeit-throne group, incarnate) joins trinity-examined. It anchors nothing. No clusters added, no anchors moved. Count (real): trinity-examined 11 -> 12.
 // V52: The Throne in the Sanctuary (Buried in Plain Sight, the-throne-in-the-sanctuary) joins the-mishkan, trinity-examined and delegated-authority. Neither it nor One Face and One Name anchors anything. No clusters added, no anchors moved.
 // One Face and One Name (Pe'ah) is NOT counted: Pe'ah entries carry no associations field and are outside the study pool (posts + Hollywood pages), so its trinity-examined tag was not added.
@@ -245,7 +251,7 @@ export const CLUSTERS = {
     blurb:
       "Helel became Lucifer. Kappōret became a mercy seat. Qesheth became a rainbow. Har Mo'ed became Megiddo. What the English buried, and what it cost.",
     anchor: "the-lucifer-deception",
-    expected: 36,
+    expected: 37,
   },
 
   "kingdom-now": {
@@ -261,7 +267,7 @@ export const CLUSTERS = {
     blurb:
       "The sky, the letters, the words, and at last His own Son. He has already spoken — the question is whether we will hear what was given.",
     anchor: "heavens-letters-words-son",
-    expected: 11,
+    expected: 16,
   },
 
   "the-second-adam": {
@@ -317,7 +323,7 @@ export const CLUSTERS = {
     blurb:
       "The structure Yahuah designed: ark, cover, veil, garments — and who may pass through what.",
     anchor: "ark-of-covering",
-    expected: 19,
+    expected: 20,
   },
 
   "yom-kippur": {
