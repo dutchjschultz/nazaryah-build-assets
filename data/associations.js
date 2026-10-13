@@ -1,4 +1,6 @@
-// associations 1013 V58.js
+// associations 1013 V59.js
+// V59: The Book of Enoch (The Quick Scroll, the-book-of-enoch) joins trinity-examined and delegated-authority. Anchors nothing. No clusters added, no anchors moved.
+// Counts (real, from the pool): trinity-examined 14 -> 15; delegated-authority 16 -> 17.
 // V58: The Gift That Blinds (The Root, the-gift-that-blinds) joins lost-in-translation. Anchors nothing. No clusters added, no anchors moved.
 // Counts (real, from the pool): lost-in-translation 39 -> 40.
 // V57: added beside-me-there-is-no-saviour to trinity-examined, goel-kopher, delegated-authority (Beside Me There Is No Saviour, The Counterfeit Throne). Anchors nothing. No clusters added, no anchors moved.
@@ -307,7 +309,7 @@ export const CLUSTERS = {
     blurb:
       "Authority given, never seized. The Son at the right hand, the heirs in His throne, and the kingdom handed back to the Father.",
     anchor: "the-throne-and-the-right-hand",
-    expected: 16,
+    expected: 17,
   },
 
   "pulpit-vocabulary": {
@@ -387,7 +389,7 @@ export const CLUSTERS = {
     blurb:
       "The Godhead the text actually shows. Every throne vision names two, not three; worship and service sort the same way — the pattern the doctrine has to explain away.",
     anchor: "the-throne-and-the-right-hand",
-    expected: 14,
+    expected: 15,
   },
 };
 
