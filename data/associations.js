@@ -1,4 +1,6 @@
-// associations 1012 V54.js
+// associations 1013 V55.js
+// V55: Marred Outside, Spotless Within (The Root, marred-outside-spotless-within) joins the-mishkan, lost-in-translation and two-stage-salvation. Anchors nothing.
+// Counts (real, from the pool): the-mishkan 20 -> 21; lost-in-translation 37 -> 38; two-stage-salvation 31 -> 32.
 // V54: The Sealed Count investigation goes live (nucleus + five witnesses). The Sealed Count (nucleus,
 // the-sealed-count), Letters in Stone (letters-in-stone), The Alphabet Psalms (the-alphabet-psalms) and
 // Twenty-Two Books (twenty-two-books) join how-yahuah-speaks. The Almond Watch (the-almond-watch) joins
@@ -243,7 +245,7 @@ export const CLUSTERS = {
     blurb:
       "Entry by the blood, walk by the bread. The framework the pulpit collapsed into a single step.",
     anchor: "bread-and-wine",
-    expected: 31,
+    expected: 32,
   },
 
   "lost-in-translation": {
@@ -251,7 +253,7 @@ export const CLUSTERS = {
     blurb:
       "Helel became Lucifer. Kappōret became a mercy seat. Qesheth became a rainbow. Har Mo'ed became Megiddo. What the English buried, and what it cost.",
     anchor: "the-lucifer-deception",
-    expected: 37,
+    expected: 38,
   },
 
   "kingdom-now": {
@@ -323,7 +325,7 @@ export const CLUSTERS = {
     blurb:
       "The structure Yahuah designed: ark, cover, veil, garments — and who may pass through what.",
     anchor: "ark-of-covering",
-    expected: 20,
+    expected: 21,
   },
 
   "yom-kippur": {
