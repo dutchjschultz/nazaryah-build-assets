@@ -1,4 +1,6 @@
-// associations 1013 V57.js
+// associations 1013 V58.js
+// V58: The Gift That Blinds (The Root, the-gift-that-blinds) joins lost-in-translation. Anchors nothing. No clusters added, no anchors moved.
+// Counts (real, from the pool): lost-in-translation 39 -> 40.
 // V57: added beside-me-there-is-no-saviour to trinity-examined, goel-kopher, delegated-authority (Beside Me There Is No Saviour, The Counterfeit Throne). Anchors nothing. No clusters added, no anchors moved.
 // Counts (real, from the pool): trinity-examined 13 -> 14; goel-kopher 20 -> 21; delegated-authority 15 -> 16.
 // V56: The Two Letters of Witness (The Root, the-two-letters-of-witness) joins lost-in-translation, trinity-examined, how-yahuah-speaks. Anchors nothing. No clusters added, no anchors moved.
@@ -257,7 +259,7 @@ export const CLUSTERS = {
     blurb:
       "Helel became Lucifer. Kappōret became a mercy seat. Qesheth became a rainbow. Har Mo'ed became Megiddo. What the English buried, and what it cost.",
     anchor: "the-lucifer-deception",
-    expected: 39,
+    expected: 40,
   },
 
   "kingdom-now": {
