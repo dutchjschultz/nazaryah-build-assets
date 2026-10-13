@@ -1,4 +1,6 @@
-// associations 1013 V59.js
+// associations 1013 V60.js
+// V60: Out of Dead Wood (Buried in Plain Sight, out-of-dead-wood) joins the-mishkan and restored-creation. Anchors nothing. No clusters added, no anchors moved.
+// Counts (real, from the pool): the-mishkan 21 -> 22; restored-creation 9 -> 6. The sheet read 9 -> 10, but the pool held 5 restored-creation studies before this one (the live cluster page showed "5 studies"), so expected was 4 ahead; it is now the real count, 6.
 // V59: The Book of Enoch (The Quick Scroll, the-book-of-enoch) joins trinity-examined and delegated-authority. Anchors nothing. No clusters added, no anchors moved.
 // Counts (real, from the pool): trinity-examined 14 -> 15; delegated-authority 16 -> 17.
 // V58: The Gift That Blinds (The Root, the-gift-that-blinds) joins lost-in-translation. Anchors nothing. No clusters added, no anchors moved.
@@ -333,7 +335,7 @@ export const CLUSTERS = {
     blurb:
       "The structure Yahuah designed: ark, cover, veil, garments — and who may pass through what.",
     anchor: "ark-of-covering",
-    expected: 21,
+    expected: 22,
   },
 
   "yom-kippur": {
@@ -365,7 +367,7 @@ export const CLUSTERS = {
     blurb:
       "Eden planted, Eden closed, Eden restored. The arc that ends with the Tree of Knowledge absent and the curse gone.",
     anchor: "paradise-restored",
-    expected: 9,
+    expected: 6,
   },
 
   "cosmology-north": {
