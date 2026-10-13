@@ -1,4 +1,6 @@
-// associations 1013 V56.js
+// associations 1013 V57.js
+// V57: added beside-me-there-is-no-saviour to trinity-examined, goel-kopher, delegated-authority (Beside Me There Is No Saviour, The Counterfeit Throne). Anchors nothing. No clusters added, no anchors moved.
+// Counts (real, from the pool): trinity-examined 13 -> 14; goel-kopher 20 -> 21; delegated-authority 15 -> 16.
 // V56: The Two Letters of Witness (The Root, the-two-letters-of-witness) joins lost-in-translation, trinity-examined, how-yahuah-speaks. Anchors nothing. No clusters added, no anchors moved.
 // Counts (real, from the pool): lost-in-translation 38 -> 39; trinity-examined 12 -> 13; how-yahuah-speaks 16 -> 17.
 // V55: Marred Outside, Spotless Within (The Root, marred-outside-spotless-within) joins the-mishkan, lost-in-translation and two-stage-salvation. Anchors nothing.
@@ -303,7 +305,7 @@ export const CLUSTERS = {
     blurb:
       "Authority given, never seized. The Son at the right hand, the heirs in His throne, and the kingdom handed back to the Father.",
     anchor: "the-throne-and-the-right-hand",
-    expected: 15,
+    expected: 16,
   },
 
   "pulpit-vocabulary": {
@@ -319,7 +321,7 @@ export const CLUSTERS = {
     blurb:
       "Yahuah as sole Redeemer, the Son as the price paid. The legal spine under the whole atonement question.",
     anchor: "the-redeemer-who-never-needed-redeeming",
-    expected: 20,
+    expected: 21,
   },
 
   "the-mishkan": {
@@ -383,7 +385,7 @@ export const CLUSTERS = {
     blurb:
       "The Godhead the text actually shows. Every throne vision names two, not three; worship and service sort the same way — the pattern the doctrine has to explain away.",
     anchor: "the-throne-and-the-right-hand",
-    expected: 13,
+    expected: 14,
   },
 };
 
