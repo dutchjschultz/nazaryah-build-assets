@@ -1,4 +1,6 @@
-// associations 1013 V55.js
+// associations 1013 V56.js
+// V56: The Two Letters of Witness (The Root, the-two-letters-of-witness) joins lost-in-translation, trinity-examined, how-yahuah-speaks. Anchors nothing. No clusters added, no anchors moved.
+// Counts (real, from the pool): lost-in-translation 38 -> 39; trinity-examined 12 -> 13; how-yahuah-speaks 16 -> 17.
 // V55: Marred Outside, Spotless Within (The Root, marred-outside-spotless-within) joins the-mishkan, lost-in-translation and two-stage-salvation. Anchors nothing.
 // Counts (real, from the pool): the-mishkan 20 -> 21; lost-in-translation 37 -> 38; two-stage-salvation 31 -> 32.
 // V54: The Sealed Count investigation goes live (nucleus + five witnesses). The Sealed Count (nucleus,
@@ -253,7 +255,7 @@ export const CLUSTERS = {
     blurb:
       "Helel became Lucifer. Kappōret became a mercy seat. Qesheth became a rainbow. Har Mo'ed became Megiddo. What the English buried, and what it cost.",
     anchor: "the-lucifer-deception",
-    expected: 38,
+    expected: 39,
   },
 
   "kingdom-now": {
@@ -269,7 +271,7 @@ export const CLUSTERS = {
     blurb:
       "The sky, the letters, the words, and at last His own Son. He has already spoken — the question is whether we will hear what was given.",
     anchor: "heavens-letters-words-son",
-    expected: 16,
+    expected: 17,
   },
 
   "the-second-adam": {
@@ -381,7 +383,7 @@ export const CLUSTERS = {
     blurb:
       "The Godhead the text actually shows. Every throne vision names two, not three; worship and service sort the same way — the pattern the doctrine has to explain away.",
     anchor: "the-throne-and-the-right-hand",
-    expected: 12,
+    expected: 13,
   },
 };
 
