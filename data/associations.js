@@ -1,4 +1,6 @@
-// associations 1014 V65.js
+// associations 1014 V66.js
+// V66: Marriage and Divorce (The Law & The Feasts, marriage-and-divorce) joins lost-in-translation and trinity-examined. The Law of Jealousy (The Law & The Feasts, the-law-of-jealousy) joins goel-kopher and trinity-examined. Neither anchors anything. No clusters added, no anchors moved.
+// Counts (real, from the pool): lost-in-translation 40 -> 41; trinity-examined 17 -> 19; goel-kopher 22 -> 23.
 // V65: Two Babylons (Scripture Unfiltered, two-babylons) joins foreign-fire. Anchors nothing. No clusters added, no anchors moved.
 // Count (real, from the pool): foreign-fire 25 -> 26.
 // V64: every cluster's `expected` set to its real count (members on the built /associations/<key>/ page, from study-pool.js). Six moved: the-second-adam 8 -> 6; whose-righteousness 12 -> 13; garments-and-covering 8 -> 6; yom-kippur 10 -> 8; the-moedim 19 -> 12; cosmology-north 7 -> 6. The other twelve already matched. No studies, keys, or anchors changed.
@@ -273,7 +275,7 @@ export const CLUSTERS = {
     blurb:
       "Helel became Lucifer. Kappōret became a mercy seat. Qesheth became a rainbow. Har Mo'ed became Megiddo. What the English buried, and what it cost.",
     anchor: "the-lucifer-deception",
-    expected: 40,
+    expected: 41,
   },
 
   "kingdom-now": {
@@ -337,7 +339,7 @@ export const CLUSTERS = {
     blurb:
       "Yahuah as sole Redeemer, the Son as the price paid. The legal spine under the whole atonement question.",
     anchor: "the-redeemer-who-never-needed-redeeming",
-    expected: 22,
+    expected: 23,
   },
 
   "the-mishkan": {
@@ -401,7 +403,7 @@ export const CLUSTERS = {
     blurb:
       "The Godhead the text actually shows. Every throne vision names two, not three; worship and service sort the same way — the pattern the doctrine has to explain away.",
     anchor: "the-throne-and-the-right-hand",
-    expected: 17,
+    expected: 19,
   },
 };
 

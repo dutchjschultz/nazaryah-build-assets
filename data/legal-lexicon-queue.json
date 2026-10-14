@@ -2,12 +2,22 @@
   "meta": {
     "title": "Legal Lexicon — Candidate Queue (Monthly Review)",
     "role": "Growing list of terms surfaced in chats, awaiting promotion. Promoted terms are removed here and added to the MASTER.",
-    "version": "1007 V6",
-    "updated": "2026-10-07",
-    "openCount": 0,
+    "version": "1014 V7",
+    "updated": "2026-10-14",
+    "openCount": 1,
     "deployAs": "/data/legal-lexicon-queue.json"
   },
-  "candidates": [],
+  "candidates": [
+    {
+      "term": "Put Away",
+      "strongs": "H7971 shalach; G630 apoluo",
+      "proposedMovement": 2,
+      "gloss": "sending a wife out without completing the release",
+      "legalSense": "Sending away is not the writ; a woman sent away without the writ is still bound, and the sin is the man's (Matthew 5:31-32; Malachi 2:16).",
+      "duplicateCheck": "Different words from 95 Divorce and from candidate A; own number.",
+      "surfaced": "2026-10-14"
+    }
+  ],
   "promotionLog": [
     {
       "date": "2026-07-31",
