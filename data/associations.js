@@ -1,4 +1,6 @@
-// associations 1014 V61.js
+// associations 1014 V62.js
+// V62: One Raiser, Not Three (The Counterfeit Throne, one-raiser-not-three) joins trinity-examined and delegated-authority. Anchors nothing. No clusters added, no anchors moved.
+// Counts (real, from the pool): trinity-examined 16 -> 17; delegated-authority 18 -> 19.
 // V61: Two Passages Against Four Doctrines (Scripture Unfiltered, two-passages-against-four-doctrines) joins delegated-authority and trinity-examined. Anchors nothing. No clusters added, no anchors moved.
 // Counts (real, from the pool): delegated-authority 17 -> 18; trinity-examined 15 -> 16.
 // V60: Out of Dead Wood (Buried in Plain Sight, out-of-dead-wood) joins the-mishkan and restored-creation. Anchors nothing. No clusters added, no anchors moved.
