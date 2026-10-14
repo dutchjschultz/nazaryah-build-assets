@@ -1,4 +1,6 @@
-// associations 1013 V60.js
+// associations 1014 V61.js
+// V61: Two Passages Against Four Doctrines (Scripture Unfiltered, two-passages-against-four-doctrines) joins delegated-authority and trinity-examined. Anchors nothing. No clusters added, no anchors moved.
+// Counts (real, from the pool): delegated-authority 17 -> 18; trinity-examined 15 -> 16.
 // V60: Out of Dead Wood (Buried in Plain Sight, out-of-dead-wood) joins the-mishkan and restored-creation. Anchors nothing. No clusters added, no anchors moved.
 // Counts (real, from the pool): the-mishkan 21 -> 22; restored-creation 9 -> 6. The sheet read 9 -> 10, but the pool held 5 restored-creation studies before this one (the live cluster page showed "5 studies"), so expected was 4 ahead; it is now the real count, 6.
 // V59: The Book of Enoch (The Quick Scroll, the-book-of-enoch) joins trinity-examined and delegated-authority. Anchors nothing. No clusters added, no anchors moved.
