@@ -1,4 +1,6 @@
-// associations 1014 V64.js
+// associations 1014 V65.js
+// V65: Two Babylons (Scripture Unfiltered, two-babylons) joins foreign-fire. Anchors nothing. No clusters added, no anchors moved.
+// Count (real, from the pool): foreign-fire 25 -> 26.
 // V64: every cluster's `expected` set to its real count (members on the built /associations/<key>/ page, from study-pool.js). Six moved: the-second-adam 8 -> 6; whose-righteousness 12 -> 13; garments-and-covering 8 -> 6; yom-kippur 10 -> 8; the-moedim 19 -> 12; cosmology-north 7 -> 6. The other twelve already matched. No studies, keys, or anchors changed.
 // V63: Same Gospel, Same Blood (The Way In and the Walk, same-gospel-same-blood) joins two-stage-salvation and goel-kopher. Anchors nothing. No clusters added, no anchors moved.
 // Counts (real, from the pool): two-stage-salvation 32 -> 33; goel-kopher 21 -> 22 (the pool held 21 before this study, matching the registry; the sheet's 20 was a stale read).
@@ -391,7 +393,7 @@ export const CLUSTERS = {
     blurb:
       "Borrowed worship, borrowed names, borrowed fire — traced back to where it was struck.",
     anchor: "esther-ishtar-marduk",
-    expected: 25,
+    expected: 26,
   },
 
   "trinity-examined": {
