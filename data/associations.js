@@ -1,4 +1,7 @@
-// associations 1014 V62.js
+// associations 1014 V63.js
+// V63: Same Gospel, Same Blood (The Way In and the Walk, same-gospel-same-blood) joins two-stage-salvation and goel-kopher. Anchors nothing. No clusters added, no anchors moved.
+// Counts (real, from the pool): two-stage-salvation 32 -> 33; goel-kopher 21 -> 22 (the pool held 21 before this study, matching the registry; the sheet's 20 was a stale read).
+// Also: V61 and V62 wrote their counts in these notes but never moved `expected` in CLUSTERS. Fixed here to the real pool: delegated-authority 17 -> 19; trinity-examined 15 -> 17.
 // V62: One Raiser, Not Three (The Counterfeit Throne, one-raiser-not-three) joins trinity-examined and delegated-authority. Anchors nothing. No clusters added, no anchors moved.
 // Counts (real, from the pool): trinity-examined 16 -> 17; delegated-authority 18 -> 19.
 // V61: Two Passages Against Four Doctrines (Scripture Unfiltered, two-passages-against-four-doctrines) joins delegated-authority and trinity-examined. Anchors nothing. No clusters added, no anchors moved.
@@ -259,7 +262,7 @@ export const CLUSTERS = {
     blurb:
       "Entry by the blood, walk by the bread. The framework the pulpit collapsed into a single step.",
     anchor: "bread-and-wine",
-    expected: 32,
+    expected: 33,
   },
 
   "lost-in-translation": {
@@ -315,7 +318,7 @@ export const CLUSTERS = {
     blurb:
       "Authority given, never seized. The Son at the right hand, the heirs in His throne, and the kingdom handed back to the Father.",
     anchor: "the-throne-and-the-right-hand",
-    expected: 17,
+    expected: 19,
   },
 
   "pulpit-vocabulary": {
@@ -331,7 +334,7 @@ export const CLUSTERS = {
     blurb:
       "Yahuah as sole Redeemer, the Son as the price paid. The legal spine under the whole atonement question.",
     anchor: "the-redeemer-who-never-needed-redeeming",
-    expected: 21,
+    expected: 22,
   },
 
   "the-mishkan": {
@@ -395,7 +398,7 @@ export const CLUSTERS = {
     blurb:
       "The Godhead the text actually shows. Every throne vision names two, not three; worship and service sort the same way — the pattern the doctrine has to explain away.",
     anchor: "the-throne-and-the-right-hand",
-    expected: 15,
+    expected: 17,
   },
 };
 
