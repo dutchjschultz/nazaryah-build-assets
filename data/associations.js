@@ -1,4 +1,5 @@
-// associations 1014 V63.js
+// associations 1014 V64.js
+// V64: every cluster's `expected` set to its real count (members on the built /associations/<key>/ page, from study-pool.js). Six moved: the-second-adam 8 -> 6; whose-righteousness 12 -> 13; garments-and-covering 8 -> 6; yom-kippur 10 -> 8; the-moedim 19 -> 12; cosmology-north 7 -> 6. The other twelve already matched. No studies, keys, or anchors changed.
 // V63: Same Gospel, Same Blood (The Way In and the Walk, same-gospel-same-blood) joins two-stage-salvation and goel-kopher. Anchors nothing. No clusters added, no anchors moved.
 // Counts (real, from the pool): two-stage-salvation 32 -> 33; goel-kopher 21 -> 22 (the pool held 21 before this study, matching the registry; the sheet's 20 was a stale read).
 // Also: V61 and V62 wrote their counts in these notes but never moved `expected` in CLUSTERS. Fixed here to the real pool: delegated-authority 17 -> 19; trinity-examined 15 -> 17.
@@ -294,7 +295,7 @@ export const CLUSTERS = {
     blurb:
       "The image was sonship. Adam lost it, Seth inherited the loss, and the Second Adam put it back on every man who trusts Him.",
     anchor: "the-bearer-2-unseen-and-image",
-    expected: 8,
+    expected: 6,
   },
 
   "whose-righteousness": {
@@ -302,7 +303,7 @@ export const CLUSTERS = {
     blurb:
       "Fruit belongs to the owner of the tree. The covering belongs to the one who made it. Self-generated righteousness has always been filthy rags.",
     anchor: "clothed-by-the-owner",
-    expected: 12,
+    expected: 13,
   },
 
   "garments-and-covering": {
@@ -310,7 +311,7 @@ export const CLUSTERS = {
     blurb:
       "Beged, ketonet, simlah, fine linen — from fig leaves to the robe of the bride. What you wear declares who covered you.",
     anchor: "clothed-by-the-owner",
-    expected: 8,
+    expected: 6,
   },
 
   "delegated-authority": {
@@ -350,7 +351,7 @@ export const CLUSTERS = {
     blurb:
       "Yom Kippur pattern: the goat that was slain, the goat that was not, and what the church never explains.",
     anchor: "goat-that-was-not-slain",
-    expected: 10,
+    expected: 8,
   },
 
   "light-and-lamp": {
@@ -366,7 +367,7 @@ export const CLUSTERS = {
     blurb:
       "Yahuah's moedim as He set them — the days, the timing, and what was kept on each.",
     anchor: "seven-feasts-in-exodus",
-    expected: 19,
+    expected: 12,
   },
 
   "restored-creation": {
@@ -382,7 +383,7 @@ export const CLUSTERS = {
     blurb:
       "The shape of what Yahuah made, the direction of His dwelling, and the machine built to hide both.",
     anchor: "throne-above-the-north",
-    expected: 7,
+    expected: 6,
   },
 
   "foreign-fire": {
