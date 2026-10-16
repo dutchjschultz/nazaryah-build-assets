@@ -1,4 +1,6 @@
-// associations 1014 V66.js
+// associations 1016 V67.js
+// V67: The Finger of Yahuah (Scripture Unfiltered, the-finger-of-yahuah) joins trinity-examined and lost-in-translation. Anchors nothing. No clusters added, no anchors moved.
+// Counts (real, from the pool): lost-in-translation 41 -> 42; trinity-examined 19 -> 20.
 // V66: Marriage and Divorce (The Law & The Feasts, marriage-and-divorce) joins lost-in-translation and trinity-examined. The Law of Jealousy (The Law & The Feasts, the-law-of-jealousy) joins goel-kopher and trinity-examined. Neither anchors anything. No clusters added, no anchors moved.
 // Counts (real, from the pool): lost-in-translation 40 -> 41; trinity-examined 17 -> 19; goel-kopher 22 -> 23.
 // V65: Two Babylons (Scripture Unfiltered, two-babylons) joins foreign-fire. Anchors nothing. No clusters added, no anchors moved.
@@ -275,7 +277,7 @@ export const CLUSTERS = {
     blurb:
       "Helel became Lucifer. Kappōret became a mercy seat. Qesheth became a rainbow. Har Mo'ed became Megiddo. What the English buried, and what it cost.",
     anchor: "the-lucifer-deception",
-    expected: 41,
+    expected: 42,
   },
 
   "kingdom-now": {
@@ -323,7 +325,7 @@ export const CLUSTERS = {
     blurb:
       "Authority given, never seized. The Son at the right hand, the heirs in His throne, and the kingdom handed back to the Father.",
     anchor: "the-throne-and-the-right-hand",
-    expected: 19,
+    expected: 20,
   },
 
   "pulpit-vocabulary": {
