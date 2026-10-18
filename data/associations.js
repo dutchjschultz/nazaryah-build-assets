@@ -1,4 +1,7 @@
-// associations 1018 V68.js
+// associations 1018 V69.js
+// V69: The Genesis of the Son (The Counterfeit Throne, the-genesis-of-the-son) joins trinity-examined and lost-in-translation. Anchors nothing. No clusters added, no anchors moved.
+// Counts (real, from the pool): lost-in-translation 42 -> 43; trinity-examined 19 -> 21.
+// Also fixed: V67 meant to move trinity-examined 19 -> 20 but changed delegated-authority instead (the two share an anchor), so trinity-examined stayed at 19 and delegated-authority went to 20. delegated-authority is back to its real 19; trinity-examined takes V67's +1 and this study's.
 // V68: Cedars and the Branch (Scripture Unfiltered, cedars-and-the-branch) joins kingdom-now. Anchors nothing. No clusters added, no anchors moved.
 // Counts (real, from the pool): kingdom-now 8 -> 9.
 // V67: The Finger of Yahuah (Scripture Unfiltered, the-finger-of-yahuah) joins trinity-examined and lost-in-translation. Anchors nothing. No clusters added, no anchors moved.
@@ -279,7 +282,7 @@ export const CLUSTERS = {
     blurb:
       "Helel became Lucifer. Kappōret became a mercy seat. Qesheth became a rainbow. Har Mo'ed became Megiddo. What the English buried, and what it cost.",
     anchor: "the-lucifer-deception",
-    expected: 42,
+    expected: 43,
   },
 
   "kingdom-now": {
@@ -327,7 +330,7 @@ export const CLUSTERS = {
     blurb:
       "Authority given, never seized. The Son at the right hand, the heirs in His throne, and the kingdom handed back to the Father.",
     anchor: "the-throne-and-the-right-hand",
-    expected: 20,
+    expected: 19,
   },
 
   "pulpit-vocabulary": {
@@ -407,7 +410,7 @@ export const CLUSTERS = {
     blurb:
       "The Godhead the text actually shows. Every throne vision names two, not three; worship and service sort the same way — the pattern the doctrine has to explain away.",
     anchor: "the-throne-and-the-right-hand",
-    expected: 19,
+    expected: 21,
   },
 };
 
