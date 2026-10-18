@@ -1,4 +1,6 @@
-// associations 1016 V67.js
+// associations 1018 V68.js
+// V68: Cedars and the Branch (Scripture Unfiltered, cedars-and-the-branch) joins kingdom-now. Anchors nothing. No clusters added, no anchors moved.
+// Counts (real, from the pool): kingdom-now 8 -> 9.
 // V67: The Finger of Yahuah (Scripture Unfiltered, the-finger-of-yahuah) joins trinity-examined and lost-in-translation. Anchors nothing. No clusters added, no anchors moved.
 // Counts (real, from the pool): lost-in-translation 41 -> 42; trinity-examined 19 -> 20.
 // V66: Marriage and Divorce (The Law & The Feasts, marriage-and-divorce) joins lost-in-translation and trinity-examined. The Law of Jealousy (The Law & The Feasts, the-law-of-jealousy) joins goel-kopher and trinity-examined. Neither anchors anything. No clusters added, no anchors moved.
@@ -285,7 +287,7 @@ export const CLUSTERS = {
     blurb:
       "Daniel dated it in the days of those kings. It came as a seed and not as a conquest — and the pulpit is still waiting for the crash.",
     anchor: "the-reign-is-now",
-    expected: 8,
+    expected: 9,
   },
 
   "how-yahuah-speaks": {
