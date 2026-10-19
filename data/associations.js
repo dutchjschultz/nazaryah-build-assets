@@ -1,4 +1,6 @@
-// associations 1018 V69.js
+// associations 1019 V70.js
+// V70: Cease or Fulfill (The Law & The Feasts, cease-or-fulfill) joins lost-in-translation and pulpit-vocabulary. Anchors nothing. No clusters added, no anchors moved.
+// Counts (real, from the pool): lost-in-translation 43 -> 44; pulpit-vocabulary 29 -> 30.
 // V69: The Genesis of the Son (The Counterfeit Throne, the-genesis-of-the-son) joins trinity-examined and lost-in-translation. Anchors nothing. No clusters added, no anchors moved.
 // Counts (real, from the pool): lost-in-translation 42 -> 43; trinity-examined 19 -> 21.
 // Also fixed: V67 meant to move trinity-examined 19 -> 20 but changed delegated-authority instead (the two share an anchor), so trinity-examined stayed at 19 and delegated-authority went to 20. delegated-authority is back to its real 19; trinity-examined takes V67's +1 and this study's.
@@ -282,7 +284,7 @@ export const CLUSTERS = {
     blurb:
       "Helel became Lucifer. Kappōret became a mercy seat. Qesheth became a rainbow. Har Mo'ed became Megiddo. What the English buried, and what it cost.",
     anchor: "the-lucifer-deception",
-    expected: 43,
+    expected: 44,
   },
 
   "kingdom-now": {
@@ -338,7 +340,7 @@ export const CLUSTERS = {
     blurb:
       "Words the pulpit softened, sweetened, or reinvented outright — and what the Hebrew and Greek actually say.",
     anchor: "the-whole-counsel",
-    expected: 29,
+    expected: 30,
   },
 
   "goel-kopher": {
