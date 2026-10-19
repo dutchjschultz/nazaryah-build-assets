@@ -1,4 +1,6 @@
-// associations 1019 V70.js
+// associations 1019 V71.js
+// V71: Awake and Divided trilogy (Buried in Plain Sight). The Second Awakening: Cane Ridge joins two-stage-salvation. The Third Awakening: Azusa Street joins trinity-examined. The First Awakening: Northampton carries no associations. Anchors nothing. No clusters added, no anchors moved.
+// Counts (real, from the pool): two-stage-salvation 33 -> 34; trinity-examined 21 -> 22.
 // V70: Cease or Fulfill (The Law & The Feasts, cease-or-fulfill) joins lost-in-translation and pulpit-vocabulary. Anchors nothing. No clusters added, no anchors moved.
 // Counts (real, from the pool): lost-in-translation 43 -> 44; pulpit-vocabulary 29 -> 30.
 // V69: The Genesis of the Son (The Counterfeit Throne, the-genesis-of-the-son) joins trinity-examined and lost-in-translation. Anchors nothing. No clusters added, no anchors moved.
@@ -276,7 +278,7 @@ export const CLUSTERS = {
     blurb:
       "Entry by the blood, walk by the bread. The framework the pulpit collapsed into a single step.",
     anchor: "bread-and-wine",
-    expected: 33,
+    expected: 34,
   },
 
   "lost-in-translation": {
@@ -412,7 +414,7 @@ export const CLUSTERS = {
     blurb:
       "The Godhead the text actually shows. Every throne vision names two, not three; worship and service sort the same way — the pattern the doctrine has to explain away.",
     anchor: "the-throne-and-the-right-hand",
-    expected: 21,
+    expected: 22,
   },
 };
 
