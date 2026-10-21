@@ -1,4 +1,6 @@
-// associations 1021 V75.js
+// associations 1021 V76.js
+// V76: Rock, Stone, and Word (The Way In and the Walk, rock-stone-and-word) joins two-stage-salvation and lost-in-translation. Anchors nothing. No clusters added, no anchors moved.
+// Counts (real, from the pool): two-stage-salvation 35 -> 36; lost-in-translation 48 -> 49.
 // V75: The Law That Carries His Name (The Law & The Feasts, the-law-that-carries-his-name) joins pulpit-vocabulary and lost-in-translation. Anchors nothing. No clusters added, no anchors moved.
 // Counts (real, from the pool): pulpit-vocabulary 32 -> 33; lost-in-translation 47 -> 48. (The batch, written against V73, read V74 and 31 -> 32 / 46 -> 47; V74 went to The Carnal Mind vs. the Spiritual Mind first.)
 // V74: The Carnal Mind vs. the Spiritual Mind (The Law & The Feasts, the-carnal-mind-vs-the-spiritual-mind) joins two-stage-salvation, lost-in-translation and pulpit-vocabulary. Anchors nothing. No clusters added, no anchors moved.
@@ -286,7 +288,7 @@ export const CLUSTERS = {
     blurb:
       "Entry by the blood, walk by the bread. The framework the pulpit collapsed into a single step.",
     anchor: "bread-and-wine",
-    expected: 35,
+    expected: 36,
   },
 
   "lost-in-translation": {
@@ -294,7 +296,7 @@ export const CLUSTERS = {
     blurb:
       "Helel became Lucifer. Kappōret became a mercy seat. Qesheth became a rainbow. Har Mo'ed became Megiddo. What the English buried, and what it cost.",
     anchor: "the-lucifer-deception",
-    expected: 48,
+    expected: 49,
   },
 
   "kingdom-now": {
