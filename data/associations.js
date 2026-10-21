@@ -1,4 +1,6 @@
-// associations 1021 V77.js
+// associations 1021 V78.js
+// V78: Serpent Underfoot (Scripture Unfiltered) joins foreign-fire. Zionism and the Three Wars stands alone. Anchors nothing. No clusters added.
+// Counts (real, from the pool): foreign-fire 26 -> 27.
 // V77: Walking in the Vows trilogy (The Law & The Feasts). Given in Love joins lost-in-translation and pulpit-vocabulary. Written on the Heart joins two-stage-salvation and trinity-examined. Examined at the Wedding joins two-stage-salvation, trinity-examined and lost-in-translation. Anchors nothing. No clusters added, no anchors moved.
 // Counts (real, from the pool): two-stage-salvation 36 -> 38; trinity-examined 23 -> 25; lost-in-translation 49 -> 51; pulpit-vocabulary 33 -> 34.
 // V76: Rock, Stone, and Word (The Way In and the Walk, rock-stone-and-word) joins two-stage-salvation and lost-in-translation. Anchors nothing. No clusters added, no anchors moved.
@@ -418,7 +420,7 @@ export const CLUSTERS = {
     blurb:
       "Borrowed worship, borrowed names, borrowed fire — traced back to where it was struck.",
     anchor: "esther-ishtar-marduk",
-    expected: 26,
+    expected: 27,
   },
 
   "trinity-examined": {
