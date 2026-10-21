@@ -1,4 +1,6 @@
-// associations 1021 V76.js
+// associations 1021 V77.js
+// V77: Walking in the Vows trilogy (The Law & The Feasts). Given in Love joins lost-in-translation and pulpit-vocabulary. Written on the Heart joins two-stage-salvation and trinity-examined. Examined at the Wedding joins two-stage-salvation, trinity-examined and lost-in-translation. Anchors nothing. No clusters added, no anchors moved.
+// Counts (real, from the pool): two-stage-salvation 36 -> 38; trinity-examined 23 -> 25; lost-in-translation 49 -> 51; pulpit-vocabulary 33 -> 34.
 // V76: Rock, Stone, and Word (The Way In and the Walk, rock-stone-and-word) joins two-stage-salvation and lost-in-translation. Anchors nothing. No clusters added, no anchors moved.
 // Counts (real, from the pool): two-stage-salvation 35 -> 36; lost-in-translation 48 -> 49.
 // V75: The Law That Carries His Name (The Law & The Feasts, the-law-that-carries-his-name) joins pulpit-vocabulary and lost-in-translation. Anchors nothing. No clusters added, no anchors moved.
@@ -288,7 +290,7 @@ export const CLUSTERS = {
     blurb:
       "Entry by the blood, walk by the bread. The framework the pulpit collapsed into a single step.",
     anchor: "bread-and-wine",
-    expected: 36,
+    expected: 38,
   },
 
   "lost-in-translation": {
@@ -296,7 +298,7 @@ export const CLUSTERS = {
     blurb:
       "Helel became Lucifer. Kappōret became a mercy seat. Qesheth became a rainbow. Har Mo'ed became Megiddo. What the English buried, and what it cost.",
     anchor: "the-lucifer-deception",
-    expected: 49,
+    expected: 51,
   },
 
   "kingdom-now": {
@@ -352,7 +354,7 @@ export const CLUSTERS = {
     blurb:
       "Words the pulpit softened, sweetened, or reinvented outright — and what the Hebrew and Greek actually say.",
     anchor: "the-whole-counsel",
-    expected: 33,
+    expected: 34,
   },
 
   "goel-kopher": {
@@ -424,7 +426,7 @@ export const CLUSTERS = {
     blurb:
       "The Godhead the text actually shows. Every throne vision names two, not three; worship and service sort the same way — the pattern the doctrine has to explain away.",
     anchor: "the-throne-and-the-right-hand",
-    expected: 23,
+    expected: 25,
   },
 };
 
