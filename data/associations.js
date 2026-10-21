@@ -1,4 +1,6 @@
-// associations 1021 V74.js
+// associations 1021 V75.js
+// V75: The Law That Carries His Name (The Law & The Feasts, the-law-that-carries-his-name) joins pulpit-vocabulary and lost-in-translation. Anchors nothing. No clusters added, no anchors moved.
+// Counts (real, from the pool): pulpit-vocabulary 32 -> 33; lost-in-translation 47 -> 48. (The batch, written against V73, read V74 and 31 -> 32 / 46 -> 47; V74 went to The Carnal Mind vs. the Spiritual Mind first.)
 // V74: The Carnal Mind vs. the Spiritual Mind (The Law & The Feasts, the-carnal-mind-vs-the-spiritual-mind) joins two-stage-salvation, lost-in-translation and pulpit-vocabulary. Anchors nothing. No clusters added, no anchors moved.
 // Counts (real, from the pool): two-stage-salvation 34 -> 35; lost-in-translation 46 -> 47; pulpit-vocabulary 31 -> 32.
 // V73: Sign, Seal, and Mark (Scripture Unfiltered, sign-seal-and-mark) joins pulpit-vocabulary and lost-in-translation. Anchors nothing. No clusters added, no anchors moved.
@@ -292,7 +294,7 @@ export const CLUSTERS = {
     blurb:
       "Helel became Lucifer. Kappōret became a mercy seat. Qesheth became a rainbow. Har Mo'ed became Megiddo. What the English buried, and what it cost.",
     anchor: "the-lucifer-deception",
-    expected: 47,
+    expected: 48,
   },
 
   "kingdom-now": {
@@ -348,7 +350,7 @@ export const CLUSTERS = {
     blurb:
       "Words the pulpit softened, sweetened, or reinvented outright — and what the Hebrew and Greek actually say.",
     anchor: "the-whole-counsel",
-    expected: 32,
+    expected: 33,
   },
 
   "goel-kopher": {
