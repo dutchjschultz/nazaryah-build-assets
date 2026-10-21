@@ -1,4 +1,6 @@
-// associations 1019 V72.js
+// associations 1021 V73.js
+// V73: Sign, Seal, and Mark (Scripture Unfiltered, sign-seal-and-mark) joins pulpit-vocabulary and lost-in-translation. Anchors nothing. No clusters added, no anchors moved.
+// Counts (real, from the pool): pulpit-vocabulary 30 -> 31; lost-in-translation 45 -> 46.
 // V72: Tried in the Reins (The Root, tried-in-the-reins) joins lost-in-translation and trinity-examined. Anchors nothing. No clusters added, no anchors moved.
 // Counts (real, from the pool): lost-in-translation 44 -> 45; trinity-examined 22 -> 23.
 // V71: Awake and Divided trilogy (Buried in Plain Sight). The Second Awakening: Cane Ridge joins two-stage-salvation. The Third Awakening: Azusa Street joins trinity-examined. The First Awakening: Northampton carries no associations. Anchors nothing. No clusters added, no anchors moved.
@@ -288,7 +290,7 @@ export const CLUSTERS = {
     blurb:
       "Helel became Lucifer. Kappōret became a mercy seat. Qesheth became a rainbow. Har Mo'ed became Megiddo. What the English buried, and what it cost.",
     anchor: "the-lucifer-deception",
-    expected: 45,
+    expected: 46,
   },
 
   "kingdom-now": {
@@ -344,7 +346,7 @@ export const CLUSTERS = {
     blurb:
       "Words the pulpit softened, sweetened, or reinvented outright — and what the Hebrew and Greek actually say.",
     anchor: "the-whole-counsel",
-    expected: 30,
+    expected: 31,
   },
 
   "goel-kopher": {
