@@ -1,4 +1,6 @@
-// associations 1021 V73.js
+// associations 1021 V74.js
+// V74: The Carnal Mind vs. the Spiritual Mind (The Law & The Feasts, the-carnal-mind-vs-the-spiritual-mind) joins two-stage-salvation, lost-in-translation and pulpit-vocabulary. Anchors nothing. No clusters added, no anchors moved.
+// Counts (real, from the pool): two-stage-salvation 34 -> 35; lost-in-translation 46 -> 47; pulpit-vocabulary 31 -> 32.
 // V73: Sign, Seal, and Mark (Scripture Unfiltered, sign-seal-and-mark) joins pulpit-vocabulary and lost-in-translation. Anchors nothing. No clusters added, no anchors moved.
 // Counts (real, from the pool): pulpit-vocabulary 30 -> 31; lost-in-translation 45 -> 46.
 // V72: Tried in the Reins (The Root, tried-in-the-reins) joins lost-in-translation and trinity-examined. Anchors nothing. No clusters added, no anchors moved.
@@ -282,7 +284,7 @@ export const CLUSTERS = {
     blurb:
       "Entry by the blood, walk by the bread. The framework the pulpit collapsed into a single step.",
     anchor: "bread-and-wine",
-    expected: 34,
+    expected: 35,
   },
 
   "lost-in-translation": {
@@ -290,7 +292,7 @@ export const CLUSTERS = {
     blurb:
       "Helel became Lucifer. Kappōret became a mercy seat. Qesheth became a rainbow. Har Mo'ed became Megiddo. What the English buried, and what it cost.",
     anchor: "the-lucifer-deception",
-    expected: 46,
+    expected: 47,
   },
 
   "kingdom-now": {
@@ -346,7 +348,7 @@ export const CLUSTERS = {
     blurb:
       "Words the pulpit softened, sweetened, or reinvented outright — and what the Hebrew and Greek actually say.",
     anchor: "the-whole-counsel",
-    expected: 31,
+    expected: 32,
   },
 
   "goel-kopher": {
