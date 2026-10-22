@@ -1,4 +1,6 @@
-// associations 1022 V80.js
+// associations 1022 V81.js
+// V81 (batch 68): Ezekiel: The Glory Leaves and Returns (The Quick Scroll, ezekiel-the-glory-leaves-and-returns) joins kingdom-now, the-moedim and the-mishkan. Anchors nothing. No clusters added, no anchors moved.
+// Counts (real, from the pool): kingdom-now 9 -> 10; the-moedim 12 -> 13; the-mishkan 23 -> 24.
 // V80 (batch 67, approved by Dutch 1016): the-priesthood cluster born, anchored to The Higher Priesthood; it is the priesthood cluster V19 named as forming. Members: the-higher-priesthood, kingdom-of-lights, the-talents, house-without-the-owner, the-rising-priesthood. house-without-the-owner and the-rising-priesthood drop lost-in-translation to hold the three-key cap. The Second Born (Scripture Unfiltered, the-second-born) joins the-second-adam and delegated-authority. The Higher Priesthood (Scripture Unfiltered, the-higher-priesthood) joins the-priesthood, delegated-authority and the-mishkan.
 // Counts (real, from the pool): the-priesthood new -> 5; the-second-adam 6 -> 7; delegated-authority 20 -> 22; the-mishkan 22 -> 23; lost-in-translation 52 -> 50. (The sheet, written against V66, read 19 -> 21 and 41 -> 39; the deltas match, the bases had moved.)
 // V79: The Trees of Judges investigation goes live (nucleus + four witnesses, The Way In and the Walk). The Trees of Judges (nucleus, the-trees-of-judges), The Vine (the-vine) and The Fig Tree (the-fig-tree) join two-stage-salvation. The Olive Tree (the-olive-tree) joins lost-in-translation. The Bramble (the-bramble) joins delegated-authority. None of the five anchors anything. No clusters added, no anchors moved.
@@ -312,7 +314,7 @@ export const CLUSTERS = {
     blurb:
       "Daniel dated it in the days of those kings. It came as a seed and not as a conquest — and the pulpit is still waiting for the crash.",
     anchor: "the-reign-is-now",
-    expected: 9,
+    expected: 10,
   },
 
   "how-yahuah-speaks": {
@@ -376,7 +378,7 @@ export const CLUSTERS = {
     blurb:
       "The structure Yahuah designed: ark, cover, veil, garments — and who may pass through what.",
     anchor: "ark-of-covering",
-    expected: 23,
+    expected: 24,
   },
 
   "yom-kippur": {
@@ -400,7 +402,7 @@ export const CLUSTERS = {
     blurb:
       "Yahuah's moedim as He set them — the days, the timing, and what was kept on each.",
     anchor: "seven-feasts-in-exodus",
-    expected: 12,
+    expected: 13,
   },
 
   "restored-creation": {
