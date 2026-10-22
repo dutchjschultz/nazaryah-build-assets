@@ -1,4 +1,6 @@
-// associations 1021 V78.js
+// associations 1022 V79.js
+// V79: The Trees of Judges investigation goes live (nucleus + four witnesses, The Way In and the Walk). The Trees of Judges (nucleus, the-trees-of-judges), The Vine (the-vine) and The Fig Tree (the-fig-tree) join two-stage-salvation. The Olive Tree (the-olive-tree) joins lost-in-translation. The Bramble (the-bramble) joins delegated-authority. None of the five anchors anything. No clusters added, no anchors moved.
+// Counts (real, from the pool): two-stage-salvation 38 -> 41; lost-in-translation 51 -> 52; delegated-authority 19 -> 20.
 // V78: Serpent Underfoot (Scripture Unfiltered) joins foreign-fire. Zionism and the Three Wars stands alone. Anchors nothing. No clusters added.
 // Counts (real, from the pool): foreign-fire 26 -> 27.
 // V77: Walking in the Vows trilogy (The Law & The Feasts). Given in Love joins lost-in-translation and pulpit-vocabulary. Written on the Heart joins two-stage-salvation and trinity-examined. Examined at the Wedding joins two-stage-salvation, trinity-examined and lost-in-translation. Anchors nothing. No clusters added, no anchors moved.
@@ -292,7 +294,7 @@ export const CLUSTERS = {
     blurb:
       "Entry by the blood, walk by the bread. The framework the pulpit collapsed into a single step.",
     anchor: "bread-and-wine",
-    expected: 38,
+    expected: 41,
   },
 
   "lost-in-translation": {
@@ -300,7 +302,7 @@ export const CLUSTERS = {
     blurb:
       "Helel became Lucifer. Kappōret became a mercy seat. Qesheth became a rainbow. Har Mo'ed became Megiddo. What the English buried, and what it cost.",
     anchor: "the-lucifer-deception",
-    expected: 51,
+    expected: 52,
   },
 
   "kingdom-now": {
@@ -348,7 +350,7 @@ export const CLUSTERS = {
     blurb:
       "Authority given, never seized. The Son at the right hand, the heirs in His throne, and the kingdom handed back to the Father.",
     anchor: "the-throne-and-the-right-hand",
-    expected: 19,
+    expected: 20,
   },
 
   "pulpit-vocabulary": {
