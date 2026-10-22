@@ -1,4 +1,6 @@
-// associations 1022 V79.js
+// associations 1022 V80.js
+// V80 (batch 67, approved by Dutch 1016): the-priesthood cluster born, anchored to The Higher Priesthood; it is the priesthood cluster V19 named as forming. Members: the-higher-priesthood, kingdom-of-lights, the-talents, house-without-the-owner, the-rising-priesthood. house-without-the-owner and the-rising-priesthood drop lost-in-translation to hold the three-key cap. The Second Born (Scripture Unfiltered, the-second-born) joins the-second-adam and delegated-authority. The Higher Priesthood (Scripture Unfiltered, the-higher-priesthood) joins the-priesthood, delegated-authority and the-mishkan.
+// Counts (real, from the pool): the-priesthood new -> 5; the-second-adam 6 -> 7; delegated-authority 20 -> 22; the-mishkan 22 -> 23; lost-in-translation 52 -> 50. (The sheet, written against V66, read 19 -> 21 and 41 -> 39; the deltas match, the bases had moved.)
 // V79: The Trees of Judges investigation goes live (nucleus + four witnesses, The Way In and the Walk). The Trees of Judges (nucleus, the-trees-of-judges), The Vine (the-vine) and The Fig Tree (the-fig-tree) join two-stage-salvation. The Olive Tree (the-olive-tree) joins lost-in-translation. The Bramble (the-bramble) joins delegated-authority. None of the five anchors anything. No clusters added, no anchors moved.
 // Counts (real, from the pool): two-stage-salvation 38 -> 41; lost-in-translation 51 -> 52; delegated-authority 19 -> 20.
 // V78: Serpent Underfoot (Scripture Unfiltered) joins foreign-fire. Zionism and the Three Wars stands alone. Anchors nothing. No clusters added.
@@ -302,7 +304,7 @@ export const CLUSTERS = {
     blurb:
       "Helel became Lucifer. Kappōret became a mercy seat. Qesheth became a rainbow. Har Mo'ed became Megiddo. What the English buried, and what it cost.",
     anchor: "the-lucifer-deception",
-    expected: 52,
+    expected: 50,
   },
 
   "kingdom-now": {
@@ -326,7 +328,7 @@ export const CLUSTERS = {
     blurb:
       "The image was sonship. Adam lost it, Seth inherited the loss, and the Second Adam put it back on every man who trusts Him.",
     anchor: "the-bearer-2-unseen-and-image",
-    expected: 6,
+    expected: 7,
   },
 
   "whose-righteousness": {
@@ -350,7 +352,7 @@ export const CLUSTERS = {
     blurb:
       "Authority given, never seized. The Son at the right hand, the heirs in His throne, and the kingdom handed back to the Father.",
     anchor: "the-throne-and-the-right-hand",
-    expected: 20,
+    expected: 22,
   },
 
   "pulpit-vocabulary": {
@@ -374,7 +376,7 @@ export const CLUSTERS = {
     blurb:
       "The structure Yahuah designed: ark, cover, veil, garments — and who may pass through what.",
     anchor: "ark-of-covering",
-    expected: 22,
+    expected: 23,
   },
 
   "yom-kippur": {
@@ -431,6 +433,14 @@ export const CLUSTERS = {
       "The Godhead the text actually shows. Every throne vision names two, not three; worship and service sort the same way — the pattern the doctrine has to explain away.",
     anchor: "the-throne-and-the-right-hand",
     expected: 25,
+  },
+
+  "the-priesthood": {
+    label: "The Priesthood",
+    blurb:
+      "From Eden to Melchizedek to the Son — the charge Yahuah gives, takes back from unfaithful keepers, and raises again.",
+    anchor: "the-higher-priesthood",
+    expected: 5,
   },
 };
 
