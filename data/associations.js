@@ -1,4 +1,6 @@
-// associations 1023 V82.js
+// associations 1023 V83.js
+// V83 (batch 70): Zechariah series goes live (The Quick Scroll, series "zechariah"). Main: zechariah-eight-visions-two-burdens joins kingdom-now, the-moedim, trinity-examined. Companions: vision-one joins the-mishkan, the-moedim; vision-two joins the-mishkan; vision-three joins the-mishkan, trinity-examined; vision-four joins the-priesthood, garments-and-covering, two-stage-salvation; did-ye-fast-unto-me joins the-moedim; the-king-on-a-donkey joins kingdom-now, two-stage-salvation; the-shepherd-sold joins goel-kopher. Anchors nothing. No clusters added, no anchors moved.
+// Counts (real, from the pool): kingdom-now 11 -> 13; the-moedim 13 -> 16; trinity-examined 25 -> 27; the-mishkan 24 -> 27; the-priesthood 5 -> 6; garments-and-covering 6 -> 7; two-stage-salvation 41 -> 43; goel-kopher 23 -> 24.
 // V82 (batch 69): Three Verses After the End (Scripture Unfiltered, three-verses-after-the-end) joins kingdom-now and restored-creation. Anchors nothing. No clusters added, no anchors moved.
 // Counts (real, from the pool): kingdom-now 10 -> 11; restored-creation 6 -> 7.
 // V81 (batch 68): Ezekiel: The Glory Leaves and Returns (The Quick Scroll, ezekiel-the-glory-leaves-and-returns) joins kingdom-now, the-moedim and the-mishkan. Anchors nothing. No clusters added, no anchors moved.
