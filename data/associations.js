@@ -1,4 +1,6 @@
-// associations 1022 V81.js
+// associations 1023 V82.js
+// V82 (batch 69): Three Verses After the End (Scripture Unfiltered, three-verses-after-the-end) joins kingdom-now and restored-creation. Anchors nothing. No clusters added, no anchors moved.
+// Counts (real, from the pool): kingdom-now 10 -> 11; restored-creation 6 -> 7.
 // V81 (batch 68): Ezekiel: The Glory Leaves and Returns (The Quick Scroll, ezekiel-the-glory-leaves-and-returns) joins kingdom-now, the-moedim and the-mishkan. Anchors nothing. No clusters added, no anchors moved.
 // Counts (real, from the pool): kingdom-now 9 -> 10; the-moedim 12 -> 13; the-mishkan 23 -> 24.
 // V80 (batch 67, approved by Dutch 1016): the-priesthood cluster born, anchored to The Higher Priesthood; it is the priesthood cluster V19 named as forming. Members: the-higher-priesthood, kingdom-of-lights, the-talents, house-without-the-owner, the-rising-priesthood. house-without-the-owner and the-rising-priesthood drop lost-in-translation to hold the three-key cap. The Second Born (Scripture Unfiltered, the-second-born) joins the-second-adam and delegated-authority. The Higher Priesthood (Scripture Unfiltered, the-higher-priesthood) joins the-priesthood, delegated-authority and the-mishkan.
