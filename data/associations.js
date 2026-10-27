@@ -1,4 +1,7 @@
-// associations 1027 V86.js
+// associations 1027 V87.js
+// V87 (batch 74): The Servant in Isaiah series goes live (The Quick Scroll, series "isaiah"), six companions to isaiah-runs-forward, which is unchanged except that it now leads the series (series "isaiah", seriesRole "main"). servant-in-isaiah-1-israel-is-the-servant carries no keys. -2-two-servants-one-chapter joins light-and-lamp, trinity-examined. -3-he-keeps-calling-them-servant joins foreign-fire, goel-kopher. -4-the-name-changes-hands joins light-and-lamp, delegated-authority. -5-the-one-carries-the-many joins goel-kopher, trinity-examined. -6-servants-plural joins the-moedim, whose-righteousness. Anchors nothing. No clusters added, no anchors moved.
+// ALSO: `expected` in CLUSTERS had fallen behind the V83/V85/V86 notes (the notes stated real counts that were never written into the data). Every cluster is now set to its real count, recounted from the pool (published posts + Hollywood cards), not copied from the notes. Reconciled before this batch: cosmology-north 6 -> 7; delegated-authority 22 -> 23; foreign-fire 27 -> 28; garments-and-covering 6 -> 7; kingdom-now 10 -> 15; light-and-lamp 7 -> 9; restored-creation 6 -> 9; the-mishkan 24 -> 34; the-moedim 13 -> 17; the-priesthood 5 -> 8; trinity-examined 25 -> 31; two-stage-salvation 41 -> 43. garments-and-covering was the one the batch sheet did not list.
+// Counts (real, from the pool): light-and-lamp 9 -> 11; trinity-examined 31 -> 33; goel-kopher 23 -> 25; foreign-fire 28 -> 29; delegated-authority 23 -> 24; the-moedim 17 -> 18; whose-righteousness 13 -> 14.
 // V86 (batch 73): Zechariah and Ezekiel series complete (The Quick Scroll). New: zechariah-vision-five-not-by-might-nor-by-power joins light-and-lamp, the-mishkan; zechariah-vision-six-the-flying-roll joins the-mishkan; zechariah-vision-seven-wickedness-in-the-ephah joins the-mishkan; zechariah-vision-eight-a-priest-upon-his-throne joins the-priesthood, delegated-authority, trinity-examined; zechariah-first-burden-the-shepherd-king joins kingdom-now; zechariah-second-burden-the-one-they-pierced joins kingdom-now, the-moedim; zechariah-in-revelation-one-night-seen-again joins light-and-lamp, trinity-examined; ezekiel-vision-one-the-likeness-of-the-glory joins the-mishkan, cosmology-north, trinity-examined; ezekiel-vision-two-far-off-from-my-sanctuary joins foreign-fire, the-mishkan; ezekiel-vision-four-the-glory-comes-home joins the-mishkan, restored-creation, the-priesthood; ezekiel-in-revelation-the-same-story-told-twice joins the-mishkan, restored-creation. Retired (301 to zechariah-first-burden-the-shepherd-king): zechariah-the-king-on-a-donkey (kingdom-now, two-stage-salvation), zechariah-the-shepherd-sold (goel-kopher). Anchors nothing. No clusters added, no anchors moved.
 // Counts (real, from the pool): the-mishkan 27 -> 34; trinity-examined 28 -> 31 (one is a Hollywood page); light-and-lamp 7 -> 9; the-priesthood 6 -> 8; restored-creation 7 -> 9; kingdom-now 14 -> 15; delegated-authority 22 -> 23; the-moedim 16 -> 17; cosmology-north 6 -> 7; foreign-fire 27 -> 28; two-stage-salvation 44 -> 43; goel-kopher 24 -> 23.
 // V85 (batch 72): Ezekiel series panel added. ezekiel-vision-three-can-these-bones-live (The Quick Scroll, series "ezekiel") joins kingdom-now, two-stage-salvation, trinity-examined. Anchors nothing. No clusters added, no anchors moved.
@@ -307,7 +310,7 @@ export const CLUSTERS = {
     blurb:
       "Entry by the blood, walk by the bread. The framework the pulpit collapsed into a single step.",
     anchor: "bread-and-wine",
-    expected: 41,
+    expected: 43,
   },
 
   "lost-in-translation": {
@@ -323,7 +326,7 @@ export const CLUSTERS = {
     blurb:
       "Daniel dated it in the days of those kings. It came as a seed and not as a conquest — and the pulpit is still waiting for the crash.",
     anchor: "the-reign-is-now",
-    expected: 10,
+    expected: 15,
   },
 
   "how-yahuah-speaks": {
@@ -347,7 +350,7 @@ export const CLUSTERS = {
     blurb:
       "Fruit belongs to the owner of the tree. The covering belongs to the one who made it. Self-generated righteousness has always been filthy rags.",
     anchor: "clothed-by-the-owner",
-    expected: 13,
+    expected: 14,
   },
 
   "garments-and-covering": {
@@ -355,7 +358,7 @@ export const CLUSTERS = {
     blurb:
       "Beged, ketonet, simlah, fine linen — from fig leaves to the robe of the bride. What you wear declares who covered you.",
     anchor: "clothed-by-the-owner",
-    expected: 6,
+    expected: 7,
   },
 
   "delegated-authority": {
@@ -363,7 +366,7 @@ export const CLUSTERS = {
     blurb:
       "Authority given, never seized. The Son at the right hand, the heirs in His throne, and the kingdom handed back to the Father.",
     anchor: "the-throne-and-the-right-hand",
-    expected: 22,
+    expected: 24,
   },
 
   "pulpit-vocabulary": {
@@ -379,7 +382,7 @@ export const CLUSTERS = {
     blurb:
       "Yahuah as sole Redeemer, the Son as the price paid. The legal spine under the whole atonement question.",
     anchor: "the-redeemer-who-never-needed-redeeming",
-    expected: 23,
+    expected: 25,
   },
 
   "the-mishkan": {
@@ -387,7 +390,7 @@ export const CLUSTERS = {
     blurb:
       "The structure Yahuah designed: ark, cover, veil, garments — and who may pass through what.",
     anchor: "ark-of-covering",
-    expected: 24,
+    expected: 34,
   },
 
   "yom-kippur": {
@@ -403,7 +406,7 @@ export const CLUSTERS = {
     blurb:
       "Yahuah is the source; the Son is the lamp that bears it. The Father speaks, the Son delivers. The impression is not the engraver.",
     anchor: "the-bearer-1-light-and-lamp",
-    expected: 7,
+    expected: 11,
   },
 
   "the-moedim": {
@@ -411,7 +414,7 @@ export const CLUSTERS = {
     blurb:
       "Yahuah's moedim as He set them — the days, the timing, and what was kept on each.",
     anchor: "seven-feasts-in-exodus",
-    expected: 13,
+    expected: 18,
   },
 
   "restored-creation": {
@@ -419,7 +422,7 @@ export const CLUSTERS = {
     blurb:
       "Eden planted, Eden closed, Eden restored. The arc that ends with the Tree of Knowledge absent and the curse gone.",
     anchor: "paradise-restored",
-    expected: 6,
+    expected: 9,
   },
 
   "cosmology-north": {
@@ -427,7 +430,7 @@ export const CLUSTERS = {
     blurb:
       "The shape of what Yahuah made, the direction of His dwelling, and the machine built to hide both.",
     anchor: "throne-above-the-north",
-    expected: 6,
+    expected: 7,
   },
 
   "foreign-fire": {
@@ -435,7 +438,7 @@ export const CLUSTERS = {
     blurb:
       "Borrowed worship, borrowed names, borrowed fire — traced back to where it was struck.",
     anchor: "esther-ishtar-marduk",
-    expected: 27,
+    expected: 29,
   },
 
   "trinity-examined": {
@@ -443,7 +446,7 @@ export const CLUSTERS = {
     blurb:
       "The Godhead the text actually shows. Every throne vision names two, not three; worship and service sort the same way — the pattern the doctrine has to explain away.",
     anchor: "the-throne-and-the-right-hand",
-    expected: 25,
+    expected: 33,
   },
 
   "the-priesthood": {
@@ -451,7 +454,7 @@ export const CLUSTERS = {
     blurb:
       "From Eden to Melchizedek to the Son — the charge Yahuah gives, takes back from unfaithful keepers, and raises again.",
     anchor: "the-higher-priesthood",
-    expected: 5,
+    expected: 8,
   },
 };
 
