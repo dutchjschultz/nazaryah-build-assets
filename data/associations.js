@@ -1,4 +1,6 @@
-// associations 1029 V88.js
+// associations 1029 V89.js
+// V89 (batch 75 V2, Isaiah half; written as V87 against batch 74 unshipped, renumbered since batch 74 shipped as V87 and Lamentations took V88): three more Isaiah Quick Scroll companions (series "isaiah"), against isaiah-runs-forward, which is unchanged. isaiah-sees-the-throne joins trinity-examined, the-mishkan. isaiah-misread joins lost-in-translation, trinity-examined, pulpit-vocabulary. who-wrote-isaiah joins how-yahuah-speaks. The six Servant studies were already live (V87) and are untouched. Anchors nothing. No clusters added, no anchors moved.
+// Counts (real, from the pool): trinity-examined 34 -> 36; the-mishkan 34 -> 35; lost-in-translation 52 -> 53; pulpit-vocabulary 34 -> 35; how-yahuah-speaks 18 -> 19.
 // V88 (batch 75): The Lamentations series goes live (The Quick Scroll, series "lamentations"). Main: lamentations-five-voices-one-warning carries no keys (seriesRole "main"). Companions: lamentations-the-alphabet-of-grief joins how-yahuah-speaks; lamentations-death-burial-and-rising joins trinity-examined, goel-kopher; lamentations-who-wrote-it joins lost-in-translation; lamentations-take-up-a-lamentation joins lost-in-translation; lamentations-a-funeral-in-scripture joins foreign-fire. Anchors nothing. No clusters added, no anchors moved.
 // Counts (real, from the pool): how-yahuah-speaks 17 -> 18; trinity-examined 33 -> 34; goel-kopher 25 -> 26; lost-in-translation 50 -> 52; foreign-fire 29 -> 30.
 // V87 (batch 74): The Servant in Isaiah series goes live (The Quick Scroll, series "isaiah"), six companions to isaiah-runs-forward, which is unchanged except that it now leads the series (series "isaiah", seriesRole "main"). servant-in-isaiah-1-israel-is-the-servant carries no keys. -2-two-servants-one-chapter joins light-and-lamp, trinity-examined. -3-he-keeps-calling-them-servant joins foreign-fire, goel-kopher. -4-the-name-changes-hands joins light-and-lamp, delegated-authority. -5-the-one-carries-the-many joins goel-kopher, trinity-examined. -6-servants-plural joins the-moedim, whose-righteousness. Anchors nothing. No clusters added, no anchors moved.
@@ -320,7 +322,7 @@ export const CLUSTERS = {
     blurb:
       "Helel became Lucifer. Kappōret became a mercy seat. Qesheth became a rainbow. Har Mo'ed became Megiddo. What the English buried, and what it cost.",
     anchor: "the-lucifer-deception",
-    expected: 52,
+    expected: 53,
   },
 
   "kingdom-now": {
@@ -336,7 +338,7 @@ export const CLUSTERS = {
     blurb:
       "The sky, the letters, the words, and at last His own Son. He has already spoken — the question is whether we will hear what was given.",
     anchor: "heavens-letters-words-son",
-    expected: 18,
+    expected: 19,
   },
 
   "the-second-adam": {
@@ -376,7 +378,7 @@ export const CLUSTERS = {
     blurb:
       "Words the pulpit softened, sweetened, or reinvented outright — and what the Hebrew and Greek actually say.",
     anchor: "the-whole-counsel",
-    expected: 34,
+    expected: 35,
   },
 
   "goel-kopher": {
@@ -392,7 +394,7 @@ export const CLUSTERS = {
     blurb:
       "The structure Yahuah designed: ark, cover, veil, garments — and who may pass through what.",
     anchor: "ark-of-covering",
-    expected: 34,
+    expected: 35,
   },
 
   "yom-kippur": {
@@ -448,7 +450,7 @@ export const CLUSTERS = {
     blurb:
       "The Godhead the text actually shows. Every throne vision names two, not three; worship and service sort the same way — the pattern the doctrine has to explain away.",
     anchor: "the-throne-and-the-right-hand",
-    expected: 34,
+    expected: 36,
   },
 
   "the-priesthood": {
