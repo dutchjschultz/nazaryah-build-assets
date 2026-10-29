@@ -1,4 +1,6 @@
-// associations 1027 V87.js
+// associations 1029 V88.js
+// V88 (batch 75): The Lamentations series goes live (The Quick Scroll, series "lamentations"). Main: lamentations-five-voices-one-warning carries no keys (seriesRole "main"). Companions: lamentations-the-alphabet-of-grief joins how-yahuah-speaks; lamentations-death-burial-and-rising joins trinity-examined, goel-kopher; lamentations-who-wrote-it joins lost-in-translation; lamentations-take-up-a-lamentation joins lost-in-translation; lamentations-a-funeral-in-scripture joins foreign-fire. Anchors nothing. No clusters added, no anchors moved.
+// Counts (real, from the pool): how-yahuah-speaks 17 -> 18; trinity-examined 33 -> 34; goel-kopher 25 -> 26; lost-in-translation 50 -> 52; foreign-fire 29 -> 30.
 // V87 (batch 74): The Servant in Isaiah series goes live (The Quick Scroll, series "isaiah"), six companions to isaiah-runs-forward, which is unchanged except that it now leads the series (series "isaiah", seriesRole "main"). servant-in-isaiah-1-israel-is-the-servant carries no keys. -2-two-servants-one-chapter joins light-and-lamp, trinity-examined. -3-he-keeps-calling-them-servant joins foreign-fire, goel-kopher. -4-the-name-changes-hands joins light-and-lamp, delegated-authority. -5-the-one-carries-the-many joins goel-kopher, trinity-examined. -6-servants-plural joins the-moedim, whose-righteousness. Anchors nothing. No clusters added, no anchors moved.
 // ALSO: `expected` in CLUSTERS had fallen behind the V83/V85/V86 notes (the notes stated real counts that were never written into the data). Every cluster is now set to its real count, recounted from the pool (published posts + Hollywood cards), not copied from the notes. Reconciled before this batch: cosmology-north 6 -> 7; delegated-authority 22 -> 23; foreign-fire 27 -> 28; garments-and-covering 6 -> 7; kingdom-now 10 -> 15; light-and-lamp 7 -> 9; restored-creation 6 -> 9; the-mishkan 24 -> 34; the-moedim 13 -> 17; the-priesthood 5 -> 8; trinity-examined 25 -> 31; two-stage-salvation 41 -> 43. garments-and-covering was the one the batch sheet did not list.
 // Counts (real, from the pool): light-and-lamp 9 -> 11; trinity-examined 31 -> 33; goel-kopher 23 -> 25; foreign-fire 28 -> 29; delegated-authority 23 -> 24; the-moedim 17 -> 18; whose-righteousness 13 -> 14.
@@ -318,7 +320,7 @@ export const CLUSTERS = {
     blurb:
       "Helel became Lucifer. Kappōret became a mercy seat. Qesheth became a rainbow. Har Mo'ed became Megiddo. What the English buried, and what it cost.",
     anchor: "the-lucifer-deception",
-    expected: 50,
+    expected: 52,
   },
 
   "kingdom-now": {
@@ -334,7 +336,7 @@ export const CLUSTERS = {
     blurb:
       "The sky, the letters, the words, and at last His own Son. He has already spoken — the question is whether we will hear what was given.",
     anchor: "heavens-letters-words-son",
-    expected: 17,
+    expected: 18,
   },
 
   "the-second-adam": {
@@ -382,7 +384,7 @@ export const CLUSTERS = {
     blurb:
       "Yahuah as sole Redeemer, the Son as the price paid. The legal spine under the whole atonement question.",
     anchor: "the-redeemer-who-never-needed-redeeming",
-    expected: 25,
+    expected: 26,
   },
 
   "the-mishkan": {
@@ -438,7 +440,7 @@ export const CLUSTERS = {
     blurb:
       "Borrowed worship, borrowed names, borrowed fire — traced back to where it was struck.",
     anchor: "esther-ishtar-marduk",
-    expected: 29,
+    expected: 30,
   },
 
   "trinity-examined": {
@@ -446,7 +448,7 @@ export const CLUSTERS = {
     blurb:
       "The Godhead the text actually shows. Every throne vision names two, not three; worship and service sort the same way — the pattern the doctrine has to explain away.",
     anchor: "the-throne-and-the-right-hand",
-    expected: 33,
+    expected: 34,
   },
 
   "the-priesthood": {
