@@ -1,4 +1,6 @@
-// associations 1029 V89.js
+// associations 1030 V90.js
+// V90 (batch 76): The Jeremiah series goes live (The Quick Scroll, series "jeremiah"). Main: jeremiah-tear-down-then-build joins how-yahuah-speaks (seriesRole "main"). Companions: jeremiah-acted-out joins how-yahuah-speaks; jeremiah-new-covenant-same-law joins two-stage-salvation; jeremiah-seventy-years-to-seventy-weeks joins kingdom-now; jeremiah-the-sabbath-at-the-gates joins the-moedim. Anchors nothing. No clusters added, no anchors moved.
+// Counts (expected moved in CLUSTERS): how-yahuah-speaks 19 -> 21; two-stage-salvation 43 -> 44; kingdom-now 15 -> 16; the-moedim 18 -> 19.
 // V89 (batch 75 V2, Isaiah half; written as V87 against batch 74 unshipped, renumbered since batch 74 shipped as V87 and Lamentations took V88): three more Isaiah Quick Scroll companions (series "isaiah"), against isaiah-runs-forward, which is unchanged. isaiah-sees-the-throne joins trinity-examined, the-mishkan. isaiah-misread joins lost-in-translation, trinity-examined, pulpit-vocabulary. who-wrote-isaiah joins how-yahuah-speaks. The six Servant studies were already live (V87) and are untouched. Anchors nothing. No clusters added, no anchors moved.
 // Counts (real, from the pool): trinity-examined 34 -> 36; the-mishkan 34 -> 35; lost-in-translation 52 -> 53; pulpit-vocabulary 34 -> 35; how-yahuah-speaks 18 -> 19.
 // V88 (batch 75): The Lamentations series goes live (The Quick Scroll, series "lamentations"). Main: lamentations-five-voices-one-warning carries no keys (seriesRole "main"). Companions: lamentations-the-alphabet-of-grief joins how-yahuah-speaks; lamentations-death-burial-and-rising joins trinity-examined, goel-kopher; lamentations-who-wrote-it joins lost-in-translation; lamentations-take-up-a-lamentation joins lost-in-translation; lamentations-a-funeral-in-scripture joins foreign-fire. Anchors nothing. No clusters added, no anchors moved.
@@ -314,7 +316,7 @@ export const CLUSTERS = {
     blurb:
       "Entry by the blood, walk by the bread. The framework the pulpit collapsed into a single step.",
     anchor: "bread-and-wine",
-    expected: 43,
+    expected: 44,
   },
 
   "lost-in-translation": {
@@ -330,7 +332,7 @@ export const CLUSTERS = {
     blurb:
       "Daniel dated it in the days of those kings. It came as a seed and not as a conquest — and the pulpit is still waiting for the crash.",
     anchor: "the-reign-is-now",
-    expected: 15,
+    expected: 16,
   },
 
   "how-yahuah-speaks": {
@@ -338,7 +340,7 @@ export const CLUSTERS = {
     blurb:
       "The sky, the letters, the words, and at last His own Son. He has already spoken — the question is whether we will hear what was given.",
     anchor: "heavens-letters-words-son",
-    expected: 19,
+    expected: 21,
   },
 
   "the-second-adam": {
@@ -418,7 +420,7 @@ export const CLUSTERS = {
     blurb:
       "Yahuah's moedim as He set them — the days, the timing, and what was kept on each.",
     anchor: "seven-feasts-in-exodus",
-    expected: 18,
+    expected: 19,
   },
 
   "restored-creation": {
