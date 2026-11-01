@@ -1,4 +1,6 @@
-// associations 1030 V90.js
+// associations 1101 V91.js
+// V91 (Hebrews Quick Scroll Handoff 1101 V1): the Hebrews series goes live (The Quick Scroll, series "hebrews"). Main: hebrews-seven-betters-and-five-warnings (seriesRole "main") joins two-stage-salvation (the Law written on the heart, 8:8-10), trinity-examined (the Son has a God, 1:4, 1:8-9), the-moedim (a Sabbath-keeping remains, 4:9). Companion: hebrews-sanctuary-walk joins the-mishkan (the tabernacle walked station by station), two-stage-salvation (8:10; the tables still in the ark, 9:4), trinity-examined ("made like" his brethren, 2:17). No "Law still stands" or Sabbath cluster exists; mapped as batch 76 mapped the same subjects. Anchors nothing. No clusters added, no anchors moved.
+// Counts (expected moved in CLUSTERS): two-stage-salvation 44 -> 46; trinity-examined 36 -> 38; the-moedim 19 -> 20; the-mishkan 35 -> 36.
 // V90 (batch 76): The Jeremiah series goes live (The Quick Scroll, series "jeremiah"). Main: jeremiah-tear-down-then-build joins how-yahuah-speaks (seriesRole "main"). Companions: jeremiah-acted-out joins how-yahuah-speaks; jeremiah-new-covenant-same-law joins two-stage-salvation; jeremiah-seventy-years-to-seventy-weeks joins kingdom-now; jeremiah-the-sabbath-at-the-gates joins the-moedim. Anchors nothing. No clusters added, no anchors moved.
 // Counts (expected moved in CLUSTERS): how-yahuah-speaks 19 -> 21; two-stage-salvation 43 -> 44; kingdom-now 15 -> 16; the-moedim 18 -> 19.
 // V89 (batch 75 V2, Isaiah half; written as V87 against batch 74 unshipped, renumbered since batch 74 shipped as V87 and Lamentations took V88): three more Isaiah Quick Scroll companions (series "isaiah"), against isaiah-runs-forward, which is unchanged. isaiah-sees-the-throne joins trinity-examined, the-mishkan. isaiah-misread joins lost-in-translation, trinity-examined, pulpit-vocabulary. who-wrote-isaiah joins how-yahuah-speaks. The six Servant studies were already live (V87) and are untouched. Anchors nothing. No clusters added, no anchors moved.
@@ -316,7 +318,7 @@ export const CLUSTERS = {
     blurb:
       "Entry by the blood, walk by the bread. The framework the pulpit collapsed into a single step.",
     anchor: "bread-and-wine",
-    expected: 44,
+    expected: 46,
   },
 
   "lost-in-translation": {
@@ -396,7 +398,7 @@ export const CLUSTERS = {
     blurb:
       "The structure Yahuah designed: ark, cover, veil, garments — and who may pass through what.",
     anchor: "ark-of-covering",
-    expected: 35,
+    expected: 36,
   },
 
   "yom-kippur": {
@@ -420,7 +422,7 @@ export const CLUSTERS = {
     blurb:
       "Yahuah's moedim as He set them — the days, the timing, and what was kept on each.",
     anchor: "seven-feasts-in-exodus",
-    expected: 19,
+    expected: 20,
   },
 
   "restored-creation": {
@@ -452,7 +454,7 @@ export const CLUSTERS = {
     blurb:
       "The Godhead the text actually shows. Every throne vision names two, not three; worship and service sort the same way — the pattern the doctrine has to explain away.",
     anchor: "the-throne-and-the-right-hand",
-    expected: 36,
+    expected: 38,
   },
 
   "the-priesthood": {
