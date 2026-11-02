@@ -1,4 +1,8 @@
-// associations 1101 V92.js
+// associations 1102 V94.js
+// V94: Only in the Throne (Scripture Unfiltered, only-in-the-throne) added; joins delegated-authority and trinity-examined. Companion under Genesis on /quick-scroll. Anchors nothing. No clusters added, no anchors moved.
+// Counts (expected moved in CLUSTERS, recounted from the pool): delegated-authority 24 -> 25; trinity-examined 39 -> 40.
+// V93 (Genesis Quick Scroll Handoff 1102 V1): the Torah opening study and the Genesis series go live (The Quick Scroll). five-books-one-walk joins two-stage-salvation (blood first, then the walk, Romans 5:9-10). Main: genesis-the-generations (series "genesis", seriesRole "main") joins restored-creation (Genesis answered point for point in Revelation 21-22), two-stage-salvation (Abraham believed, then kept the charge, 15:6; 26:5), trinity-examined ("in his own image," 1:27, answering 1:26). Companions: the-seventy-and-the-portion joins lost-in-translation (sons of Elohim vs children of Israel, Deuteronomy 32:8), foreign-fire (the nations' gods were devils, 32:17), kingdom-now (the nations reclaimed from the first coming, Colossians 2:15; Acts 15:14); get-thee-out joins foreign-fire (called out of Ur of the Chaldees and Terah's gods; Revelation 18:4); the-bride-at-the-well carries no keys. Anchors nothing. No clusters added, no anchors moved.
+// Counts (expected moved in CLUSTERS): two-stage-salvation 46 -> 48; restored-creation 9 -> 10; trinity-examined 38 -> 39; lost-in-translation 53 -> 54; foreign-fire 30 -> 32; kingdom-now 16 -> 17.
 // V92: Canaan, Not Ham (Scripture Unfiltered, canaan-not-ham) added untagged. Anchors nothing. No clusters added, no anchors moved, no counts change.
 // V91 (Hebrews Quick Scroll Handoff 1101 V1): the Hebrews series goes live (The Quick Scroll, series "hebrews"). Main: hebrews-seven-betters-and-five-warnings (seriesRole "main") joins two-stage-salvation (the Law written on the heart, 8:8-10), trinity-examined (the Son has a God, 1:4, 1:8-9), the-moedim (a Sabbath-keeping remains, 4:9). Companion: hebrews-sanctuary-walk joins the-mishkan (the tabernacle walked station by station), two-stage-salvation (8:10; the tables still in the ark, 9:4), trinity-examined ("made like" his brethren, 2:17). No "Law still stands" or Sabbath cluster exists; mapped as batch 76 mapped the same subjects. Anchors nothing. No clusters added, no anchors moved.
 // Counts (expected moved in CLUSTERS): two-stage-salvation 44 -> 46; trinity-examined 36 -> 38; the-moedim 19 -> 20; the-mishkan 35 -> 36.
@@ -319,7 +323,7 @@ export const CLUSTERS = {
     blurb:
       "Entry by the blood, walk by the bread. The framework the pulpit collapsed into a single step.",
     anchor: "bread-and-wine",
-    expected: 46,
+    expected: 48,
   },
 
   "lost-in-translation": {
@@ -327,7 +331,7 @@ export const CLUSTERS = {
     blurb:
       "Helel became Lucifer. Kappōret became a mercy seat. Qesheth became a rainbow. Har Mo'ed became Megiddo. What the English buried, and what it cost.",
     anchor: "the-lucifer-deception",
-    expected: 53,
+    expected: 54,
   },
 
   "kingdom-now": {
@@ -335,7 +339,7 @@ export const CLUSTERS = {
     blurb:
       "Daniel dated it in the days of those kings. It came as a seed and not as a conquest — and the pulpit is still waiting for the crash.",
     anchor: "the-reign-is-now",
-    expected: 16,
+    expected: 17,
   },
 
   "how-yahuah-speaks": {
@@ -375,7 +379,7 @@ export const CLUSTERS = {
     blurb:
       "Authority given, never seized. The Son at the right hand, the heirs in His throne, and the kingdom handed back to the Father.",
     anchor: "the-throne-and-the-right-hand",
-    expected: 24,
+    expected: 25,
   },
 
   "pulpit-vocabulary": {
@@ -431,7 +435,7 @@ export const CLUSTERS = {
     blurb:
       "Eden planted, Eden closed, Eden restored. The arc that ends with the Tree of Knowledge absent and the curse gone.",
     anchor: "paradise-restored",
-    expected: 9,
+    expected: 10,
   },
 
   "cosmology-north": {
@@ -447,7 +451,7 @@ export const CLUSTERS = {
     blurb:
       "Borrowed worship, borrowed names, borrowed fire — traced back to where it was struck.",
     anchor: "esther-ishtar-marduk",
-    expected: 30,
+    expected: 32,
   },
 
   "trinity-examined": {
@@ -455,7 +459,7 @@ export const CLUSTERS = {
     blurb:
       "The Godhead the text actually shows. Every throne vision names two, not three; worship and service sort the same way — the pattern the doctrine has to explain away.",
     anchor: "the-throne-and-the-right-hand",
-    expected: 38,
+    expected: 40,
   },
 
   "the-priesthood": {
