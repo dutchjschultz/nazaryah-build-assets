@@ -1,4 +1,6 @@
-// associations 1102 V94.js
+// associations 1105 V95.js
+// V95 (Etsy Batch 1105 V1): The Serpent King (Counterfeit, /counterfeit/the-serpent-king) joins foreign-fire; Behold the Lamb (Scripture Unfiltered) joins delegated-authority. King Over the Proud and Behold Now Behemoth untagged (the trilogy joins them). Anchors nothing. No clusters added, no anchors moved.
+// Counts (expected moved in CLUSTERS): foreign-fire 32 -> 33; delegated-authority 25 -> 26.
 // V94: Only in the Throne (Scripture Unfiltered, only-in-the-throne) added; joins delegated-authority and trinity-examined. Companion under Genesis on /quick-scroll. Anchors nothing. No clusters added, no anchors moved.
 // Counts (expected moved in CLUSTERS, recounted from the pool): delegated-authority 24 -> 25; trinity-examined 39 -> 40.
 // V93 (Genesis Quick Scroll Handoff 1102 V1): the Torah opening study and the Genesis series go live (The Quick Scroll). five-books-one-walk joins two-stage-salvation (blood first, then the walk, Romans 5:9-10). Main: genesis-the-generations (series "genesis", seriesRole "main") joins restored-creation (Genesis answered point for point in Revelation 21-22), two-stage-salvation (Abraham believed, then kept the charge, 15:6; 26:5), trinity-examined ("in his own image," 1:27, answering 1:26). Companions: the-seventy-and-the-portion joins lost-in-translation (sons of Elohim vs children of Israel, Deuteronomy 32:8), foreign-fire (the nations' gods were devils, 32:17), kingdom-now (the nations reclaimed from the first coming, Colossians 2:15; Acts 15:14); get-thee-out joins foreign-fire (called out of Ur of the Chaldees and Terah's gods; Revelation 18:4); the-bride-at-the-well carries no keys. Anchors nothing. No clusters added, no anchors moved.
@@ -379,7 +381,7 @@ export const CLUSTERS = {
     blurb:
       "Authority given, never seized. The Son at the right hand, the heirs in His throne, and the kingdom handed back to the Father.",
     anchor: "the-throne-and-the-right-hand",
-    expected: 25,
+    expected: 26,
   },
 
   "pulpit-vocabulary": {
@@ -451,7 +453,7 @@ export const CLUSTERS = {
     blurb:
       "Borrowed worship, borrowed names, borrowed fire — traced back to where it was struck.",
     anchor: "esther-ishtar-marduk",
-    expected: 32,
+    expected: 33,
   },
 
   "trinity-examined": {
