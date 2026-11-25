@@ -1,5 +1,6 @@
-// associations 1122 V99.js
-// V99 (Dutch 1122): framed-by-the-light (Buried in Plain Sight) joins the-moedim. No clusters added, no anchors moved.
+// associations 1125 V100.js
+// V100 (associations batch 77): Rain on the Seed (Scripture Unfiltered, rain-on-the-seed) joins lost-in-translation and pulpit-vocabulary. Anchors nothing. No clusters added, no anchors moved.
+// Counts (expected moved in CLUSTERS): lost-in-translation 55 -> 56; pulpit-vocabulary 35 -> 36.
 // V98 (Etsy Handover Seed Rebuild 1120 V1 + Summer Is Nigh + New Wine, Old Bottles 1120 V10): three parable studies and their read-throughs replaced whole-file. The Seed Growing Secretly rebuild drops two-stage-salvation and keeps pulpit-vocabulary (doctrines -> [], companion outer-to-inner off, new deck, updated 2026-11-20). Summer Is Nigh rewrite drops two-stage-salvation and keeps kingdom-now. New Wine, Old Bottles keeps its keys (new deck only). Read-throughs still carry no keys. No clusters added, no anchors moved.
 // Counts (expected moved in CLUSTERS): two-stage-salvation 56 -> 54.
 // V97 (Torah Quick Scroll Handoff 1115 V1): Leviticus, Numbers, and Deuteronomy go live (The Quick Scroll), completing the Torah. Leviticus main leviticus-from-the-altar-to-the-kingdom joins two-stage-salvation (blood first, then the walk), the-priesthood (a kingdom of priests, Exodus 19:6; Revelation 1:6), the-mishkan (how a people lives with Yahuah in the camp); six-kinds-one-walk joins two-stage-salvation; strange-fire joins foreign-fire (fire "which he commanded them not," 10:1); proclaim-liberty joins the-moedim (Sabbath years and the Jubilee opened on Yom Kippur, 25:9) and kingdom-now ("this day is this scripture fulfilled," Luke 4:21). Numbers main numbers-two-counts-one-voice joins how-yahuah-speaks ("Yahuah spake unto Moses," one voice, mouth to mouth, 12:8), two-stage-salvation (the first count fell after the blood, Hebrews 3:19), trinity-examined (6:27, one name, one "I"); the-visit joins lost-in-translation (paqad, to visit, under "number") and goel-kopher (the half-shekel ransom, 1 Peter 1:18-19); the-rod-that-budded joins the-priesthood (called of Elohim as was Aaron, Hebrews 5:4-5); the-serpent-on-the-pole joins foreign-fire (Nehushtan, 2 Kings 18:4); the-way-of-balaam joins foreign-fire (Baal-peor, Revelation 2:14). Deuteronomy main deuteronomy-this-day joins trinity-examined (echad; the prophet like Moses, 18:18) and two-stage-salvation (the word very nigh, 30:14); the-shema joins trinity-examined (echad, Mark 12:29-34); circumcised-heart joins two-stage-salvation (the same Law moved inward, Ezekiel 36:26-27); the-song-of-moses joins foreign-fire (devils, not Elohim, 32:17) and trinity-examined ("no god with me," 32:39). trinity-files-numbers-6-24-27 carries no keys (its category groups it). Anchors nothing. No clusters added, no anchors moved.
@@ -340,7 +341,7 @@ export const CLUSTERS = {
     blurb:
       "Helel became Lucifer. Kappōret became a mercy seat. Qesheth became a rainbow. Har Mo'ed became Megiddo. What the English buried, and what it cost.",
     anchor: "the-lucifer-deception",
-    expected: 55,
+    expected: 56,
   },
 
   "kingdom-now": {
@@ -396,7 +397,7 @@ export const CLUSTERS = {
     blurb:
       "Words the pulpit softened, sweetened, or reinvented outright — and what the Hebrew and Greek actually say.",
     anchor: "the-whole-counsel",
-    expected: 35,
+    expected: 36,
   },
 
   "goel-kopher": {
